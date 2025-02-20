@@ -11,7 +11,7 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#define PREC 8192
+#define PREC 65536
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 	int zd=0;
 	long int pos = 0;
 	zd = atoi(argv[1]);
-	pos = atoi(argv[1]);
+	pos = atoi(argv[2]);
 	char* zero = get_zero(zd);
 	char zz = zero[pos- 1];
 	printf("Output %d[%ld] = %c\n", zd, pos, zz);
