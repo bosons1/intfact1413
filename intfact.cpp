@@ -11,10 +11,33 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#define PREC 8192
+#include "primes.hpp"
+#define PREC 65536
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
+
+int binarySearch(int arr[], int low, int high, int x)
+{
+    while (low <= high) {
+        int mid = low + (high - low) / 2;
+
+        // Check if x is present at mid
+        if (arr[mid] == x)
+            return true;
+
+        // If x greater, ignore left half
+        if (arr[mid] < x)
+            low = mid + 1;
+
+        // If x is smaller, ignore right half
+        else
+            high = mid - 1;
+    }
+
+    // If we reach here, then element was not present
+    return false;
+}
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
@@ -52,26 +75,47 @@ int main(int argc, char* argv[]) {
 	fscanf(e, "%c", &ee);
 	fscanf(e, "%c", &ee);
 	string num  = std::string(strdup(argv[1]));
-	string rnum = num;
-	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
 	long long int c = 0;
 	char nn = num[c % l];
-	char rnn = rnum[c % l];
-	printf("Length of String %d\n", l);
+	char* zero1 = get_zero(1);
+	char* zero2 = get_zero(2);
+	long int zc1 = 0;
+	long int zc2 = 0;
+	char zz1 = 0, zz2 = 0;
+	long int accu = 0;
 	while (1) {
 		 fscanf(pi, "%c", &pp);
 		 fscanf(e, "%c", &ee);
-//		 printf("pp %c ee %c\n",pp, ee);
-		 if (pp == rnn && ee == nn) {
-			 ++c;
-			 printf("k %ld\t\tc % lld\t,", ftell(pi)-2, c % l);
-			 nn = num[c % l];
-			 rnn = rnum[c % l];
-			 if (c % l == 0) {
-				 cin.get();
-			 }
+		 nn = num[c % l];
+		 char test[4];
+		 test[0] = pp;
+		 test[1] = nn;
+		 test[2] = ee;
+		 test[3] = '\0';
+                 long int foo = atoi(test);
+		 bool isPrime = binarySearch(primes, 0, 999, foo);
+                 test[0] = ee;
+		 test[1] = nn;
+		 test[2] = pp;
+		 test[3] = '\0';
+		 foo = atoi(test);
+		 bool isPrime2 = binarySearch(primes, 0, 999, foo);
+		 if (isPrime) {
+			 zz1 = zero1[zc1++];
 		 }
+		 if (isPrime2) {
+			 zz2 = zero2[zc2++];
+		 }
+		 if (isPrime && isPrime2) {
+		 if (zz1 == zz2) {
+		 printf("pp %c nn %c ee %c isPrime %d isPrime2 %d\n", pp, nn, ee, isPrime, isPrime2);
+		 printf("zz1 %c zz2 %c\n", zz1, zz2);
+		 printf("Press any key to continue...\n");
+		 cin.get();
+		 }
+		 }
+		 ++c;
 	}
 	fclose(pi);
 	fclose(e);
