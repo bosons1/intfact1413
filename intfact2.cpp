@@ -68,11 +68,11 @@ char* get_zero(int zero_index, int prec=PREC) {
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
-	FILE* pi = fopen("./pi.txt","r");
+	FILE* pi = fopen("./e.txt","r");
 	char pp = 0, ee = 0;
 	fscanf(pi, "%c", &pp);
 	fscanf(pi, "%c", &pp);
-	FILE* e = fopen("./e.txt","r");
+	FILE* e = fopen("./pi.txt","r");
 	fscanf(e, "%c", &ee);
 	fscanf(e, "%c", &ee);
 	string num  = std::string(strdup(argv[1]));
@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
 		 zz1 = zero1[zc1++];
 		 fscanf(e, "%c", &ee);
 		 nn = num[c % l];
-		 //printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
+//		 printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
 		 if ((pp == ntarget) && (zz1 == rtarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];

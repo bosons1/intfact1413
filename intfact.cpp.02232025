@@ -11,12 +11,12 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
+#include "primes.hpp"
 #define PREC 65536
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
 
-#if 0
 int binarySearch(int arr[], int low, int high, int x)
 {
     while (low <= high) {
@@ -38,7 +38,6 @@ int binarySearch(int arr[], int low, int high, int x)
     // If we reach here, then element was not present
     return false;
 }
-#endif
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
@@ -76,36 +75,42 @@ int main(int argc, char* argv[]) {
 	fscanf(e, "%c", &ee);
 	fscanf(e, "%c", &ee);
 	string num  = std::string(strdup(argv[1]));
-	string rnum = std::string(num);
-	std::reverse(rnum.begin(), rnum.end());
-	printf("num %s\n", num.c_str());
-	printf("rnum %s\n", rnum.c_str());
 	int l = num.length();
-	long long int c = 0, pos=0;
-	char nn = 0, rnn = 0;
-	char* zero1 = get_zero(atoi(argv[2]));
-	int lz = strlen(zero1);
+	long long int c = 0;
+	char nn = num[c % l];
+	char* zero1 = get_zero(1);
+	char* zero2 = get_zero(2);
 	long int zc1 = 0;
-	char zz1 = 0;
-	char ntarget = num[pos % l];
-	char rtarget = rnum[pos % l];
-	while (pos < l) {
+	long int zc2 = 0;
+	char zz1 = 0, zz2 = 0;
+	long int accu = 0;
+	while (1) {
 		 fscanf(pi, "%c", &pp);
-		 if (zc1 >= lz) {
-			 printf("Out of precision!!\n");
-			 exit(0);
-		 }
-		 zz1 = zero1[zc1++];
 		 fscanf(e, "%c", &ee);
 		 nn = num[c % l];
-		 //printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
-		 if ((pp == ntarget) && (zz1 == rtarget)) {
-			 rtarget = rnum[++pos % l];
-			 ntarget = num[pos % l];
-                         printf("pp %c zz %c\t\tee %c nn %c rtg %c ntg %c\n", pp, zz1, ee, nn, rtarget, ntarget);
-		         printf("Press any key to continue...\n");
-			 cin.get();
+		 char test[4];
+		 test[0] = pp;
+		 test[1] = nn;
+		 test[2] = ee;
+		 test[3] = '\0';
+                 long int foo = atoi(test);
+		 bool isPrime = binarySearch(primes, 0, 999, foo);
+                 test[0] = ee;
+		 test[1] = nn;
+		 test[2] = pp;
+		 test[3] = '\0';
+		 foo = atoi(test);
+		 bool isPrime2 = binarySearch(primes, 0, 999, foo);
+		 if (isPrime) {
+			 zz1 = zero1[zc1++];
 		 }
+		 if (isPrime2) {
+			 zz2 = zero2[zc2++];
+		 }
+		 printf("pp %c nn %c ee %c isPrime %d isPrime2 %d\n", pp, nn, ee, isPrime, isPrime2);
+		 printf("zz1 %c zz2 %c\n", zz1, zz2);
+		 printf("Press any key to continue...\n");
+		 cin.get();
 		 ++c;
 	}
 	fclose(pi);
