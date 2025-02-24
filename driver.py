@@ -2,8 +2,12 @@
 
 import sys
 import subprocess
+from mpmath import mp
+from mpmath import zetazero
 
 def get_zero(zero_index):
+     mp.prec=128
+     mp.dps=128
      zero = str(zetazero(zero_index).imag)
      idx = zero.index(".")
      zero = zero[idx + 1:]
