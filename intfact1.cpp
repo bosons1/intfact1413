@@ -98,16 +98,16 @@ int main(int argc, char* argv[]) {
 		 zz1 = zero1[zc1++];
 		 fscanf(e, "%c", &ee);
 		 nn = num[c % l];
-		 //printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
 		 if ((pp == ntarget) && (zz1 == rtarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];
-                         printf("pp %c zz %c\t\tee %c nn %c rtg %c ntg %c\n", pp, zz1, ee, nn, rtarget, ntarget);
-		         printf("Press any key to continue...\n");
-			 cin.get();
+                         printf("(%c,%c),\t", ee, nn);
+		 //        printf("Press any key to continue...\n");
+		//	 cin.get();
 		 }
 		 ++c;
 	}
+	printf("\n");
 	fclose(pi);
 	fclose(e);
 	gettimeofday(&end, NULL);

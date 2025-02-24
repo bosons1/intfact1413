@@ -102,12 +102,13 @@ int main(int argc, char* argv[]) {
 		 if ((pp == rtarget) && (nn == ntarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];
-                         printf("pp %c zz1 %c\t\tee %c nn %c rtg %c ntg %c\n", pp, zz1, ee, nn, rtarget, ntarget);
-		         printf("Press any key to continue...\n");
-			 cin.get();
+                         printf("(%c,%c),\t", ee, nn);
+		         //printf("Press any key to continue...\n");
+			 //cin.get();
 		 }
 		 ++c;
 	}
+	printf("\n");
 	fclose(pi);
 	fclose(e);
 	gettimeofday(&end, NULL);
