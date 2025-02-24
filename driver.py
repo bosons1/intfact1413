@@ -41,10 +41,15 @@ if __name__ == "__main__":
         d=ingest(stdout.decode())[:-1]
         bSymmetry = False
         pos = 0
+        print(a)
+        print(b)
+        print(c)
+        print(d)
         print("symmetry 1")
         for x in list(zip(a,b)):
             pos = pos + 1
             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
+                 print(x)
                  print(pos)
                  bSymmetry = True
         pos = 0
@@ -52,21 +57,24 @@ if __name__ == "__main__":
         for x in list(zip(c,d)):
             pos = pos + 1
             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
+                 print(x)
                  print(pos)
                  bSymmetry = True
         bAntiSymmetry = False
         pos = 0
-        print("symmetry 3")
+        print("anti symmetry 3")
         for x in list(zip(a,b)):
             pos = pos + 1
             if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
+                print(x)
                 print(pos)
                 bAntiSymmetry = True
         pos = 0
-        print("symmetry 4")
+        print("anti symmetry 4")
         for x in list(zip(c,d)):
             pos = pos + 1
             if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
+                print(x)
                 print(pos)
                 bAntiSymmetry = True
         #if symmetry found decode using Riemann zetazero
