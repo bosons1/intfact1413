@@ -3,6 +3,12 @@
 import sys
 import subprocess
 
+def get_zero(zero_index):
+     zero = str(zetazero(zero_index).imag)
+     idx = zero.index(".")
+     zero = zero[idx + 1:]
+     return zero
+
 if __name__ == "__main__":
     num = str(sys.argv[1])
     print(num)
@@ -26,5 +32,8 @@ if __name__ == "__main__":
         print(stderr.decode())
         # find symmetry and anti symmetry
         #if symmetry found decode using Riemann zetazero
+        if (bSymmetry):
+            zero = get_zero(zero_index)
+            #decode using symmetry positions
         zero_index = zero_index + 1
         input("Enter")
