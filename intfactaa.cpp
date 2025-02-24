@@ -100,13 +100,13 @@ int main(int argc, char* argv[]) {
 		 if ((pp == rtarget) && (nn == ntarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];
-                         printf("(%c,%c),\t", ee, nn);
+                         printf("(%c,%c);", ee, nn);
 		         //printf("Press any key to continue...\n");
 			 //cin.get();
 		 }
 		 ++c;
 	}
-	printf("\n");
+	//printf("\n");
 	fclose(pi);
 	fclose(e);
 	gettimeofday(&end, NULL);

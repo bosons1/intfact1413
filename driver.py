@@ -5,6 +5,16 @@ import subprocess
 from mpmath import mp
 from mpmath import zetazero
 
+def ingest(ll):
+    tuples = ll.split(";")
+    y = []
+    for x in tuples:
+        x = x.lstrip("(")
+        x = x.rstrip(")")
+        x = x.split(",")
+        y.append(x)
+    return y
+
 def get_zero(zero_index):
      mp.prec=128
      mp.dps=128
@@ -19,22 +29,22 @@ if __name__ == "__main__":
     while True:
         process = subprocess.Popen(["./factorize1", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        a=stdout.decode()
+        a=ingest(stdout.decode())[:-1]
         process = subprocess.Popen(["./factorize2", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        b=stdout.decode()
+        b=ingest(stdout.decode())[:-1]
         process = subprocess.Popen(["./factorizea", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        c=stdout.decode()
+        c=ingest(stdout.decode())[:-1]
         process = subprocess.Popen(["./factorizeaa", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        d=stdout.decode()
+        d=ingest(stdout.decode())[:-1]
         bSymmetry = False
         pos = 0
         print("symmetry 1")
         for x in list(zip(a,b)):
             pos = pos + 1
-             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
+            if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
                  print(pos)
                  bSymmetry = True
         pos = 0

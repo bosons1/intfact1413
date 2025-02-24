@@ -100,7 +100,7 @@ int main(int argc, char* argv[]) {
 		 if ((pp == rtarget) && (zz1 == ntarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];
-                         printf("(%c,%c),\t", ee, nn);
+                         printf("(%c,%c);", ee, nn);
 		         //printf("Press any key to continue...\n");
 			 //cin.get();
 		 }
