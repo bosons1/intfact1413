@@ -11,7 +11,7 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#define PREC 65536
+#define PREC 16384
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;

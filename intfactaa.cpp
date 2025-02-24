@@ -68,11 +68,11 @@ char* get_zero(int zero_index, int prec=PREC) {
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
-	FILE* pi = fopen("./e.txt","r");
+	FILE* pi = fopen("./pi.txt","r");
 	char pp = 0, ee = 0;
 	fscanf(pi, "%c", &pp);
 	fscanf(pi, "%c", &pp);
-	FILE* e = fopen("./pi.txt","r");
+	FILE* e = fopen("./e.txt","r");
 	fscanf(e, "%c", &ee);
 	fscanf(e, "%c", &ee);
 	string num  = std::string(strdup(argv[1]));
@@ -98,11 +98,11 @@ int main(int argc, char* argv[]) {
 		 zz1 = zero1[zc1++];
 		 fscanf(e, "%c", &ee);
 		 nn = num[c % l];
-//		 printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
-		 if ((pp == ntarget) && (zz1 == rtarget)) {
+		 //printf("pp %c zz1 %c ee %c nn %c rnn %c\n",pp, zz1, ee, nn, rnn);
+		 if ((pp == rtarget) && (nn == ntarget)) {
 			 rtarget = rnum[++pos % l];
 			 ntarget = num[pos % l];
-                         printf("pp %c zz %c\t\tee %c nn %c rtg %c ntg %c\n", pp, zz1, ee, nn, rtarget, ntarget);
+                         printf("pp %c zz1 %c\t\tee %c nn %c rtg %c ntg %c\n", pp, zz1, ee, nn, rtarget, ntarget);
 		         printf("Press any key to continue...\n");
 			 cin.get();
 		 }
