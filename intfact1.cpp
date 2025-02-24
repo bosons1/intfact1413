@@ -78,8 +78,6 @@ int main(int argc, char* argv[]) {
 	string num  = std::string(strdup(argv[1]));
 	string rnum = std::string(num);
 	std::reverse(rnum.begin(), rnum.end());
-	printf("num %s\n", num.c_str());
-	printf("rnum %s\n", rnum.c_str());
 	int l = num.length();
 	long long int c = 0, pos=0;
 	char nn = 0, rnn = 0;
@@ -107,10 +105,10 @@ int main(int argc, char* argv[]) {
 		 }
 		 ++c;
 	}
-	printf("\n");
+	//printf("\n");
 	fclose(pi);
 	fclose(e);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
-	printf("Total time taken is %f seconds\n", time_taken);
+	//printf("Total time taken is %f seconds\n", time_taken);
 }

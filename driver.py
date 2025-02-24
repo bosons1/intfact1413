@@ -15,29 +15,54 @@ def get_zero(zero_index):
 
 if __name__ == "__main__":
     num = str(sys.argv[1])
-    print(num)
     zero_index = 1
     while True:
-        process = subprocess.Popen(["./intfact1", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        process = subprocess.Popen(["./factorize1", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        print(stdout.decode())
-        print(stderr.decode())
-        process = subprocess.Popen(["./intfact2", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        a=stdout.decode()
+        process = subprocess.Popen(["./factorize2", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        print(stdout.decode())
-        print(stderr.decode())
-        process = subprocess.Popen(["./intfacta", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        b=stdout.decode()
+        process = subprocess.Popen(["./factorizea", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        print(stdout.decode())
-        print(stderr.decode())
-        process = subprocess.Popen(["./intfactaa", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        c=stdout.decode()
+        process = subprocess.Popen(["./factorizeaa", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
-        print(stdout.decode())
-        print(stderr.decode())
-        # find symmetry and anti symmetry
+        d=stdout.decode()
+        bSymmetry = False
+        pos = 0
+        print("symmetry 1")
+        for x in list(zip(a,b)):
+            pos = pos + 1
+             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
+                 print(pos)
+                 bSymmetry = True
+        pos = 0
+        print("symmetry 2")
+        for x in list(zip(c,d)):
+            pos = pos + 1
+            if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
+                 print(pos)
+                 bSymmetry = True
+        bAntiSymmetry = False
+        pos = 0
+        print("symmetry 3")
+        for x in list(zip(a,b)):
+            pos = pos + 1
+            if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
+                print(pos)
+                bAntiSymmetry = True
+        pos = 0
+        print("symmetry 4")
+        for x in list(zip(c,d)):
+            pos = pos + 1
+            if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
+                print(pos)
+                bAntiSymmetry = True
         #if symmetry found decode using Riemann zetazero
-        if (bSymmetry):
+        if bAntiSymmetry or bSymmetry:
             zero = get_zero(zero_index)
+            print(zero)
             #decode using symmetry positions
         zero_index = zero_index + 1
         input("Enter")
