@@ -34,7 +34,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	char* ptr = strstr(zero, "+/-");
 	*ptr = '\0';
 	ptr = strchr(zero,'.');
-	zero = ptr + 1;
+	zero = ptr - 1;
 	acb_clear(zeros);
 	fmpz_clear(n);
 	arb_clear(im);
@@ -51,6 +51,7 @@ int main(int argc, char* argv[]) {
 	string rnum = std::string(num);
 	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
+	int mid = ceil(l/2.0);
 	long long int c = 0;
 	char nn = num[c], rnn = rnum[c];
 	char* zero1 = get_zero(1);
@@ -72,26 +73,31 @@ int main(int argc, char* argv[]) {
 			 exit(0);
 		 }
 		 zz1 = zero1[zc1++];
+		 if (zz1 == '.') {
+			 zz1 = zero1[zc1++];
+		 }
 		 zz2 = zero2[zc2++];
+		 if (zz2 == '.') {
+			 zz2 = zero2[zc2++];
+		 }
 		 fscanf(e, "%c", &ee);
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
-		 }
-		 
-		 if ((pp == nn) && (ee == rnn)) {
-			 ++c;
-			 if (c >= l) {
-				 break;
-			 }
-			 nn = num[c];
-			 rnn = rnum[c];
 		 }
 		 pstring += boost::lexical_cast<std::string>(pp - '0');
 		 estring += boost::lexical_cast<std::string>(ee - '0');
 		 zstring1 += boost::lexical_cast<std::string>(zz1 - '0');
 		 zstring2 += boost::lexical_cast<std::string>(zz2 - '0');
+		 if ((pp == nn) && (ee == rnn)) {
+			 ++c;
+			 if (c >= mid) {
+				 break;
+			 }
+			 nn = num[c];
+			 rnn = rnum[c];
+		 }
 		 //printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
-		 cin.get();
+		 //cin.get();
 	}
 	std::reverse(estring.begin(), estring.end());
 	std::reverse(zstring2.begin(), zstring2.end());
