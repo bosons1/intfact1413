@@ -61,9 +61,7 @@ if __name__ == "__main__":
                  print(pos)
                  bSymmetry = True
         #if symmetry found decode using Riemann zetazero
-        if bSymmetry:
-            zero = get_zero(zero_index)
-            print(zero)
-            input("Enter")
+        print(zero_index)
+        input("Enter")
             #decode using symmetry positions
         zero_index = zero_index + 1
