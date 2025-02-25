@@ -60,25 +60,8 @@ if __name__ == "__main__":
                  print(x)
                  print(pos)
                  bSymmetry = True
-        bAntiSymmetry = False
-        pos = 0
-        print("anti symmetry 3")
-        for x in list(zip(a,b)):
-            pos = pos + 1
-            if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
-                print(x)
-                print(pos)
-                bAntiSymmetry = True
-        pos = 0
-        print("anti symmetry 4")
-        for x in list(zip(c,d)):
-            pos = pos + 1
-            if x[0][0] == x[1][1] and x[0][1] == x[1][0]:
-                print(x)
-                print(pos)
-                bAntiSymmetry = True
         #if symmetry found decode using Riemann zetazero
-        if bAntiSymmetry or bSymmetry:
+        if bSymmetry:
             zero = get_zero(zero_index)
             print(zero)
             #decode using symmetry positions
