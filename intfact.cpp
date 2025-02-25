@@ -90,7 +90,7 @@ int main(int argc, char* argv[]) {
 		 zstring2 += boost::lexical_cast<std::string>(zz2 - '0');
 		 if ((pp == nn) && (ee == rnn)) {
 			 ++c;
-			 if (c >= mid) {
+			 if (c >= l) {
 				 break;
 			 }
 			 nn = num[c];
