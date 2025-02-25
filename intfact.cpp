@@ -46,24 +46,27 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	FILE* pi = fopen("./pi.txt","r");
 	char pp = 0, ee = 0;
-	fscanf(pi, "%c", &pp);
-	fscanf(pi, "%c", &pp);
 	FILE* e = fopen("./e.txt","r");
-	fscanf(e, "%c", &ee);
-	fscanf(e, "%c", &ee);
 	string num  = std::string(strdup(argv[1]));
 	string rnum = std::string(num);
 	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
 	long long int c = 0;
-	char nn = 0, rnn = 0;
+	char nn = num[c], rnn = rnum[c];
 	char* zero1 = get_zero(1);
 	char* zero2 = get_zero(2);
 	int lz = strlen(zero1);
 	long int zc1 = 0, zc2 = 0;
 	char zz1 = 0, zz2 = 0;
+	std::string pstring = "";
+	std::string estring = "";
+	std::string zstring1 = "";
+	std::string zstring2 = "";
 	while (1) {
 		 fscanf(pi, "%c", &pp);
+		 if (pp == '.') {
+			 fscanf(pi, "%c", &pp);
+		 }
 		 if (zc1 >= lz) {
 			 printf("Out of precision!!\n");
 			 exit(0);
@@ -71,11 +74,38 @@ int main(int argc, char* argv[]) {
 		 zz1 = zero1[zc1++];
 		 zz2 = zero2[zc2++];
 		 fscanf(e, "%c", &ee);
-		 printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
+		 if (ee == '.') {
+			 fscanf(e, "%c", &ee);
+		 }
+		 
+		 if ((pp == nn) && (ee == rnn)) {
+			 ++c;
+			 if (c >= l) {
+				 break;
+			 }
+			 nn = num[c];
+			 rnn = rnum[c];
+		 }
+		 pstring += boost::lexical_cast<std::string>(pp - '0');
+		 estring += boost::lexical_cast<std::string>(ee - '0');
+		 zstring1 += boost::lexical_cast<std::string>(zz1 - '0');
+		 zstring2 += boost::lexical_cast<std::string>(zz2 - '0');
+		 //printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
 		 cin.get();
 	}
+	std::reverse(estring.begin(), estring.end());
+	std::reverse(zstring2.begin(), zstring2.end());
 	fclose(pi);
 	fclose(e);
+	c = 0;
+	while (c < pstring.length()) {
+		char pp = pstring[c];
+		char ee = estring[c];
+		char zz1 = zstring1[c];
+		char zz2 = zstring2[c];
+		printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
+		++c;
+	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	//printf("Total time taken is %f seconds\n", time_taken);
