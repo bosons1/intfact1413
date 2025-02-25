@@ -64,6 +64,6 @@ if __name__ == "__main__":
         if bSymmetry:
             zero = get_zero(zero_index)
             print(zero)
+            input("Enter")
             #decode using symmetry positions
         zero_index = zero_index + 1
-        input("Enter")
