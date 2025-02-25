@@ -9,8 +9,6 @@ debug:
 prod:
 	-g++ -O3 -o ./factorize intfact.cpp -D_PROD -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/ `mysql_config --cflags --libs` -I/usr/local/mysql-connector-c-6.1.11-macos10.12-x86_64/include
 all:
-	-g++ -O3 -o ./factorize1 intfact1.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
-	-g++ -O3 -o ./factorizea intfacta.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
-	-g++ -O3 -o ./factorize2 intfact2.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
-	-g++ -O3 -o ./factorizeaa intfactaa.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
+	-g++ -O3 -o ./factorize intfact.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
+	-g++ -O3 -o ./factorizem intfactm.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/
 	-g++ -O3 -o ./zget zget.cpp -std=c++2a -I/usr/local/include/flint -I/usr/include/flint -lgmp -lpthread -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -lflint -lmpfr -L/opt/homebrew/lib/

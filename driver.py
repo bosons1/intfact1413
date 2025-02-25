@@ -32,7 +32,6 @@ def get_zero(zero_index):
 if __name__ == "__main__":
     num = str(sys.argv[1])
     cnum = complement(num)
-    print(cnum)
     zero_index = 1
     while True:
         process = subprocess.Popen(["./factorize1", num, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -59,7 +58,7 @@ if __name__ == "__main__":
         process = subprocess.Popen(["./factorizeaa", cnum, str(zero_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         stdout, stderr = process.communicate()
         n=ingest(stdout.decode())[:-1]
-        bSymmetry = False
+        bSymmetry1 = False
         pos = 0
         print(a)
         print(b)
@@ -78,29 +77,33 @@ if __name__ == "__main__":
                  bSymmetry = True
         pos = 0
         print("symmetry 2")
+        bSymmetry2 = False
         for x in list(zip(c,d)):
             pos = pos + 1
             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
                  print(x)
                  print(pos)
-                 bSymmetry = True
+                 bSymmetry2 = True
         print("symmetry 3")
+        bSymmetry3 = False
         for x in list(zip(p,q)):
             pos = pos + 1
             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
                  print(x)
                  print(pos)
-                 bSymmetry = True
+                 bSymmetry3 = True
         pos = 0
         print("symmetry 4")
+        bSymmetry4 = False
         for x in list(zip(m,n)):
             pos = pos + 1
             if x[0][0] == x[1][0] and x[0][1] == x[1][1]:
                  print(x)
                  print(pos)
-                 bSymmetry = True
+                 bSymmetry4 = True
         #if symmetry found decode using Riemann zetazero
         print(zero_index)
-        input("Enter")
+        if bSymmetry1 == True and bSymmetry2 == True and bSymmetry3 == True and bSymmetry4 == True:
+            input("Enter")
             #decode using symmetry positions
         zero_index = zero_index + 1
