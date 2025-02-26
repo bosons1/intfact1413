@@ -82,11 +82,11 @@ int main(int argc, char* argv[]) {
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
 		 }
-		 printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2, (c+1) % l);
 		 if ((pp == rnn) && (ee == nn)) {
 			 ++c;
 			 nn = num[c % l];
 			 rnn = rnum[c % l];
+		         printf("pp %c ee %c zz1 %c zz2 %c c %lld k %.2f\n", pp, ee, zz1, zz2, c % l, c / l);
 			 cin.get();
 		 }
 	}
