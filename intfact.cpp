@@ -11,7 +11,9 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#define PREC 16384
+#include "pi.hpp"
+#include "e.hpp"
+#define PREC 65536
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
@@ -52,7 +54,8 @@ int main(int argc, char* argv[]) {
 	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
 	int mid = ceil(l/2.0);
-	long long int c = 0;
+	long long int c = 0, pos =0;
+	char ptarget = pi1[pos], ntarget = e1[pos];
 	char nn = num[c], rnn = rnum[c];
 	char* zero1 = get_zero(1);
 	char* zero2 = get_zero(2);
@@ -88,9 +91,12 @@ int main(int argc, char* argv[]) {
 		 estring += boost::lexical_cast<std::string>(ee - '0');
 		 zstring1 += boost::lexical_cast<std::string>(zz1 - '0');
 		 zstring2 += boost::lexical_cast<std::string>(zz2 - '0');
-		 if ((pp == nn) && (ee == rnn)) {
+		 if ((pp == nn) && (ee == rnn) && (zz1 == ptarget) && (zz2 == ntarget)) {
+			 ++pos;
+			 ptarget = pi1[pos];
+			 ntarget = e1[pos];
 			 ++c;
-			 if (c >= l) {
+			 if (c >= mid) {
 				 break;
 			 }
 			 nn = num[c];
@@ -99,7 +105,6 @@ int main(int argc, char* argv[]) {
 		 //printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
 		 //cin.get();
 	}
-	std::reverse(estring.begin(), estring.end());
 	std::reverse(zstring2.begin(), zstring2.end());
 	fclose(pi);
 	fclose(e);
@@ -110,6 +115,7 @@ int main(int argc, char* argv[]) {
 		char zz1 = zstring1[c];
 		char zz2 = zstring2[c];
 		printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
+		cin.get();
 		++c;
 	}
 	gettimeofday(&end, NULL);
