@@ -50,22 +50,17 @@ int main(int argc, char* argv[]) {
 	char pp = 0, ee = 0;
 	FILE* e = fopen("./e.txt","r");
 	string num  = std::string(strdup(argv[1]));
-	string rnum = std::string(num);
+	string rnum = string(num);
 	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
-	int mid = ceil(l/2.0);
-	long long int c = 0, pos =0;
-	char ptarget = pi1[pos], ntarget = e1[pos];
-	char nn = num[c], rnn = rnum[c];
+	long long int c = 0;
 	char* zero1 = get_zero(1);
 	char* zero2 = get_zero(2);
 	int lz = strlen(zero1);
 	long int zc1 = 0, zc2 = 0;
 	char zz1 = 0, zz2 = 0;
-	std::string pstring = "";
-	std::string estring = "";
-	std::string zstring1 = "";
-	std::string zstring2 = "";
+	char nn = num[c % l];
+	char rnn = rnum[c % l];
 	while (1) {
 		 fscanf(pi, "%c", &pp);
 		 if (pp == '.') {
@@ -87,36 +82,13 @@ int main(int argc, char* argv[]) {
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
 		 }
-		 pstring += boost::lexical_cast<std::string>(pp - '0');
-		 estring += boost::lexical_cast<std::string>(ee - '0');
-		 zstring1 += boost::lexical_cast<std::string>(zz1 - '0');
-		 zstring2 += boost::lexical_cast<std::string>(zz2 - '0');
-		 if ((pp == nn) && (ee == rnn) && (zz1 == ptarget) && (zz2 == ntarget)) {
-			 ++pos;
-			 ptarget = pi1[pos];
-			 ntarget = e1[pos];
+		 printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2, (c+1) % l);
+		 if ((pp == rnn) && (ee == nn)) {
 			 ++c;
-			 if (c >= mid) {
-				 break;
-			 }
-			 nn = num[c];
-			 rnn = rnum[c];
+			 nn = num[c % l];
+			 rnn = rnum[c % l];
+			 cin.get();
 		 }
-		 //printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
-		 //cin.get();
-	}
-	std::reverse(zstring2.begin(), zstring2.end());
-	fclose(pi);
-	fclose(e);
-	c = 0;
-	while (c < pstring.length()) {
-		char pp = pstring[c];
-		char ee = estring[c];
-		char zz1 = zstring1[c];
-		char zz2 = zstring2[c];
-		printf("pp %c ee %c zz1 %c zz2 %c\n", pp, ee, zz1, zz2);
-		cin.get();
-		++c;
 	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
