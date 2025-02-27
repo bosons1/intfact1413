@@ -46,9 +46,9 @@ char* get_zero(int zero_index, int prec=PREC) {
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
-	FILE* pi = fopen("./e.txt","r");
+	FILE* pi = fopen("./pi.txt","r");
 	char pp = 0, ee = 0;
-	FILE* e = fopen("./pi.txt","r");
+	FILE* e = fopen("./e.txt","r");
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
 	long long int c = 0;
@@ -61,7 +61,7 @@ int main(int argc, char* argv[]) {
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
 		 }
-		 printf("pp %c ee %c c %lld\n", pp, ee, c++);
+		 printf("pp %c%c ee %c%c c %lld\n", pp, ee, ee, pp, c++);
 		 cin.get();
 	}
 	gettimeofday(&end, NULL);
