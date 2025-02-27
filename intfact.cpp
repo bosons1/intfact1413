@@ -46,49 +46,23 @@ char* get_zero(int zero_index, int prec=PREC) {
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
-	FILE* pi = fopen("./pi.txt","r");
+	FILE* pi = fopen("./e.txt","r");
 	char pp = 0, ee = 0;
-	FILE* e = fopen("./e.txt","r");
+	FILE* e = fopen("./pi.txt","r");
 	string num  = std::string(strdup(argv[1]));
-	string rnum = string(num);
-	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
 	long long int c = 0;
-	char* zero1 = get_zero(1);
-	char* zero2 = get_zero(2);
-	int lz = strlen(zero1);
-	long int zc1 = 0, zc2 = 0;
-	char zz1 = 0, zz2 = 0;
-	char nn = num[c % l];
-	char rnn = rnum[c % l];
 	while (1) {
 		 fscanf(pi, "%c", &pp);
 		 if (pp == '.') {
 			 fscanf(pi, "%c", &pp);
 		 }
-		 if (zc1 >= lz) {
-			 printf("Out of precision!!\n");
-			 exit(0);
-		 }
-		 zz1 = zero1[zc1++];
-		 if (zz1 == '.') {
-			 zz1 = zero1[zc1++];
-		 }
-		 zz2 = zero2[zc2++];
-		 if (zz2 == '.') {
-			 zz2 = zero2[zc2++];
-		 }
 		 fscanf(e, "%c", &ee);
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
 		 }
-		 if ((pp == rnn) && (ee == nn)) {
-			 ++c;
-			 nn = num[c % l];
-			 rnn = rnum[c % l];
-		         printf("pp %c ee %c zz1 %c zz2 %c c %lld k %.2f\n", pp, ee, zz1, zz2, c % l, c / l);
-			 cin.get();
-		 }
+		 printf("pp %c ee %c c %lld\n", pp, ee, c++);
+		 cin.get();
 	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
