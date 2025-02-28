@@ -36,7 +36,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	char* ptr = strstr(zero, "+/-");
 	*ptr = '\0';
 	ptr = strchr(zero,'.');
-	zero = ptr - 1;
+	zero = ptr + 1;
 	acb_clear(zeros);
 	fmpz_clear(n);
 	arb_clear(im);
@@ -52,7 +52,13 @@ int main(int argc, char* argv[]) {
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
 	long long int c = 0;
-	while (1) {
+	int mid = ceil((l*1.0)/2);
+	int zero_index = 1;
+	char* zero = get_zero(zero_index);
+	while (c < mid) {
+		 while (1) {
+                 char nn = num[pos % l];
+		 char zz = zero[zero_pos++];
 		 fscanf(pi, "%c", &pp);
 		 if (pp == '.') {
 			 fscanf(pi, "%c", &pp);
@@ -60,6 +66,48 @@ int main(int argc, char* argv[]) {
 		 fscanf(e, "%c", &ee);
 		 if (ee == '.') {
 			 fscanf(e, "%c", &ee);
+		 }
+                 ++pos;
+		 if (nn == zz) {
+			 int prev_pos = pos;
+			 while (nn == zz) {
+				 nn = num[pos % l];
+				 zz = zero[zero_pos++];
+				 ++pos;
+			 }
+			 int d = pos - prev_pos;
+			 for (int i = 0; i < d; ++i) {
+				 fscanf(pi, "%c", &pp);
+				 if (pp == '.') {
+					 fscanf(pi, "%c", &pp);
+				 }
+				 fscanf(e, "%c", &ee);
+				 if (ee == '.') {
+					 fscanf(e, "%c", &ee);
+				 }
+			 }
+			 if (pos > 0 && pos % l == 0) {
+				 int delta = zero_index - prev_zero_index;
+				 prev_zero_index = zero_index;
+				 char pp1[3], pp2[3];
+				 pp1[0] = pp;
+				 pp1[1] = ee;
+				 pp1[2] = '\0';
+				 pp2[0] = ee;
+				 pp2[1] = pp;
+				 pp2[2] = '\0';
+				 int ctr1 = atoi(pp1);
+				 int ctr2 = atoi(pp2);
+				 if (in(ctr1, primes) || in(ctr2, primes)) {
+					 //synthesis
+					 ++c;
+				 } else {
+					 //analysis
+				 }
+			 }
+			 ++zero_index;
+			 zero = get_zero(zero_index);
+			 zero_pos = 0;
 		 }
 		 printf("pp %c%c ee %c%c c %lld\n", pp, ee, ee, pp, c++);
 		 cin.get();
