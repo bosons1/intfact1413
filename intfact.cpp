@@ -14,7 +14,7 @@
 #include "pi.hpp"
 #include "e.hpp"
 #include "primes.hpp"
-#define PREC 65536
+#define PREC 4096
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
@@ -83,7 +83,9 @@ int main(int argc, char* argv[]) {
 			 while (nn == zz) {
 				 nn = num[pos % l];
 				 zz = zero[zero_pos++];
+				 if (nn == zz){
 				 ++pos;
+				 }
 			 }
 			 int d = pos - prev_pos;
 			 for (int i = 0; i < d; ++i) {
@@ -110,9 +112,11 @@ int main(int argc, char* argv[]) {
 				 int ctr2 = atoi(pp2);
 				 if (in(ctr1, primes) || in(ctr2, primes)) {
 					 //synthesis
+					 printf("\nSynthesis Delta %d\n", delta);
 					 ++c;
 				 } else {
 					 //analysis
+					 printf("\nAnalysis Delta %d\n", delta);
 				 }
 			 }
 			 ++zero_index;
