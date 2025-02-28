@@ -13,10 +13,20 @@
 #include <gmp.h>
 #include "pi.hpp"
 #include "e.hpp"
+#include "primes.hpp"
 #define PREC 65536
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
+
+bool in(int ctr, vector<int> primes) {
+      vector<int>::iterator it = std::find(primes.begin(), primes.end(), ctr);
+      if (it == primes.end()) {
+	      return false;
+      } else {
+	      return true;
+      }
+}
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
@@ -51,12 +61,12 @@ int main(int argc, char* argv[]) {
 	FILE* e = fopen("./e.txt","r");
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	long long int c = 0;
+	long long int c = 0, pos = 0, zero_pos = 0;
 	int mid = ceil((l*1.0)/2);
 	int zero_index = 1;
 	char* zero = get_zero(zero_index);
+	int prev_zero_index = 0;
 	while (c < mid) {
-		 while (1) {
                  char nn = num[pos % l];
 		 char zz = zero[zero_pos++];
 		 fscanf(pi, "%c", &pp);
@@ -109,8 +119,6 @@ int main(int argc, char* argv[]) {
 			 zero = get_zero(zero_index);
 			 zero_pos = 0;
 		 }
-		 printf("pp %c%c ee %c%c c %lld\n", pp, ee, ee, pp, c++);
-		 cin.get();
 	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
