@@ -57,8 +57,10 @@ int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
 	FILE* pi = fopen("./pi.txt","r");
+	fseek(pi, 2, SEEK_SET);
 	char pp = 0, ee = 0;
 	FILE* e = fopen("./e.txt","r");
+	fseek(e, 2, SEEK_SET);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
 	long long int c = 0, pos = 0, zero_pos = 0;
@@ -70,13 +72,7 @@ int main(int argc, char* argv[]) {
                  char nn = num[pos % l];
 		 char zz = zero[zero_pos++];
 		 fscanf(pi, "%c", &pp);
-		 if (pp == '.') {
-			 fscanf(pi, "%c", &pp);
-		 }
 		 fscanf(e, "%c", &ee);
-		 if (ee == '.') {
-			 fscanf(e, "%c", &ee);
-		 }
                  ++pos;
 		 if (nn == zz) {
 			 int prev_pos = pos;
@@ -90,17 +86,10 @@ int main(int argc, char* argv[]) {
 			 int d = pos - prev_pos;
 			 for (int i = 0; i < d; ++i) {
 				 fscanf(pi, "%c", &pp);
-				 if (pp == '.') {
-					 fscanf(pi, "%c", &pp);
-				 }
 				 fscanf(e, "%c", &ee);
-				 if (ee == '.') {
-					 fscanf(e, "%c", &ee);
-				 }
 			 }
 			 if (pos > 0 && pos % l == 0) {
 				 int delta = zero_index - prev_zero_index;
-				 prev_zero_index = zero_index;
 				 char pp1[3], pp2[3];
 				 pp1[0] = pp;
 				 pp1[1] = ee;
@@ -113,10 +102,10 @@ int main(int argc, char* argv[]) {
 				 if (in(ctr1, primes) || in(ctr2, primes)) {
 					 //synthesis
 					 printf("\nSynthesis Delta %d\n", delta);
-					 ++c;
-				 } else {
-					 //analysis
-					 printf("\nAnalysis Delta %d\n", delta);
+				         prev_zero_index = zero_index;
+					 cin.get();
+					 fseek(pi, 2, SEEK_SET);
+					 fseek(e, 2, SEEK_SET);
 				 }
 			 }
 			 ++zero_index;
