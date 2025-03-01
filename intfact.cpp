@@ -59,7 +59,7 @@ int main(int argc, char* argv[]) {
                  char nn = num[zero_pos % l];
 		 char zz = zero[zero_pos];
 		 long int zero__ = zeros[zero_pos];
-		 printf("zz %c nn %c zero_pos %lld, modulo l %lld\n", zz, nn, zero_pos, zero_pos % l);
+		 printf("zz %c nn %c zero_pos %lld, zero %ld \tmodulo l %lld\n", zz, nn, zero_pos, zero__, zero_pos % l);
 		 ++zero_pos;
 		 if (nn == zz) {
 			 char p_trial = pi[zero__];
