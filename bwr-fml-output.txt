@@ -1,0 +1,4687 @@
+zz1 1 nn 1 zz2 0 zero_pos 1
+Hit 1  1
+zz1 3 nn 7 zz2 2 zero_pos 2
+zz1 4 nn 7 zz2 2 zero_pos 3
+zz1 7 nn 7 zz2 0 zero_pos 4
+Hit 1  7
+zz1 2 nn 3 zz2 3 zero_pos 5
+hit 2 3
+zz1 5 nn 6 zz2 9 zero_pos 6
+zz1 1 nn 8 zz2 6 zero_pos 7
+zz1 4 nn 1 zz2 3 zero_pos 8
+zz1 1 nn 3 zz2 8 zero_pos 9
+zz1 7 nn 1 zz2 7 zero_pos 10
+zz1 3 nn 9 zz2 7 zero_pos 11
+zz1 4 nn 7 zz2 1 zero_pos 12
+zz1 6 nn 1 zz2 5 zero_pos 13
+zz1 9 nn 4 zz2 5 zero_pos 14
+zz1 3 nn 5 zz2 4 zero_pos 15
+zz1 7 nn 5 zz2 9 zero_pos 16
+zz1 9 nn 6 zz2 9 zero_pos 17
+zz1 0 nn 0 zz2 2 zero_pos 18
+Hit 1  0
+zz1 4 nn 1 zz2 6 zero_pos 19
+zz1 5 nn 4 zz2 2 zero_pos 20
+zz1 7 nn 8 zz2 8 zero_pos 21
+hit 2 8
+zz1 2 nn 3 zz2 4 zero_pos 22
+zz1 5 nn 9 zz2 7 zero_pos 23
+zz1 1 nn 4 zz2 9 zero_pos 24
+zz1 9 nn 8 zz2 5 zero_pos 25
+zz1 8 nn 7 zz2 9 zero_pos 26
+zz1 3 nn 2 zz2 3 zero_pos 27
+zz1 5 nn 3 zz2 8 zero_pos 28
+zz1 6 nn 0 zz2 9 zero_pos 29
+zz1 2 nn 1 zz2 6 zero_pos 30
+zz1 4 nn 7 zz2 9 zero_pos 31
+zz1 7 nn 9 zz2 0 zero_pos 32
+zz1 0 nn 6 zz2 2 zero_pos 33
+zz1 2 nn 7 zz2 7 zero_pos 34
+hit 2 7
+zz1 7 nn 9 zz2 7 zero_pos 35
+zz1 0 nn 9 zz2 7 zero_pos 36
+zz1 7 nn 7 zz2 3 zero_pos 37
+Hit 1  7
+zz1 8 nn 9 zz2 3 zero_pos 38
+zz1 4 nn 5 zz2 4 zero_pos 39
+zz1 2 nn 6 zz2 3 zero_pos 40
+zz1 5 nn 7 zz2 4 zero_pos 41
+zz1 7 nn 9 zz2 0 zero_pos 42
+zz1 1 nn 5 zz2 5 zero_pos 43
+hit 2 5
+zz1 1 nn 1 zz2 2 zero_pos 44
+Hit 1  1
+zz1 5 nn 3 zz2 4 zero_pos 45
+zz1 6 nn 2 zz2 9 zero_pos 46
+zz1 9 nn 9 zz2 0 zero_pos 47
+Hit 1  9
+zz1 9 nn 6 zz2 2 zero_pos 48
+zz1 2 nn 6 zz2 7 zero_pos 49
+zz1 4 nn 9 zz2 8 zero_pos 50
+zz1 3 nn 6 zz2 1 zero_pos 51
+zz1 1 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 7 nn 1 zz2 5 zero_pos 53
+zz1 5 nn 6 zz2 4 zero_pos 54
+zz1 6 nn 5 zz2 6 zero_pos 55
+zz1 8 nn 3 zz2 2 zero_pos 56
+zz1 5 nn 0 zz2 9 zero_pos 57
+zz1 5 nn 5 zz2 5 zero_pos 58
+Hit 1  5
+hit 2 5
+numerator sum 30		denominator sum 35
+numerator count 7		denominator count 6
+total count 13
+Common Hit 5
+zz1 6 nn 1 zz2 2 zero_pos 59
+zz1 7 nn 3 zz2 0 zero_pos 60
+zz1 4 nn 2 zz2 4 zero_pos 61
+zz1 6 nn 4 zz2 0 zero_pos 62
+zz1 0 nn 3 zz2 3 zero_pos 63
+hit 2 3
+zz1 1 nn 2 zz2 5 zero_pos 64
+zz1 4 nn 1 zz2 8 zero_pos 65
+zz1 9 nn 9 zz2 7 zero_pos 66
+Hit 1  9
+zz1 9 nn 6 zz2 5 zero_pos 67
+zz1 6 nn 0 zz2 9 zero_pos 68
+zz1 3 nn 5 zz2 8 zero_pos 69
+zz1 4 nn 4 zz2 5 zero_pos 70
+Hit 1  4
+zz1 2 nn 4 zz2 8 zero_pos 71
+zz1 9 nn 4 zz2 6 zero_pos 72
+zz1 8 nn 2 zz2 0 zero_pos 73
+zz1 0 nn 8 zz2 6 zero_pos 74
+zz1 9 nn 3 zz2 8 zero_pos 75
+zz1 2 nn 1 zz2 8 zero_pos 76
+zz1 5 nn 0 zz2 9 zero_pos 77
+zz1 6 nn 2 zz2 0 zero_pos 78
+zz1 7 nn 2 zz2 7 zero_pos 79
+zz1 6 nn 1 zz2 9 zero_pos 80
+zz1 4 nn 2 zz2 9 zero_pos 81
+zz1 9 nn 1 zz2 7 zero_pos 0
+zz1 4 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 9 nn 7 zz2 3 zero_pos 2
+zz1 0 nn 7 zz2 6 zero_pos 3
+zz1 1 nn 7 zz2 5 zero_pos 4
+zz1 0 nn 3 zz2 8 zero_pos 5
+zz1 3 nn 6 zz2 5 zero_pos 6
+zz1 9 nn 8 zz2 1 zero_pos 7
+zz1 3 nn 1 zz2 4 zero_pos 8
+zz1 1 nn 3 zz2 1 zero_pos 9
+zz1 7 nn 1 zz2 8 zero_pos 10
+zz1 1 nn 9 zz2 0 zero_pos 11
+zz1 5 nn 7 zz2 1 zero_pos 12
+zz1 6 nn 1 zz2 5 zero_pos 13
+zz1 1 nn 4 zz2 1 zero_pos 14
+zz1 0 nn 5 zz2 4 zero_pos 15
+zz1 1 nn 5 zz2 1 zero_pos 16
+zz1 2 nn 6 zz2 9 zero_pos 17
+zz1 7 nn 0 zz2 5 zero_pos 18
+zz1 7 nn 1 zz2 3 zero_pos 19
+zz1 9 nn 4 zz2 3 zero_pos 20
+zz1 2 nn 8 zz2 7 zero_pos 21
+zz1 0 nn 3 zz2 2 zero_pos 22
+zz1 2 nn 9 zz2 5 zero_pos 23
+zz1 9 nn 4 zz2 4 zero_pos 24
+hit 2 4
+zz1 7 nn 8 zz2 7 zero_pos 25
+zz1 1 nn 7 zz2 3 zero_pos 26
+zz1 5 nn 2 zz2 6 zero_pos 27
+zz1 4 nn 3 zz2 4 zero_pos 28
+zz1 8 nn 0 zz2 2 zero_pos 29
+zz1 7 nn 1 zz2 4 zero_pos 30
+zz1 9 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 7 nn 9 zz2 5 zero_pos 32
+zz1 4 nn 6 zz2 8 zero_pos 33
+zz1 3 nn 7 zz2 9 zero_pos 34
+zz1 6 nn 9 zz2 1 zero_pos 35
+zz1 7 nn 9 zz2 3 zero_pos 36
+zz1 6 nn 7 zz2 8 zero_pos 37
+zz1 6 nn 9 zz2 3 zero_pos 38
+zz1 1 nn 5 zz2 8 zero_pos 39
+zz1 4 nn 6 zz2 6 zero_pos 40
+hit 2 6
+zz1 2 nn 7 zz2 5 zero_pos 41
+zz1 6 nn 9 zz2 0 zero_pos 42
+zz1 9 nn 5 zz2 6 zero_pos 43
+zz1 1 nn 1 zz2 8 zero_pos 44
+Hit 1  1
+zz1 4 nn 3 zz2 6 zero_pos 45
+zz1 6 nn 2 zz2 0 zero_pos 46
+zz1 9 nn 9 zz2 3 zero_pos 47
+Hit 1  9
+zz1 8 nn 6 zz2 7 zero_pos 48
+zz1 8 nn 6 zz2 3 zero_pos 49
+zz1 2 nn 9 zz2 1 zero_pos 50
+zz1 2 nn 6 zz2 3 zero_pos 51
+zz1 5 nn 7 zz2 2 zero_pos 52
+zz1 4 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 5 nn 6 zz2 2 zero_pos 54
+zz1 8 nn 5 zz2 6 zero_pos 55
+zz1 2 nn 3 zz2 2 zero_pos 56
+zz1 5 nn 0 zz2 1 zero_pos 57
+zz1 0 nn 5 zz2 1 zero_pos 58
+zz1 5 nn 1 zz2 8 zero_pos 59
+zz1 3 nn 3 zz2 8 zero_pos 60
+Hit 1  3
+zz1 6 nn 2 zz2 2 zero_pos 61
+hit 2 2
+zz1 3 nn 4 zz2 1 zero_pos 62
+zz1 2 nn 3 zz2 6 zero_pos 63
+zz1 3 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 9 nn 1 zz2 4 zero_pos 65
+zz1 4 nn 9 zz2 3 zero_pos 66
+zz1 4 nn 6 zz2 7 zero_pos 67
+zz1 7 nn 0 zz2 5 zero_pos 68
+zz1 1 nn 5 zz2 7 zero_pos 69
+zz1 3 nn 4 zz2 4 zero_pos 70
+hit 2 4
+zz1 7 nn 4 zz2 1 zero_pos 71
+zz1 7 nn 4 zz2 6 zero_pos 72
+zz1 8 nn 2 zz2 6 zero_pos 73
+zz1 0 nn 8 zz2 9 zero_pos 74
+zz1 4 nn 3 zz2 2 zero_pos 75
+zz1 1 nn 1 zz2 5 zero_pos 76
+Hit 1  1
+zz1 3 nn 0 zz2 6 zero_pos 77
+zz1 3 nn 2 zz2 5 zero_pos 78
+zz1 8 nn 2 zz2 4 zero_pos 79
+zz1 1 nn 1 zz2 4 zero_pos 80
+Hit 1  1
+zz1 2 nn 2 zz2 7 zero_pos 81
+Hit 1  2
+zz1 3 nn 1 zz2 1 zero_pos 0
+hit 2 1
+zz1 7 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 2 nn 7 zz2 8 zero_pos 2
+zz1 0 nn 7 zz2 4 zero_pos 3
+zz1 5 nn 7 zz2 4 zero_pos 4
+zz1 9 nn 3 zz2 0 zero_pos 5
+zz1 7 nn 6 zz2 7 zero_pos 6
+zz1 0 nn 8 zz2 1 zero_pos 7
+zz1 5 nn 1 zz2 1 zero_pos 8
+hit 2 1
+zz1 4 nn 3 zz2 9 zero_pos 9
+zz1 9 nn 1 zz2 4 zero_pos 10
+zz1 6 nn 9 zz2 0 zero_pos 11
+zz1 2 nn 7 zz2 3 zero_pos 12
+zz1 1 nn 1 zz2 1 zero_pos 13
+Hit 1  1
+hit 2 1
+numerator sum 31		denominator sum 34
+numerator count 9		denominator count 13
+total count 22
+Common Hit 1
+zz1 9 nn 4 zz2 3 zero_pos 14
+zz1 5 nn 5 zz2 0 zero_pos 15
+Hit 1  5
+zz1 5 nn 5 zz2 6 zero_pos 16
+Hit 1  5
+zz1 8 nn 6 zz2 7 zero_pos 17
+zz1 6 nn 0 zz2 2 zero_pos 18
+zz1 5 nn 1 zz2 5 zero_pos 19
+zz1 8 nn 4 zz2 6 zero_pos 20
+zz1 6 nn 8 zz2 4 zero_pos 21
+zz1 0 nn 3 zz2 6 zero_pos 22
+zz1 2 nn 9 zz2 2 zero_pos 23
+zz1 0 nn 4 zz2 2 zero_pos 24
+zz1 0 nn 8 zz2 7 zero_pos 25
+zz1 5 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 5 nn 2 zz2 9 zero_pos 27
+zz1 5 nn 3 zz2 2 zero_pos 28
+zz1 5 nn 0 zz2 6 zero_pos 29
+zz1 6 nn 1 zz2 1 zero_pos 30
+hit 2 1
+zz1 6 nn 7 zz2 4 zero_pos 31
+zz1 7 nn 9 zz2 8 zero_pos 32
+zz1 2 nn 6 zz2 8 zero_pos 33
+zz1 5 nn 7 zz2 7 zero_pos 34
+hit 2 7
+zz1 8 nn 9 zz2 3 zero_pos 35
+zz1 3 nn 9 zz2 3 zero_pos 36
+zz1 6 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 0 nn 9 zz2 4 zero_pos 38
+zz1 1 nn 5 zz2 3 zero_pos 39
+zz1 0 nn 6 zz2 5 zero_pos 40
+zz1 7 nn 7 zz2 5 zero_pos 41
+Hit 1  7
+zz1 7 nn 9 zz2 5 zero_pos 42
+zz1 3 nn 5 zz2 2 zero_pos 43
+zz1 7 nn 1 zz2 0 zero_pos 44
+zz1 0 nn 3 zz2 5 zero_pos 45
+zz1 0 nn 2 zz2 9 zero_pos 46
+zz1 2 nn 9 zz2 1 zero_pos 47
+zz1 0 nn 6 zz2 4 zero_pos 48
+zz1 5 nn 6 zz2 7 zero_pos 49
+zz1 4 nn 9 zz2 3 zero_pos 50
+zz1 1 nn 6 zz2 9 zero_pos 51
+zz1 0 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 9 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 8 nn 6 zz2 3 zero_pos 54
+zz1 2 nn 5 zz2 2 zero_pos 55
+zz1 6 nn 3 zz2 8 zero_pos 56
+zz1 6 nn 0 zz2 2 zero_pos 57
+zz1 1 nn 5 zz2 2 zero_pos 58
+zz1 5 nn 1 zz2 6 zero_pos 59
+zz1 0 nn 3 zz2 6 zero_pos 60
+zz1 7 nn 2 zz2 2 zero_pos 61
+hit 2 2
+zz1 5 nn 4 zz2 4 zero_pos 62
+hit 2 4
+zz1 4 nn 3 zz2 7 zero_pos 63
+zz1 2 nn 2 zz2 0 zero_pos 64
+Hit 1  2
+zz1 7 nn 1 zz2 7 zero_pos 65
+zz1 8 nn 9 zz2 8 zero_pos 66
+zz1 0 nn 6 zz2 9 zero_pos 67
+zz1 5 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 1 nn 5 zz2 7 zero_pos 69
+zz1 7 nn 4 zz2 6 zero_pos 70
+zz1 4 nn 4 zz2 7 zero_pos 71
+Hit 1  4
+zz1 4 nn 4 zz2 5 zero_pos 72
+Hit 1  4
+zz1 2 nn 2 zz2 3 zero_pos 73
+Hit 1  2
+zz1 5 nn 8 zz2 8 zero_pos 74
+hit 2 8
+zz1 9 nn 3 zz2 1 zero_pos 75
+zz1 1 nn 1 zz2 4 zero_pos 76
+Hit 1  1
+zz1 3 nn 0 zz2 4 zero_pos 77
+zz1 0 nn 2 zz2 4 zero_pos 78
+zz1 6 nn 2 zz2 0 zero_pos 79
+zz1 2 nn 1 zz2 7 zero_pos 80
+zz1 5 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 4 nn 1 zz2 6 zero_pos 0
+zz1 4 nn 1 zz2 4 zero_pos 1
+zz1 8 nn 7 zz2 6 zero_pos 2
+zz1 1 nn 7 zz2 6 zero_pos 3
+zz1 9 nn 7 zz2 8 zero_pos 4
+zz1 7 nn 3 zz2 4 zero_pos 5
+zz1 8 nn 6 zz2 1 zero_pos 6
+zz1 6 nn 8 zz2 9 zero_pos 7
+zz1 5 nn 1 zz2 0 zero_pos 8
+zz1 1 nn 3 zz2 6 zero_pos 9
+zz1 0 nn 1 zz2 0 zero_pos 10
+zz1 7 nn 9 zz2 7 zero_pos 11
+zz1 2 nn 7 zz2 7 zero_pos 12
+hit 2 7
+zz1 3 nn 1 zz2 1 zero_pos 13
+hit 2 1
+zz1 0 nn 4 zz2 2 zero_pos 14
+zz1 4 nn 5 zz2 7 zero_pos 15
+zz1 9 nn 5 zz2 5 zero_pos 16
+hit 2 5
+zz1 3 nn 6 zz2 6 zero_pos 17
+hit 2 6
+zz1 8 nn 0 zz2 9 zero_pos 18
+zz1 7 nn 1 zz2 8 zero_pos 19
+zz1 2 nn 4 zz2 3 zero_pos 20
+zz1 5 nn 8 zz2 4 zero_pos 21
+zz1 6 nn 3 zz2 0 zero_pos 22
+zz1 2 nn 9 zz2 5 zero_pos 23
+zz1 9 nn 4 zz2 4 zero_pos 24
+hit 2 4
+zz1 7 nn 8 zz2 5 zero_pos 25
+zz1 3 nn 7 zz2 1 zero_pos 26
+zz1 8 nn 2 zz2 4 zero_pos 27
+zz1 3 nn 3 zz2 0 zero_pos 28
+Hit 1  3
+zz1 2 nn 0 zz2 2 zero_pos 29
+zz1 1 nn 1 zz2 8 zero_pos 30
+Hit 1  1
+zz1 5 nn 7 zz2 4 zero_pos 31
+zz1 7 nn 9 zz2 3 zero_pos 32
+zz1 7 nn 6 zz2 9 zero_pos 33
+zz1 4 nn 7 zz2 9 zero_pos 34
+zz1 2 nn 9 zz2 2 zero_pos 35
+zz1 0 nn 9 zz2 3 zero_pos 36
+zz1 3 nn 7 zz2 2 zero_pos 37
+zz1 9 nn 9 zz2 2 zero_pos 38
+Hit 1  9
+zz1 5 nn 5 zz2 2 zero_pos 39
+Hit 1  5
+zz1 2 nn 6 zz2 5 zero_pos 40
+zz1 1 nn 7 zz2 3 zero_pos 41
+zz1 5 nn 9 zz2 6 zero_pos 42
+zz1 7 nn 5 zz2 7 zero_pos 43
+zz1 2 nn 1 zz2 8 zero_pos 44
+zz1 5 nn 3 zz2 8 zero_pos 45
+zz1 6 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 7 nn 9 zz2 6 zero_pos 47
+zz1 4 nn 6 zz2 8 zero_pos 48
+zz1 8 nn 6 zz2 2 zero_pos 49
+zz1 0 nn 9 zz2 3 zero_pos 50
+zz1 9 nn 6 zz2 6 zero_pos 51
+hit 2 6
+zz1 3 nn 7 zz2 1 zero_pos 52
+zz1 3 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 2 nn 6 zz2 1 zero_pos 54
+zz1 1 nn 5 zz2 2 zero_pos 55
+zz1 4 nn 3 zz2 8 zero_pos 56
+zz1 0 nn 0 zz2 9 zero_pos 57
+Hit 1  0
+zz1 0 nn 5 zz2 2 zero_pos 58
+zz1 3 nn 1 zz2 7 zero_pos 59
+zz1 4 nn 3 zz2 0 zero_pos 60
+zz1 9 nn 2 zz2 0 zero_pos 61
+zz1 9 nn 4 zz2 5 zero_pos 62
+zz1 0 nn 3 zz2 7 zero_pos 63
+zz1 4 nn 2 zz2 5 zero_pos 64
+zz1 6 nn 1 zz2 8 zero_pos 65
+zz1 8 nn 9 zz2 5 zero_pos 66
+zz1 0 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 3 nn 0 zz2 5 zero_pos 68
+zz1 4 nn 5 zz2 3 zero_pos 69
+zz1 3 nn 4 zz2 2 zero_pos 70
+zz1 4 nn 4 zz2 7 zero_pos 71
+Hit 1  4
+zz1 6 nn 4 zz2 3 zero_pos 72
+zz1 2 nn 2 zz2 1 zero_pos 73
+Hit 1  2
+zz1 6 nn 8 zz2 5 zero_pos 74
+zz1 7 nn 3 zz2 8 zero_pos 75
+zz1 3 nn 1 zz2 8 zero_pos 76
+zz1 1 nn 0 zz2 6 zero_pos 77
+zz1 4 nn 2 zz2 6 zero_pos 78
+zz1 4 nn 2 zz2 6 zero_pos 79
+zz1 2 nn 1 zz2 0 zero_pos 80
+zz1 0 nn 2 zz2 4 zero_pos 81
+zz1 9 nn 1 zz2 2 zero_pos 0
+zz1 2 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 0 nn 7 zz2 4 zero_pos 2
+zz1 3 nn 7 zz2 0 zero_pos 3
+zz1 7 nn 7 zz2 0 zero_pos 4
+Hit 1  7
+zz1 7 nn 3 zz2 0 zero_pos 5
+zz1 3 nn 6 zz2 9 zero_pos 6
+zz1 8 nn 8 zz2 0 zero_pos 7
+Hit 1  8
+zz1 5 nn 1 zz2 7 zero_pos 8
+zz1 4 nn 3 zz2 1 zero_pos 9
+zz1 8 nn 1 zz2 1 zero_pos 10
+hit 2 1
+zz1 7 nn 9 zz2 5 zero_pos 11
+zz1 1 nn 7 zz2 1 zero_pos 12
+zz1 4 nn 1 zz2 0 zero_pos 13
+zz1 1 nn 4 zz2 8 zero_pos 14
+zz1 3 nn 5 zz2 0 zero_pos 15
+zz1 7 nn 5 zz2 0 zero_pos 16
+zz1 8 nn 6 zz2 9 zero_pos 17
+zz1 3 nn 0 zz2 0 zero_pos 18
+hit 2 0
+zz1 1 nn 1 zz2 0 zero_pos 19
+Hit 1  1
+zz1 7 nn 4 zz2 6 zero_pos 20
+zz1 3 nn 8 zz2 9 zero_pos 21
+zz1 5 nn 3 zz2 7 zero_pos 22
+zz1 6 nn 9 zz2 2 zero_pos 23
+zz1 3 nn 4 zz2 0 zero_pos 24
+zz1 9 nn 8 zz2 0 zero_pos 25
+zz1 6 nn 7 zz2 2 zero_pos 26
+zz1 9 nn 2 zz2 7 zero_pos 27
+zz1 9 nn 3 zz2 9 zero_pos 28
+zz1 5 nn 0 zz2 9 zero_pos 29
+zz1 3 nn 1 zz2 8 zero_pos 30
+zz1 6 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 5 nn 9 zz2 1 zero_pos 32
+zz1 4 nn 6 zz2 1 zero_pos 33
+zz1 2 nn 7 zz2 0 zero_pos 34
+zz1 8 nn 9 zz2 1 zero_pos 35
+zz1 1 nn 9 zz2 7 zero_pos 36
+zz1 1 nn 7 zz2 5 zero_pos 37
+zz1 3 nn 9 zz2 8 zero_pos 38
+zz1 0 nn 5 zz2 4 zero_pos 39
+zz1 7 nn 6 zz2 7 zero_pos 40
+zz1 9 nn 7 zz2 5 zero_pos 41
+zz1 6 nn 9 zz2 1 zero_pos 42
+zz1 8 nn 5 zz2 9 zero_pos 43
+zz1 0 nn 1 zz2 6 zero_pos 44
+zz1 5 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 3 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 1 nn 9 zz2 2 zero_pos 47
+zz1 4 nn 6 zz2 1 zero_pos 48
+zz1 9 nn 6 zz2 6 zero_pos 49
+hit 2 6
+zz1 1 nn 9 zz2 4 zero_pos 50
+zz1 6 nn 6 zz2 9 zero_pos 51
+Hit 1  6
+zz1 8 nn 7 zz2 6 zero_pos 52
+zz1 8 nn 1 zz2 8 zero_pos 53
+zz1 5 nn 6 zz2 6 zero_pos 54
+hit 2 6
+zz1 2 nn 5 zz2 5 zero_pos 55
+hit 2 5
+zz1 9 nn 3 zz2 9 zero_pos 56
+zz1 0 nn 0 zz2 0 zero_pos 57
+Hit 1  0
+hit 2 0
+numerator sum 76		denominator sum 115
+numerator count 20		denominator count 30
+total count 50
+Common Hit 0
+zz1 6 nn 5 zz2 0 zero_pos 58
+zz1 7 nn 1 zz2 5 zero_pos 59
+zz1 8 nn 3 zz2 7 zero_pos 60
+zz1 2 nn 2 zz2 4 zero_pos 61
+Hit 1  2
+zz1 0 nn 4 zz2 8 zero_pos 62
+zz1 8 nn 3 zz2 1 zero_pos 63
+zz1 2 nn 2 zz2 1 zero_pos 64
+Hit 1  2
+zz1 2 nn 1 zz2 2 zero_pos 65
+zz1 9 nn 9 zz2 4 zero_pos 66
+Hit 1  9
+zz1 8 nn 6 zz2 7 zero_pos 67
+zz1 0 nn 0 zz2 9 zero_pos 68
+Hit 1  0
+zz1 4 nn 5 zz2 3 zero_pos 69
+zz1 9 nn 4 zz2 8 zero_pos 70
+zz1 2 nn 4 zz2 6 zero_pos 71
+zz1 6 nn 4 zz2 9 zero_pos 72
+zz1 4 nn 2 zz2 1 zero_pos 73
+zz1 3 nn 8 zz2 6 zero_pos 74
+zz1 3 nn 3 zz2 3 zero_pos 75
+Hit 1  3
+hit 2 3
+numerator sum 16		denominator sum 3
+numerator count 5		denominator count 1
+total count 6
+Common Hit 3
+zz1 8 nn 1 zz2 8 zero_pos 76
+zz1 6 nn 0 zz2 3 zero_pos 77
+zz1 6 nn 2 zz2 5 zero_pos 78
+zz1 6 nn 2 zz2 1 zero_pos 79
+zz1 7 nn 1 zz2 8 zero_pos 80
+zz1 3 nn 2 zz2 3 zero_pos 81
+zz1 4 nn 1 zz2 7 zero_pos 0
+zz1 6 nn 1 zz2 2 zero_pos 1
+zz1 2 nn 7 zz2 3 zero_pos 2
+zz1 3 nn 7 zz2 4 zero_pos 3
+zz1 3 nn 7 zz2 2 zero_pos 4
+zz1 2 nn 3 zz2 7 zero_pos 5
+zz1 0 nn 6 zz2 8 zero_pos 6
+zz1 0 nn 8 zz2 0 zero_pos 7
+zz1 7 nn 1 zz2 7 zero_pos 8
+zz1 8 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 7 nn 1 zz2 4 zero_pos 10
+zz1 5 nn 9 zz2 4 zero_pos 11
+zz1 8 nn 7 zz2 9 zero_pos 12
+zz1 7 nn 1 zz2 0 zero_pos 13
+zz1 6 nn 4 zz2 2 zero_pos 14
+zz1 1 nn 5 zz2 3 zero_pos 15
+zz1 7 nn 5 zz2 9 zero_pos 16
+zz1 9 nn 6 zz2 1 zero_pos 17
+zz1 2 nn 0 zz2 0 zero_pos 18
+hit 2 0
+zz1 0 nn 1 zz2 1 zero_pos 19
+hit 2 1
+zz1 0 nn 4 zz2 0 zero_pos 20
+zz1 5 nn 8 zz2 3 zero_pos 21
+zz1 6 nn 3 zz2 8 zero_pos 22
+zz1 0 nn 9 zz2 5 zero_pos 23
+zz1 4 nn 4 zz2 0 zero_pos 24
+Hit 1  4
+zz1 8 nn 8 zz2 4 zero_pos 25
+Hit 1  8
+zz1 6 nn 7 zz2 5 zero_pos 26
+zz1 8 nn 2 zz2 7 zero_pos 27
+zz1 0 nn 3 zz2 5 zero_pos 28
+zz1 5 nn 0 zz2 6 zero_pos 29
+zz1 4 nn 1 zz2 4 zero_pos 30
+zz1 3 nn 7 zz2 1 zero_pos 31
+zz1 5 nn 9 zz2 2 zero_pos 32
+zz1 6 nn 6 zz2 1 zero_pos 33
+Hit 1  6
+zz1 8 nn 7 zz2 5 zero_pos 34
+zz1 0 nn 9 zz2 9 zero_pos 35
+hit 2 9
+zz1 1 nn 9 zz2 5 zero_pos 36
+zz1 4 nn 7 zz2 8 zero_pos 37
+zz1 4 nn 9 zz2 3 zero_pos 38
+zz1 4 nn 5 zz2 9 zero_pos 39
+zz1 4 nn 6 zz2 9 zero_pos 40
+zz1 2 nn 7 zz2 9 zero_pos 41
+zz1 4 nn 9 zz2 2 zero_pos 42
+zz1 6 nn 5 zz2 1 zero_pos 43
+zz1 5 nn 1 zz2 0 zero_pos 44
+zz1 1 nn 3 zz2 0 zero_pos 45
+zz1 0 nn 2 zz2 1 zero_pos 46
+zz1 6 nn 9 zz2 6 zero_pos 47
+zz1 5 nn 6 zz2 2 zero_pos 48
+zz1 5 nn 6 zz2 1 zero_pos 49
+zz1 9 nn 9 zz2 8 zero_pos 50
+Hit 1  9
+zz1 7 nn 6 zz2 3 zero_pos 51
+zz1 5 nn 7 zz2 4 zero_pos 52
+zz1 6 nn 1 zz2 6 zero_pos 53
+zz1 8 nn 6 zz2 6 zero_pos 54
+hit 2 6
+zz1 6 nn 5 zz2 9 zero_pos 55
+zz1 6 nn 3 zz2 1 zero_pos 56
+zz1 5 nn 0 zz2 1 zero_pos 57
+zz1 9 nn 5 zz2 3 zero_pos 58
+zz1 0 nn 1 zz2 1 zero_pos 59
+hit 2 1
+zz1 3 nn 3 zz2 5 zero_pos 60
+Hit 1  3
+zz1 2 nn 2 zz2 8 zero_pos 61
+Hit 1  2
+zz1 2 nn 4 zz2 7 zero_pos 62
+zz1 8 nn 3 zz2 2 zero_pos 63
+zz1 6 nn 2 zz2 1 zero_pos 64
+zz1 8 nn 1 zz2 7 zero_pos 65
+zz1 6 nn 9 zz2 4 zero_pos 66
+zz1 5 nn 6 zz2 8 zero_pos 67
+zz1 1 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 0 nn 5 zz2 5 zero_pos 69
+hit 2 5
+zz1 5 nn 4 zz2 7 zero_pos 70
+zz1 4 nn 4 zz2 1 zero_pos 71
+Hit 1  4
+zz1 4 nn 4 zz2 7 zero_pos 72
+Hit 1  4
+zz1 8 nn 2 zz2 0 zero_pos 73
+zz1 5 nn 8 zz2 3 zero_pos 74
+zz1 9 nn 3 zz2 1 zero_pos 75
+zz1 4 nn 1 zz2 5 zero_pos 76
+zz1 4 nn 0 zz2 7 zero_pos 77
+zz1 4 nn 2 zz2 9 zero_pos 78
+zz1 3 nn 2 zz2 3 zero_pos 79
+zz1 2 nn 1 zz2 5 zero_pos 80
+zz1 0 nn 2 zz2 8 zero_pos 81
+zz1 6 nn 1 zz2 1 zero_pos 0
+hit 2 1
+zz1 2 nn 1 zz2 7 zero_pos 1
+zz1 4 nn 7 zz2 9 zero_pos 2
+zz1 0 nn 7 zz2 7 zero_pos 3
+hit 2 7
+zz1 7 nn 7 zz2 7 zero_pos 4
+Hit 1  7
+hit 2 7
+numerator sum 47		denominator sum 40
+numerator count 9		denominator count 11
+total count 20
+Common Hit 7
+zz1 2 nn 3 zz2 2 zero_pos 5
+zz1 7 nn 6 zz2 4 zero_pos 6
+zz1 2 nn 8 zz2 9 zero_pos 7
+zz1 7 nn 1 zz2 6 zero_pos 8
+zz1 0 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 3 nn 1 zz2 2 zero_pos 10
+zz1 2 nn 9 zz2 7 zero_pos 11
+zz1 0 nn 7 zz2 2 zero_pos 12
+zz1 9 nn 1 zz2 4 zero_pos 13
+zz1 4 nn 4 zz2 0 zero_pos 14
+Hit 1  4
+zz1 2 nn 5 zz2 7 zero_pos 15
+zz1 7 nn 5 zz2 6 zero_pos 16
+zz1 4 nn 6 zz2 9 zero_pos 17
+zz1 5 nn 0 zz2 9 zero_pos 18
+zz1 2 nn 1 zz2 2 zero_pos 19
+zz1 2 nn 4 zz2 2 zero_pos 20
+zz1 2 nn 8 zz2 1 zero_pos 21
+zz1 1 nn 3 zz2 1 zero_pos 22
+zz1 3 nn 9 zz2 2 zero_pos 23
+zz1 0 nn 4 zz2 5 zero_pos 24
+zz1 4 nn 8 zz2 6 zero_pos 25
+zz1 8 nn 7 zz2 6 zero_pos 26
+zz1 7 nn 2 zz2 3 zero_pos 27
+zz1 4 nn 3 zz2 4 zero_pos 28
+zz1 8 nn 0 zz2 4 zero_pos 29
+zz1 7 nn 1 zz2 1 zero_pos 30
+hit 2 1
+zz1 2 nn 7 zz2 5 zero_pos 31
+zz1 0 nn 9 zz2 6 zero_pos 32
+zz1 9 nn 6 zz2 1 zero_pos 33
+zz1 2 nn 7 zz2 8 zero_pos 34
+zz1 4 nn 9 zz2 2 zero_pos 35
+zz1 1 nn 9 zz2 3 zero_pos 36
+zz1 2 nn 7 zz2 6 zero_pos 37
+zz1 3 nn 9 zz2 0 zero_pos 38
+zz1 8 nn 5 zz2 5 zero_pos 39
+hit 2 5
+zz1 5 nn 6 zz2 1 zero_pos 40
+zz1 1 nn 7 zz2 8 zero_pos 41
+zz1 4 nn 9 zz2 0 zero_pos 42
+zz1 1 nn 5 zz2 4 zero_pos 43
+zz1 8 nn 1 zz2 7 zero_pos 44
+zz1 3 nn 3 zz2 6 zero_pos 45
+Hit 1  3
+zz1 5 nn 2 zz2 7 zero_pos 46
+zz1 1 nn 9 zz2 1 zero_pos 47
+zz1 4 nn 6 zz2 4 zero_pos 48
+zz1 6 nn 6 zz2 4 zero_pos 49
+Hit 1  6
+zz1 0 nn 9 zz2 2 zero_pos 50
+zz1 5 nn 6 zz2 2 zero_pos 51
+zz1 4 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 2 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 7 nn 6 zz2 4 zero_pos 54
+zz1 9 nn 5 zz2 6 zero_pos 55
+zz1 0 nn 3 zz2 5 zero_pos 56
+zz1 1 nn 0 zz2 5 zero_pos 57
+zz1 5 nn 5 zz2 5 zero_pos 58
+Hit 1  5
+hit 2 5
+numerator sum 18		denominator sum 22
+numerator count 4		denominator count 6
+total count 10
+Common Hit 5
+zz1 2 nn 1 zz2 5 zero_pos 59
+zz1 4 nn 3 zz2 9 zero_pos 60
+zz1 4 nn 2 zz2 6 zero_pos 61
+zz1 7 nn 4 zz2 7 zero_pos 62
+zz1 8 nn 3 zz2 3 zero_pos 63
+hit 2 3
+zz1 3 nn 2 zz2 7 zero_pos 64
+zz1 3 nn 1 zz2 8 zero_pos 65
+zz1 8 nn 9 zz2 1 zero_pos 66
+zz1 3 nn 6 zz2 2 zero_pos 67
+zz1 5 nn 0 zz2 4 zero_pos 68
+zz1 4 nn 5 zz2 7 zero_pos 69
+zz1 2 nn 4 zz2 7 zero_pos 70
+zz1 5 nn 4 zz2 6 zero_pos 71
+zz1 4 nn 4 zz2 5 zero_pos 72
+Hit 1  4
+zz1 5 nn 2 zz2 0 zero_pos 73
+zz1 3 nn 8 zz2 0 zero_pos 74
+zz1 3 nn 3 zz2 4 zero_pos 75
+Hit 1  3
+zz1 4 nn 1 zz2 5 zero_pos 76
+zz1 4 nn 0 zz2 5 zero_pos 77
+zz1 0 nn 2 zz2 5 zero_pos 78
+zz1 0 nn 2 zz2 8 zero_pos 79
+zz1 4 nn 1 zz2 4 zero_pos 80
+zz1 4 nn 2 zz2 0 zero_pos 81
+zz1 8 nn 1 zz2 9 zero_pos 0
+zz1 7 nn 1 zz2 0 zero_pos 1
+zz1 9 nn 7 zz2 8 zero_pos 2
+zz1 3 nn 7 zz2 6 zero_pos 3
+zz1 6 nn 7 zz2 4 zero_pos 4
+zz1 8 nn 3 zz2 4 zero_pos 5
+zz1 0 nn 6 zz2 2 zero_pos 6
+zz1 6 nn 8 zz2 9 zero_pos 7
+zz1 7 nn 1 zz2 1 zero_pos 8
+hit 2 1
+zz1 6 nn 3 zz2 6 zero_pos 9
+zz1 1 nn 1 zz2 9 zero_pos 10
+Hit 1  1
+zz1 6 nn 9 zz2 7 zero_pos 11
+zz1 9 nn 7 zz2 7 zero_pos 12
+hit 2 7
+zz1 7 nn 1 zz2 5 zero_pos 13
+zz1 3 nn 4 zz2 7 zero_pos 14
+zz1 0 nn 5 zz2 0 zero_pos 15
+zz1 0 nn 5 zz2 4 zero_pos 16
+zz1 8 nn 6 zz2 6 zero_pos 17
+hit 2 6
+zz1 1 nn 0 zz2 3 zero_pos 18
+zz1 9 nn 1 zz2 8 zero_pos 19
+zz1 0 nn 4 zz2 1 zero_pos 20
+zz1 0 nn 8 zz2 6 zero_pos 21
+zz1 0 nn 3 zz2 5 zero_pos 22
+zz1 7 nn 9 zz2 5 zero_pos 23
+zz1 3 nn 4 zz2 1 zero_pos 24
+zz1 1 nn 8 zz2 7 zero_pos 25
+zz1 3 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 9 nn 2 zz2 4 zero_pos 27
+zz1 3 nn 3 zz2 9 zero_pos 28
+Hit 1  3
+zz1 8 nn 0 zz2 6 zero_pos 29
+zz1 5 nn 1 zz2 4 zero_pos 30
+zz1 4 nn 7 zz2 4 zero_pos 31
+zz1 9 nn 9 zz2 5 zero_pos 32
+Hit 1  9
+zz1 8 nn 6 zz2 2 zero_pos 33
+zz1 3 nn 7 zz2 4 zero_pos 34
+zz1 7 nn 9 zz2 9 zero_pos 35
+hit 2 9
+zz1 3 nn 9 zz2 8 zero_pos 36
+zz1 6 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 2 nn 9 zz2 6 zero_pos 38
+zz1 1 nn 5 zz2 7 zero_pos 39
+zz1 5 nn 6 zz2 4 zero_pos 40
+zz1 0 nn 7 zz2 2 zero_pos 41
+zz1 1 nn 9 zz2 3 zero_pos 42
+zz1 3 nn 5 zz2 7 zero_pos 43
+zz1 0 nn 1 zz2 0 zero_pos 44
+zz1 4 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 5 nn 2 zz2 6 zero_pos 46
+zz1 1 nn 9 zz2 6 zero_pos 47
+zz1 6 nn 6 zz2 4 zero_pos 48
+Hit 1  6
+zz1 7 nn 6 zz2 5 zero_pos 49
+zz1 2 nn 9 zz2 6 zero_pos 50
+zz1 6 nn 6 zz2 5 zero_pos 51
+Hit 1  6
+zz1 9 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 6 nn 1 zz2 7 zero_pos 53
+zz1 8 nn 6 zz2 7 zero_pos 54
+zz1 3 nn 5 zz2 0 zero_pos 55
+zz1 8 nn 3 zz2 4 zero_pos 56
+zz1 9 nn 0 zz2 8 zero_pos 57
+zz1 2 nn 5 zz2 3 zero_pos 58
+zz1 0 nn 1 zz2 7 zero_pos 59
+zz1 0 nn 3 zz2 9 zero_pos 60
+zz1 3 nn 2 zz2 9 zero_pos 61
+zz1 9 nn 4 zz2 2 zero_pos 62
+zz1 1 nn 3 zz2 0 zero_pos 63
+zz1 7 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 6 nn 1 zz2 9 zero_pos 65
+zz1 2 nn 9 zz2 2 zero_pos 66
+zz1 8 nn 6 zz2 7 zero_pos 67
+zz1 5 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 1 nn 5 zz2 6 zero_pos 69
+zz1 2 nn 4 zz2 6 zero_pos 70
+zz1 3 nn 4 zz2 4 zero_pos 71
+hit 2 4
+zz1 2 nn 4 zz2 3 zero_pos 72
+zz1 1 nn 2 zz2 1 zero_pos 73
+zz1 2 nn 8 zz2 5 zero_pos 74
+zz1 8 nn 3 zz2 8 zero_pos 75
+zz1 5 nn 1 zz2 3 zero_pos 76
+zz1 4 nn 0 zz2 7 zero_pos 77
+zz1 2 nn 2 zz2 8 zero_pos 78
+Hit 1  2
+zz1 2 nn 2 zz2 9 zero_pos 79
+Hit 1  2
+zz1 0 nn 1 zz2 3 zero_pos 80
+zz1 5 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 2 nn 1 zz2 3 zero_pos 0
+zz1 3 nn 1 zz2 8 zero_pos 1
+zz1 9 nn 7 zz2 0 zero_pos 2
+zz1 6 nn 7 zz2 0 zero_pos 3
+zz1 9 nn 7 zz2 9 zero_pos 4
+zz1 1 nn 3 zz2 1 zero_pos 5
+zz1 3 nn 6 zz2 5 zero_pos 6
+zz1 3 nn 8 zz2 1 zero_pos 7
+zz1 4 nn 1 zz2 1 zero_pos 8
+hit 2 1
+zz1 2 nn 3 zz2 4 zero_pos 9
+zz1 5 nn 1 zz2 6 zero_pos 10
+zz1 8 nn 9 zz2 8 zero_pos 11
+zz1 3 nn 7 zz2 5 zero_pos 12
+zz1 2 nn 1 zz2 8 zero_pos 13
+zz1 2 nn 4 zz2 0 zero_pos 14
+zz1 7 nn 5 zz2 7 zero_pos 15
+zz1 5 nn 5 zz2 0 zero_pos 16
+Hit 1  5
+zz1 3 nn 6 zz2 4 zero_pos 17
+zz1 3 nn 0 zz2 3 zero_pos 18
+zz1 5 nn 1 zz2 0 zero_pos 19
+zz1 1 nn 4 zz2 8 zero_pos 20
+zz1 6 nn 8 zz2 2 zero_pos 21
+zz1 4 nn 3 zz2 8 zero_pos 22
+zz1 0 nn 9 zz2 7 zero_pos 23
+zz1 6 nn 4 zz2 8 zero_pos 24
+zz1 0 nn 8 zz2 4 zero_pos 25
+zz1 1 nn 7 zz2 1 zero_pos 26
+zz1 6 nn 2 zz2 4 zero_pos 27
+zz1 9 nn 3 zz2 7 zero_pos 28
+zz1 7 nn 0 zz2 8 zero_pos 29
+zz1 6 nn 1 zz2 6 zero_pos 30
+zz1 3 nn 7 zz2 1 zero_pos 31
+zz1 5 nn 9 zz2 9 zero_pos 32
+hit 2 9
+zz1 2 nn 6 zz2 9 zero_pos 33
+zz1 7 nn 7 zz2 2 zero_pos 34
+Hit 1  7
+zz1 5 nn 9 zz2 0 zero_pos 35
+zz1 6 nn 9 zz2 0 zero_pos 36
+zz1 3 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 7 nn 9 zz2 6 zero_pos 38
+zz1 5 nn 5 zz2 0 zero_pos 39
+Hit 1  5
+zz1 8 nn 6 zz2 7 zero_pos 40
+zz1 9 nn 7 zz2 7 zero_pos 41
+hit 2 7
+zz1 6 nn 9 zz2 6 zero_pos 42
+zz1 9 nn 5 zz2 0 zero_pos 43
+zz1 5 nn 1 zz2 4 zero_pos 44
+zz1 3 nn 3 zz2 7 zero_pos 45
+Hit 1  3
+zz1 7 nn 2 zz2 7 zero_pos 46
+zz1 6 nn 9 zz2 4 zero_pos 47
+zz1 7 nn 6 zz2 8 zero_pos 48
+zz1 4 nn 6 zz2 4 zero_pos 49
+zz1 9 nn 9 zz2 1 zero_pos 50
+Hit 1  9
+zz1 2 nn 6 zz2 4 zero_pos 51
+zz1 0 nn 7 zz2 0 zero_pos 52
+zz1 3 nn 1 zz2 7 zero_pos 53
+zz1 3 nn 6 zz2 8 zero_pos 54
+zz1 6 nn 5 zz2 2 zero_pos 55
+zz1 1 nn 3 zz2 7 zero_pos 56
+zz1 2 nn 0 zz2 3 zero_pos 57
+zz1 7 nn 5 zz2 8 zero_pos 58
+zz1 2 nn 1 zz2 9 zero_pos 59
+zz1 0 nn 3 zz2 0 zero_pos 60
+zz1 9 nn 2 zz2 7 zero_pos 61
+zz1 2 nn 4 zz2 0 zero_pos 62
+zz1 5 nn 3 zz2 0 zero_pos 63
+zz1 9 nn 2 zz2 3 zero_pos 64
+zz1 9 nn 1 zz2 8 zero_pos 65
+zz1 9 nn 9 zz2 9 zero_pos 66
+Hit 1  9
+hit 2 9
+numerator sum 74		denominator sum 91
+numerator count 15		denominator count 18
+total count 33
+Common Hit 9
+zz1 1 nn 6 zz2 5 zero_pos 67
+zz1 7 nn 0 zz2 7 zero_pos 68
+zz1 3 nn 5 zz2 6 zero_pos 69
+zz1 0 nn 4 zz2 0 zero_pos 70
+zz1 4 nn 4 zz2 4 zero_pos 71
+Hit 1  4
+hit 2 4
+numerator sum 4		denominator sum 4
+numerator count 1		denominator count 1
+total count 2
+Common Hit 4
+zz1 2 nn 4 zz2 3 zero_pos 72
+zz1 7 nn 2 zz2 3 zero_pos 73
+zz1 0 nn 8 zz2 2 zero_pos 74
+zz1 7 nn 3 zz2 4 zero_pos 75
+zz1 5 nn 1 zz2 5 zero_pos 76
+zz1 6 nn 0 zz2 1 zero_pos 77
+zz1 8 nn 2 zz2 2 zero_pos 78
+hit 2 2
+zz1 3 nn 2 zz2 7 zero_pos 79
+zz1 0 nn 1 zz2 8 zero_pos 80
+zz1 8 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 7 nn 1 zz2 7 zero_pos 0
+zz1 9 nn 1 zz2 8 zero_pos 1
+zz1 5 nn 7 zz2 6 zero_pos 2
+zz1 1 nn 7 zz2 3 zero_pos 3
+zz1 1 nn 7 zz2 7 zero_pos 4
+hit 2 7
+zz1 8 nn 3 zz2 2 zero_pos 5
+zz1 4 nn 6 zz2 0 zero_pos 6
+zz1 4 nn 8 zz2 9 zero_pos 7
+zz1 5 nn 1 zz2 0 zero_pos 8
+zz1 3 nn 3 zz2 9 zero_pos 9
+Hit 1  3
+zz1 4 nn 1 zz2 3 zero_pos 10
+zz1 8 nn 9 zz2 0 zero_pos 11
+zz1 9 nn 7 zz2 3 zero_pos 12
+zz1 1 nn 1 zz2 7 zero_pos 13
+Hit 1  1
+zz1 8 nn 4 zz2 9 zero_pos 14
+zz1 0 nn 5 zz2 7 zero_pos 15
+zz1 0 nn 5 zz2 2 zero_pos 16
+zz1 8 nn 6 zz2 5 zero_pos 17
+zz1 6 nn 0 zz2 1 zero_pos 18
+zz1 3 nn 1 zz2 8 zero_pos 19
+zz1 0 nn 4 zz2 2 zero_pos 20
+zz1 0 nn 8 zz2 3 zero_pos 21
+zz1 8 nn 3 zz2 7 zero_pos 22
+zz1 2 nn 9 zz2 0 zero_pos 23
+zz1 6 nn 4 zz2 9 zero_pos 24
+zz1 4 nn 8 zz2 1 zero_pos 25
+zz1 8 nn 7 zz2 8 zero_pos 26
+zz1 3 nn 2 zz2 0 zero_pos 27
+zz1 1 nn 3 zz2 8 zero_pos 28
+zz1 2 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 5 nn 1 zz2 4 zero_pos 30
+zz1 1 nn 7 zz2 2 zero_pos 31
+zz1 6 nn 9 zz2 3 zero_pos 32
+zz1 9 nn 6 zz2 0 zero_pos 33
+zz1 1 nn 7 zz2 6 zero_pos 34
+zz1 1 nn 9 zz2 6 zero_pos 35
+zz1 2 nn 9 zz2 6 zero_pos 36
+zz1 7 nn 7 zz2 7 zero_pos 37
+Hit 1  7
+hit 2 7
+numerator sum 11		denominator sum 18
+numerator count 3		denominator count 5
+total count 8
+Common Hit 7
+zz1 1 nn 9 zz2 3 zero_pos 38
+zz1 0 nn 5 zz2 8 zero_pos 39
+zz1 6 nn 6 zz2 3 zero_pos 40
+Hit 1  6
+zz1 8 nn 7 zz2 4 zero_pos 41
+zz1 2 nn 9 zz2 3 zero_pos 42
+zz1 9 nn 5 zz2 7 zero_pos 43
+zz1 1 nn 1 zz2 9 zero_pos 44
+Hit 1  1
+zz1 0 nn 3 zz2 9 zero_pos 45
+zz1 5 nn 2 zz2 0 zero_pos 46
+zz1 2 nn 9 zz2 2 zero_pos 47
+zz1 3 nn 6 zz2 2 zero_pos 48
+zz1 7 nn 6 zz2 8 zero_pos 49
+zz1 5 nn 9 zz2 2 zero_pos 50
+zz1 9 nn 6 zz2 5 zero_pos 51
+zz1 6 nn 7 zz2 1 zero_pos 52
+zz1 1 nn 1 zz2 5 zero_pos 53
+Hit 1  1
+zz1 7 nn 6 zz2 8 zero_pos 54
+zz1 9 nn 5 zz2 2 zero_pos 55
+zz1 7 nn 3 zz2 8 zero_pos 56
+zz1 7 nn 0 zz2 7 zero_pos 57
+zz1 4 nn 5 zz2 8 zero_pos 58
+zz1 3 nn 1 zz2 8 zero_pos 59
+zz1 1 nn 3 zz2 7 zero_pos 60
+zz1 8 nn 2 zz2 6 zero_pos 61
+zz1 1 nn 4 zz2 1 zero_pos 62
+zz1 5 nn 3 zz2 7 zero_pos 63
+zz1 1 nn 2 zz2 6 zero_pos 64
+zz1 7 nn 1 zz2 1 zero_pos 65
+hit 2 1
+zz1 0 nn 9 zz2 2 zero_pos 66
+zz1 7 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 1 nn 0 zz2 6 zero_pos 68
+zz1 3 nn 5 zz2 1 zero_pos 69
+zz1 5 nn 4 zz2 8 zero_pos 70
+zz1 4 nn 4 zz2 7 zero_pos 71
+Hit 1  4
+zz1 5 nn 4 zz2 1 zero_pos 72
+zz1 3 nn 2 zz2 3 zero_pos 73
+zz1 1 nn 8 zz2 8 zero_pos 74
+hit 2 8
+zz1 6 nn 3 zz2 2 zero_pos 75
+zz1 7 nn 1 zz2 9 zero_pos 76
+zz1 7 nn 0 zz2 6 zero_pos 77
+zz1 5 nn 2 zz2 7 zero_pos 78
+zz1 4 nn 2 zz2 8 zero_pos 79
+zz1 9 nn 1 zz2 5 zero_pos 80
+zz1 5 nn 2 zz2 8 zero_pos 81
+zz1 1 nn 1 zz2 7 zero_pos 0
+Hit 1  1
+zz1 5 nn 1 zz2 4 zero_pos 1
+zz1 3 nn 7 zz2 5 zero_pos 2
+zz1 8 nn 7 zz2 6 zero_pos 3
+zz1 2 nn 7 zz2 2 zero_pos 4
+zz1 8 nn 3 zz2 3 zero_pos 5
+hit 2 3
+zz1 9 nn 6 zz2 7 zero_pos 6
+zz1 3 nn 8 zz2 6 zero_pos 7
+zz1 7 nn 1 zz2 5 zero_pos 8
+zz1 8 nn 3 zz2 0 zero_pos 9
+zz1 4 nn 1 zz2 0 zero_pos 10
+zz1 9 nn 9 zz2 6 zero_pos 11
+Hit 1  9
+zz1 0 nn 7 zz2 6 zero_pos 12
+zz1 3 nn 1 zz2 6 zero_pos 13
+zz1 6 nn 4 zz2 2 zero_pos 14
+zz1 4 nn 5 zz2 4 zero_pos 15
+zz1 7 nn 5 zz2 2 zero_pos 16
+zz1 4 nn 6 zz2 0 zero_pos 17
+zz1 7 nn 0 zz2 7 zero_pos 18
+zz1 0 nn 1 zz2 8 zero_pos 19
+zz1 9 nn 4 zz2 0 zero_pos 20
+zz1 7 nn 8 zz2 8 zero_pos 21
+hit 2 8
+zz1 2 nn 3 zz2 1 zero_pos 22
+zz1 7 nn 9 zz2 4 zero_pos 23
+zz1 0 nn 4 zz2 5 zero_pos 24
+zz1 1 nn 8 zz2 1 zero_pos 25
+zz1 9 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 9 nn 2 zz2 6 zero_pos 27
+zz1 4 nn 3 zz2 3 zero_pos 28
+hit 2 3
+zz1 8 nn 0 zz2 6 zero_pos 29
+zz1 4 nn 1 zz2 9 zero_pos 30
+zz1 8 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 5 nn 9 zz2 6 zero_pos 32
+zz1 5 nn 6 zz2 3 zero_pos 33
+zz1 3 nn 7 zz2 9 zero_pos 34
+zz1 2 nn 9 zz2 1 zero_pos 35
+zz1 2 nn 9 zz2 3 zero_pos 36
+zz1 0 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 9 nn 9 zz2 4 zero_pos 38
+Hit 1  9
+zz1 2 nn 5 zz2 3 zero_pos 39
+zz1 5 nn 6 zz2 4 zero_pos 40
+zz1 3 nn 7 zz2 0 zero_pos 41
+zz1 5 nn 9 zz2 5 zero_pos 42
+zz1 7 nn 5 zz2 9 zero_pos 43
+zz1 4 nn 1 zz2 3 zero_pos 44
+zz1 3 nn 3 zz2 4 zero_pos 45
+Hit 1  3
+zz1 5 nn 2 zz2 1 zero_pos 46
+zz1 7 nn 9 zz2 2 zero_pos 47
+zz1 9 nn 6 zz2 7 zero_pos 48
+zz1 0 nn 6 zz2 9 zero_pos 49
+zz1 9 nn 9 zz2 7 zero_pos 50
+Hit 1  9
+zz1 2 nn 6 zz2 5 zero_pos 51
+zz1 2 nn 7 zz2 4 zero_pos 52
+zz1 6 nn 1 zz2 9 zero_pos 53
+zz1 1 nn 6 zz2 6 zero_pos 54
+hit 2 6
+zz1 2 nn 5 zz2 9 zero_pos 55
+zz1 5 nn 3 zz2 7 zero_pos 56
+zz1 2 nn 0 zz2 2 zero_pos 57
+zz1 4 nn 5 zz2 7 zero_pos 58
+zz1 7 nn 1 zz2 6 zero_pos 59
+zz1 7 nn 3 zz2 8 zero_pos 60
+zz1 3 nn 2 zz2 5 zero_pos 61
+zz1 6 nn 4 zz2 0 zero_pos 62
+zz1 5 nn 3 zz2 3 zero_pos 63
+hit 2 3
+zz1 9 nn 2 zz2 0 zero_pos 64
+zz1 5 nn 1 zz2 6 zero_pos 65
+zz1 5 nn 9 zz2 2 zero_pos 66
+zz1 1 nn 6 zz2 0 zero_pos 67
+zz1 8 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 0 nn 5 zz2 2 zero_pos 69
+zz1 1 nn 4 zz2 6 zero_pos 70
+zz1 6 nn 4 zz2 3 zero_pos 71
+zz1 9 nn 4 zz2 1 zero_pos 72
+zz1 7 nn 2 zz2 2 zero_pos 73
+hit 2 2
+zz1 5 nn 8 zz2 1 zero_pos 74
+zz1 2 nn 3 zz2 2 zero_pos 75
+zz1 3 nn 1 zz2 7 zero_pos 76
+zz1 3 nn 0 zz2 3 zero_pos 77
+zz1 4 nn 2 zz2 8 zero_pos 78
+zz1 6 nn 2 zz2 3 zero_pos 79
+zz1 1 nn 1 zz2 0 zero_pos 80
+Hit 1  1
+zz1 2 nn 2 zz2 4 zero_pos 81
+Hit 1  2
+zz1 1 nn 1 zz2 6 zero_pos 0
+Hit 1  1
+zz1 3 nn 1 zz2 2 zero_pos 1
+zz1 9 nn 7 zz2 9 zero_pos 2
+zz1 7 nn 7 zz2 3 zero_pos 3
+Hit 1  7
+zz1 7 nn 7 zz2 9 zero_pos 4
+Hit 1  7
+zz1 3 nn 3 zz2 3 zero_pos 5
+Hit 1  3
+hit 2 3
+numerator sum 64		denominator sum 64
+numerator count 15		denominator count 14
+total count 29
+Common Hit 3
+zz1 1 nn 6 zz2 0 zero_pos 6
+zz1 6 nn 8 zz2 2 zero_pos 7
+zz1 0 nn 1 zz2 5 zero_pos 8
+zz1 0 nn 3 zz2 6 zero_pos 9
+zz1 5 nn 1 zz2 5 zero_pos 10
+zz1 3 nn 9 zz2 4 zero_pos 11
+zz1 5 nn 7 zz2 1 zero_pos 12
+zz1 4 nn 1 zz2 4 zero_pos 13
+zz1 1 nn 4 zz2 3 zero_pos 14
+zz1 2 nn 5 zz2 8 zero_pos 15
+zz1 5 nn 5 zz2 2 zero_pos 16
+Hit 1  5
+zz1 9 nn 6 zz2 3 zero_pos 17
+zz1 2 nn 0 zz2 7 zero_pos 18
+zz1 6 nn 1 zz2 4 zero_pos 19
+zz1 7 nn 4 zz2 4 zero_pos 20
+hit 2 4
+zz1 4 nn 8 zz2 3 zero_pos 21
+zz1 7 nn 3 zz2 3 zero_pos 22
+hit 2 3
+zz1 4 nn 9 zz2 3 zero_pos 23
+zz1 5 nn 4 zz2 4 zero_pos 24
+hit 2 4
+zz1 5 nn 8 zz2 4 zero_pos 25
+zz1 7 nn 7 zz2 0 zero_pos 26
+Hit 1  7
+zz1 2 nn 2 zz2 2 zero_pos 27
+Hit 1  2
+hit 2 2
+numerator sum 14		denominator sum 13
+numerator count 3		denominator count 4
+total count 7
+Common Hit 2
+zz1 5 nn 3 zz2 2 zero_pos 28
+zz1 8 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 7 nn 1 zz2 2 zero_pos 30
+zz1 7 nn 7 zz2 4 zero_pos 31
+Hit 1  7
+zz1 8 nn 9 zz2 8 zero_pos 32
+zz1 0 nn 6 zz2 0 zero_pos 33
+zz1 1 nn 7 zz2 0 zero_pos 34
+zz1 4 nn 9 zz2 4 zero_pos 35
+zz1 7 nn 9 zz2 5 zero_pos 36
+zz1 2 nn 7 zz2 3 zero_pos 37
+zz1 6 nn 9 zz2 3 zero_pos 38
+zz1 0 nn 5 zz2 4 zero_pos 39
+zz1 9 nn 6 zz2 3 zero_pos 40
+zz1 8 nn 7 zz2 8 zero_pos 41
+zz1 3 nn 9 zz2 8 zero_pos 42
+zz1 0 nn 5 zz2 3 zero_pos 43
+zz1 8 nn 1 zz2 0 zero_pos 44
+zz1 0 nn 3 zz2 7 zero_pos 45
+zz1 8 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 9 nn 9 zz2 8 zero_pos 47
+Hit 1  9
+zz1 7 nn 6 zz2 3 zero_pos 48
+zz1 8 nn 6 zz2 8 zero_pos 49
+zz1 6 nn 9 zz2 7 zero_pos 50
+zz1 0 nn 6 zz2 3 zero_pos 51
+zz1 0 nn 7 zz2 1 zero_pos 52
+zz1 7 nn 1 zz2 2 zero_pos 53
+zz1 1 nn 6 zz2 6 zero_pos 54
+hit 2 6
+zz1 2 nn 5 zz2 0 zero_pos 55
+zz1 5 nn 3 zz2 2 zero_pos 56
+zz1 3 nn 0 zz2 3 zero_pos 57
+zz1 2 nn 5 zz2 0 zero_pos 58
+zz1 0 nn 1 zz2 6 zero_pos 59
+zz1 8 nn 3 zz2 5 zero_pos 60
+zz1 7 nn 2 zz2 4 zero_pos 61
+zz1 5 nn 4 zz2 7 zero_pos 62
+zz1 0 nn 3 zz2 5 zero_pos 63
+zz1 9 nn 2 zz2 3 zero_pos 64
+zz1 3 nn 1 zz2 4 zero_pos 65
+zz1 9 nn 9 zz2 8 zero_pos 66
+Hit 1  9
+zz1 5 nn 6 zz2 3 zero_pos 67
+zz1 9 nn 0 zz2 7 zero_pos 68
+zz1 9 nn 5 zz2 8 zero_pos 69
+zz1 7 nn 4 zz2 6 zero_pos 70
+zz1 9 nn 4 zz2 8 zero_pos 71
+zz1 6 nn 4 zz2 0 zero_pos 72
+zz1 6 nn 2 zz2 1 zero_pos 73
+zz1 6 nn 8 zz2 1 zero_pos 74
+zz1 6 nn 3 zz2 8 zero_pos 75
+zz1 0 nn 1 zz2 2 zero_pos 76
+zz1 6 nn 0 zz2 7 zero_pos 77
+zz1 7 nn 2 zz2 8 zero_pos 78
+zz1 5 nn 2 zz2 9 zero_pos 79
+zz1 3 nn 1 zz2 3 zero_pos 80
+zz1 7 nn 2 zz2 1 zero_pos 81
+zz1 8 nn 1 zz2 7 zero_pos 0
+zz1 3 nn 1 zz2 5 zero_pos 1
+zz1 8 nn 7 zz2 2 zero_pos 2
+zz1 1 nn 7 zz2 0 zero_pos 3
+zz1 2 nn 7 zz2 0 zero_pos 4
+zz1 1 nn 3 zz2 1 zero_pos 5
+zz1 4 nn 6 zz2 0 zero_pos 6
+zz1 8 nn 8 zz2 6 zero_pos 7
+Hit 1  8
+zz1 9 nn 1 zz2 9 zero_pos 8
+zz1 1 nn 3 zz2 0 zero_pos 9
+zz1 9 nn 1 zz2 0 zero_pos 10
+zz1 0 nn 9 zz2 5 zero_pos 11
+zz1 8 nn 7 zz2 6 zero_pos 12
+zz1 8 nn 1 zz2 0 zero_pos 13
+zz1 6 nn 4 zz2 1 zero_pos 14
+zz1 4 nn 5 zz2 6 zero_pos 15
+zz1 9 nn 5 zz2 5 zero_pos 16
+hit 2 5
+zz1 7 nn 6 zz2 4 zero_pos 17
+zz1 7 nn 0 zz2 4 zero_pos 18
+zz1 2 nn 1 zz2 1 zero_pos 19
+hit 2 1
+zz1 7 nn 4 zz2 5 zero_pos 20
+zz1 7 nn 8 zz2 2 zero_pos 21
+zz1 5 nn 3 zz2 8 zero_pos 22
+zz1 5 nn 9 zz2 1 zero_pos 23
+zz1 4 nn 4 zz2 1 zero_pos 24
+Hit 1  4
+zz1 4 nn 8 zz2 0 zero_pos 25
+zz1 2 nn 7 zz2 5 zero_pos 26
+zz1 0 nn 2 zz2 0 zero_pos 27
+zz1 6 nn 3 zz2 9 zero_pos 28
+zz1 5 nn 0 zz2 7 zero_pos 29
+zz1 6 nn 1 zz2 0 zero_pos 30
+zz1 5 nn 7 zz2 6 zero_pos 31
+zz1 3 nn 9 zz2 3 zero_pos 32
+zz1 2 nn 6 zz2 7 zero_pos 33
+zz1 0 nn 7 zz2 5 zero_pos 34
+zz1 5 nn 9 zz2 9 zero_pos 35
+hit 2 9
+zz1 2 nn 9 zz2 3 zero_pos 36
+zz1 4 nn 7 zz2 2 zero_pos 37
+zz1 0 nn 9 zz2 2 zero_pos 38
+zz1 5 nn 5 zz2 8 zero_pos 39
+Hit 1  5
+zz1 1 nn 6 zz2 1 zero_pos 40
+zz1 8 nn 7 zz2 5 zero_pos 41
+zz1 0 nn 9 zz2 3 zero_pos 42
+zz1 1 nn 5 zz2 4 zero_pos 43
+zz1 4 nn 1 zz2 7 zero_pos 44
+zz1 5 nn 3 zz2 4 zero_pos 45
+zz1 5 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 5 nn 9 zz2 6 zero_pos 47
+zz1 9 nn 6 zz2 6 zero_pos 48
+hit 2 6
+zz1 6 nn 6 zz2 9 zero_pos 49
+Hit 1  6
+zz1 9 nn 9 zz2 9 zero_pos 50
+Hit 1  9
+hit 2 9
+numerator sum 57		denominator sum 40
+numerator count 8		denominator count 9
+total count 17
+Common Hit 9
+zz1 5 nn 6 zz2 1 zero_pos 51
+zz1 7 nn 7 zz2 3 zero_pos 52
+Hit 1  7
+zz1 1 nn 1 zz2 3 zero_pos 53
+Hit 1  1
+zz1 7 nn 6 zz2 0 zero_pos 54
+zz1 6 nn 5 zz2 0 zero_pos 55
+zz1 6 nn 3 zz2 1 zero_pos 56
+zz1 7 nn 0 zz2 0 zero_pos 57
+hit 2 0
+zz1 4 nn 5 zz2 8 zero_pos 58
+zz1 9 nn 1 zz2 0 zero_pos 59
+zz1 3 nn 3 zz2 9 zero_pos 60
+Hit 1  3
+zz1 0 nn 2 zz2 1 zero_pos 61
+zz1 7 nn 4 zz2 0 zero_pos 62
+zz1 9 nn 3 zz2 8 zero_pos 63
+zz1 3 nn 2 zz2 8 zero_pos 64
+zz1 8 nn 1 zz2 7 zero_pos 65
+zz1 2 nn 9 zz2 8 zero_pos 66
+zz1 5 nn 6 zz2 1 zero_pos 67
+zz1 8 nn 0 zz2 2 zero_pos 68
+zz1 9 nn 5 zz2 9 zero_pos 69
+zz1 2 nn 4 zz2 4 zero_pos 70
+hit 2 4
+zz1 1 nn 4 zz2 4 zero_pos 71
+hit 2 4
+zz1 8 nn 4 zz2 8 zero_pos 72
+zz1 1 nn 2 zz2 6 zero_pos 73
+zz1 6 nn 8 zz2 7 zero_pos 74
+zz1 7 nn 3 zz2 8 zero_pos 75
+zz1 1 nn 1 zz2 2 zero_pos 76
+Hit 1  1
+zz1 5 nn 0 zz2 2 zero_pos 77
+zz1 2 nn 2 zz2 3 zero_pos 78
+Hit 1  2
+zz1 8 nn 2 zz2 6 zero_pos 79
+zz1 8 nn 1 zz2 8 zero_pos 80
+zz1 4 nn 2 zz2 0 zero_pos 81
+zz1 1 nn 1 zz2 3 zero_pos 0
+Hit 1  1
+zz1 7 nn 1 zz2 9 zero_pos 1
+zz1 3 nn 7 zz2 6 zero_pos 2
+zz1 1 nn 7 zz2 9 zero_pos 3
+zz1 2 nn 7 zz2 1 zero_pos 4
+zz1 2 nn 3 zz2 7 zero_pos 5
+zz1 1 nn 6 zz2 3 zero_pos 6
+zz1 3 nn 8 zz2 7 zero_pos 7
+zz1 7 nn 1 zz2 7 zero_pos 8
+zz1 4 nn 3 zz2 4 zero_pos 9
+zz1 6 nn 1 zz2 5 zero_pos 10
+zz1 5 nn 9 zz2 2 zero_pos 11
+zz1 6 nn 7 zz2 1 zero_pos 12
+zz1 2 nn 1 zz2 2 zero_pos 13
+zz1 2 nn 4 zz2 2 zero_pos 14
+zz1 8 nn 5 zz2 4 zero_pos 15
+zz1 5 nn 5 zz2 0 zero_pos 16
+Hit 1  5
+zz1 1 nn 6 zz2 1 zero_pos 17
+zz1 1 nn 0 zz2 9 zero_pos 18
+zz1 1 nn 1 zz2 8 zero_pos 19
+Hit 1  1
+zz1 6 nn 4 zz2 6 zero_pos 20
+zz1 1 nn 8 zz2 7 zero_pos 21
+zz1 9 nn 3 zz2 0 zero_pos 22
+zz1 1 nn 9 zz2 0 zero_pos 23
+zz1 0 nn 4 zz2 4 zero_pos 24
+hit 2 4
+zz1 7 nn 8 zz2 7 zero_pos 25
+zz1 1 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 2 nn 2 zz2 2 zero_pos 27
+Hit 1  2
+hit 2 2
+numerator sum 23		denominator sum 21
+numerator count 9		denominator count 6
+total count 15
+Common Hit 2
+zz1 1 nn 3 zz2 7 zero_pos 28
+zz1 3 nn 0 zz2 8 zero_pos 29
+zz1 0 nn 1 zz2 7 zero_pos 30
+zz1 2 nn 7 zz2 1 zero_pos 31
+zz1 8 nn 9 zz2 5 zero_pos 32
+zz1 0 nn 6 zz2 8 zero_pos 33
+zz1 7 nn 7 zz2 3 zero_pos 34
+Hit 1  7
+zz1 3 nn 9 zz2 7 zero_pos 35
+zz1 3 nn 9 zz2 2 zero_pos 36
+zz1 7 nn 7 zz2 8 zero_pos 37
+Hit 1  7
+zz1 0 nn 9 zz2 5 zero_pos 38
+zz1 9 nn 5 zz2 3 zero_pos 39
+zz1 5 nn 6 zz2 4 zero_pos 40
+zz1 2 nn 7 zz2 6 zero_pos 41
+zz1 6 nn 9 zz2 4 zero_pos 42
+zz1 3 nn 5 zz2 7 zero_pos 43
+zz1 7 nn 1 zz2 0 zero_pos 44
+zz1 7 nn 3 zz2 7 zero_pos 45
+zz1 1 nn 2 zz2 4 zero_pos 46
+zz1 4 nn 9 zz2 6 zero_pos 47
+zz1 7 nn 6 zz2 2 zero_pos 48
+zz1 0 nn 6 zz2 1 zero_pos 49
+zz1 9 nn 9 zz2 7 zero_pos 50
+Hit 1  9
+zz1 4 nn 6 zz2 1 zero_pos 51
+zz1 0 nn 7 zz2 6 zero_pos 52
+zz1 9 nn 1 zz2 0 zero_pos 53
+zz1 5 nn 6 zz2 8 zero_pos 54
+zz1 8 nn 5 zz2 3 zero_pos 55
+zz1 4 nn 3 zz2 1 zero_pos 56
+zz1 6 nn 0 zz2 7 zero_pos 57
+zz1 9 nn 5 zz2 3 zero_pos 58
+zz1 0 nn 1 zz2 0 zero_pos 59
+zz1 8 nn 3 zz2 3 zero_pos 60
+hit 2 3
+zz1 5 nn 2 zz2 1 zero_pos 61
+zz1 3 nn 4 zz2 4 zero_pos 62
+hit 2 4
+zz1 1 nn 3 zz2 0 zero_pos 63
+zz1 6 nn 2 zz2 0 zero_pos 64
+zz1 9 nn 1 zz2 1 zero_pos 65
+hit 2 1
+zz1 1 nn 9 zz2 5 zero_pos 66
+zz1 8 nn 6 zz2 2 zero_pos 67
+zz1 3 nn 0 zz2 8 zero_pos 68
+zz1 1 nn 5 zz2 8 zero_pos 69
+zz1 3 nn 4 zz2 3 zero_pos 70
+zz1 1 nn 4 zz2 3 zero_pos 71
+zz1 0 nn 4 zz2 1 zero_pos 72
+zz1 1 nn 2 zz2 9 zero_pos 73
+zz1 5 nn 8 zz2 0 zero_pos 74
+zz1 8 nn 3 zz2 8 zero_pos 75
+zz1 3 nn 1 zz2 7 zero_pos 76
+zz1 6 nn 0 zz2 4 zero_pos 77
+zz1 7 nn 2 zz2 1 zero_pos 78
+zz1 1 nn 2 zz2 1 zero_pos 79
+zz1 1 nn 1 zz2 6 zero_pos 80
+Hit 1  1
+zz1 8 nn 2 zz2 6 zero_pos 81
+zz1 0 nn 1 zz2 0 zero_pos 0
+zz1 8 nn 1 zz2 7 zero_pos 1
+zz1 5 nn 7 zz2 3 zero_pos 2
+zz1 8 nn 7 zz2 7 zero_pos 3
+hit 2 7
+zz1 5 nn 7 zz2 8 zero_pos 4
+zz1 7 nn 3 zz2 0 zero_pos 5
+zz1 2 nn 6 zz2 3 zero_pos 6
+zz1 4 nn 8 zz2 7 zero_pos 7
+zz1 3 nn 1 zz2 4 zero_pos 8
+zz1 2 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 1 nn 1 zz2 6 zero_pos 10
+Hit 1  1
+zz1 3 nn 9 zz2 6 zero_pos 11
+zz1 5 nn 7 zz2 5 zero_pos 12
+zz1 1 nn 1 zz2 5 zero_pos 13
+Hit 1  1
+zz1 8 nn 4 zz2 3 zero_pos 14
+zz1 4 nn 5 zz2 1 zero_pos 15
+zz1 6 nn 5 zz2 6 zero_pos 16
+zz1 6 nn 6 zz2 7 zero_pos 17
+Hit 1  6
+zz1 2 nn 0 zz2 4 zero_pos 18
+zz1 0 nn 1 zz2 5 zero_pos 19
+zz1 7 nn 4 zz2 8 zero_pos 20
+zz1 5 nn 8 zz2 9 zero_pos 21
+zz1 2 nn 3 zz2 5 zero_pos 22
+zz1 4 nn 9 zz2 5 zero_pos 23
+zz1 5 nn 4 zz2 0 zero_pos 24
+zz1 7 nn 8 zz2 5 zero_pos 25
+zz1 1 nn 7 zz2 2 zero_pos 26
+zz1 3 nn 2 zz2 3 zero_pos 27
+zz1 9 nn 3 zz2 2 zero_pos 28
+zz1 5 nn 0 zz2 6 zero_pos 29
+zz1 0 nn 1 zz2 0 zero_pos 30
+zz1 9 nn 7 zz2 1 zero_pos 31
+zz1 8 nn 9 zz2 3 zero_pos 32
+zz1 3 nn 6 zz2 7 zero_pos 33
+zz1 7 nn 7 zz2 8 zero_pos 34
+Hit 1  7
+zz1 9 nn 9 zz2 8 zero_pos 35
+Hit 1  9
+zz1 2 nn 9 zz2 2 zero_pos 36
+zz1 2 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 6 nn 9 zz2 0 zero_pos 38
+zz1 5 nn 5 zz2 9 zero_pos 39
+Hit 1  5
+zz1 2 nn 6 zz2 5 zero_pos 40
+zz1 7 nn 7 zz2 6 zero_pos 41
+Hit 1  7
+zz1 9 nn 9 zz2 2 zero_pos 42
+Hit 1  9
+zz1 3 nn 5 zz2 4 zero_pos 43
+zz1 8 nn 1 zz2 9 zero_pos 44
+zz1 6 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 3 nn 2 zz2 5 zero_pos 46
+zz1 4 nn 9 zz2 7 zero_pos 47
+zz1 0 nn 6 zz2 7 zero_pos 48
+zz1 7 nn 6 zz2 6 zero_pos 49
+hit 2 6
+zz1 4 nn 9 zz2 1 zero_pos 50
+zz1 4 nn 6 zz2 8 zero_pos 51
+zz1 2 nn 7 zz2 2 zero_pos 52
+zz1 9 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 1 nn 6 zz2 7 zero_pos 54
+zz1 2 nn 5 zz2 5 zero_pos 55
+hit 2 5
+zz1 2 nn 3 zz2 8 zero_pos 56
+zz1 1 nn 0 zz2 5 zero_pos 57
+zz1 4 nn 5 zz2 6 zero_pos 58
+zz1 6 nn 1 zz2 8 zero_pos 59
+zz1 0 nn 3 zz2 5 zero_pos 60
+zz1 2 nn 2 zz2 3 zero_pos 61
+Hit 1  2
+zz1 0 nn 4 zz2 8 zero_pos 62
+zz1 0 nn 3 zz2 0 zero_pos 63
+zz1 0 nn 2 zz2 7 zero_pos 64
+zz1 8 nn 1 zz2 7 zero_pos 65
+zz1 1 nn 9 zz2 3 zero_pos 66
+zz1 3 nn 6 zz2 4 zero_pos 67
+zz1 0 nn 0 zz2 2 zero_pos 68
+Hit 1  0
+zz1 8 nn 5 zz2 4 zero_pos 69
+zz1 8 nn 4 zz2 1 zero_pos 70
+zz1 3 nn 4 zz2 8 zero_pos 71
+zz1 1 nn 4 zz2 4 zero_pos 72
+hit 2 4
+zz1 6 nn 2 zz2 1 zero_pos 73
+zz1 3 nn 8 zz2 8 zero_pos 74
+hit 2 8
+zz1 1 nn 3 zz2 1 zero_pos 75
+zz1 5 nn 1 zz2 9 zero_pos 76
+zz1 7 nn 0 zz2 8 zero_pos 77
+zz1 4 nn 2 zz2 4 zero_pos 78
+zz1 0 nn 2 zz2 1 zero_pos 79
+zz1 4 nn 1 zz2 8 zero_pos 80
+zz1 3 nn 2 zz2 0 zero_pos 81
+zz1 6 nn 1 zz2 8 zero_pos 0
+zz1 9 nn 1 zz2 6 zero_pos 1
+zz1 9 nn 7 zz2 4 zero_pos 2
+zz1 9 nn 7 zz2 8 zero_pos 3
+zz1 7 nn 7 zz2 2 zero_pos 4
+Hit 1  7
+zz1 5 nn 3 zz2 3 zero_pos 5
+hit 2 3
+zz1 6 nn 6 zz2 3 zero_pos 6
+Hit 1  6
+zz1 2 nn 8 zz2 2 zero_pos 7
+zz1 5 nn 1 zz2 0 zero_pos 8
+zz1 6 nn 3 zz2 0 zero_pos 9
+zz1 6 nn 1 zz2 8 zero_pos 10
+zz1 8 nn 9 zz2 3 zero_pos 11
+zz1 6 nn 7 zz2 3 zero_pos 12
+zz1 5 nn 1 zz2 3 zero_pos 13
+zz1 4 nn 4 zz2 2 zero_pos 14
+Hit 1  4
+zz1 8 nn 5 zz2 6 zero_pos 15
+zz1 1 nn 5 zz2 7 zero_pos 16
+zz1 2 nn 6 zz2 6 zero_pos 17
+hit 2 6
+zz1 7 nn 0 zz2 4 zero_pos 18
+zz1 2 nn 1 zz2 3 zero_pos 19
+zz1 3 nn 4 zz2 0 zero_pos 20
+zz1 6 nn 8 zz2 1 zero_pos 21
+zz1 8 nn 3 zz2 0 zero_pos 22
+zz1 8 nn 9 zz2 1 zero_pos 23
+zz1 0 nn 4 zz2 0 zero_pos 24
+zz1 8 nn 8 zz2 0 zero_pos 25
+Hit 1  8
+zz1 9 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 0 nn 2 zz2 0 zero_pos 27
+zz1 3 nn 3 zz2 0 zero_pos 28
+Hit 1  3
+zz1 7 nn 0 zz2 3 zero_pos 29
+zz1 9 nn 1 zz2 5 zero_pos 30
+zz1 9 nn 7 zz2 6 zero_pos 31
+zz1 9 nn 9 zz2 5 zero_pos 32
+Hit 1  9
+zz1 7 nn 6 zz2 3 zero_pos 33
+zz1 6 nn 7 zz2 5 zero_pos 34
+zz1 3 nn 9 zz2 1 zero_pos 35
+zz1 2 nn 9 zz2 0 zero_pos 36
+zz1 1 nn 7 zz2 8 zero_pos 37
+zz1 7 nn 9 zz2 9 zero_pos 38
+hit 2 9
+zz1 3 nn 5 zz2 3 zero_pos 39
+zz1 4 nn 6 zz2 9 zero_pos 40
+zz1 0 nn 7 zz2 4 zero_pos 41
+zz1 1 nn 9 zz2 4 zero_pos 42
+zz1 6 nn 5 zz2 9 zero_pos 43
+zz1 6 nn 1 zz2 0 zero_pos 44
+zz1 7 nn 3 zz2 9 zero_pos 45
+zz1 0 nn 2 zz2 4 zero_pos 46
+zz1 7 nn 9 zz2 5 zero_pos 47
+zz1 7 nn 6 zz2 1 zero_pos 48
+zz1 8 nn 6 zz2 4 zero_pos 49
+zz1 0 nn 9 zz2 1 zero_pos 50
+zz1 7 nn 6 zz2 2 zero_pos 51
+zz1 0 nn 7 zz2 6 zero_pos 52
+zz1 8 nn 1 zz2 5 zero_pos 53
+zz1 3 nn 6 zz2 4 zero_pos 54
+zz1 1 nn 5 zz2 3 zero_pos 55
+zz1 9 nn 3 zz2 9 zero_pos 56
+zz1 0 nn 0 zz2 4 zero_pos 57
+Hit 1  0
+zz1 2 nn 5 zz2 8 zero_pos 58
+zz1 0 nn 1 zz2 7 zero_pos 59
+zz1 0 nn 3 zz2 2 zero_pos 60
+zz1 9 nn 2 zz2 8 zero_pos 61
+zz1 6 nn 4 zz2 3 zero_pos 62
+zz1 1 nn 3 zz2 6 zero_pos 63
+zz1 4 nn 2 zz2 5 zero_pos 64
+zz1 8 nn 1 zz2 2 zero_pos 65
+zz1 6 nn 9 zz2 2 zero_pos 66
+zz1 4 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 2 nn 0 zz2 6 zero_pos 68
+zz1 9 nn 5 zz2 6 zero_pos 69
+zz1 3 nn 4 zz2 9 zero_pos 70
+zz1 6 nn 4 zz2 8 zero_pos 71
+zz1 8 nn 4 zz2 0 zero_pos 72
+zz1 6 nn 2 zz2 3 zero_pos 73
+zz1 5 nn 8 zz2 4 zero_pos 74
+zz1 7 nn 3 zz2 7 zero_pos 75
+zz1 3 nn 1 zz2 6 zero_pos 76
+zz1 8 nn 0 zz2 5 zero_pos 77
+zz1 0 nn 2 zz2 4 zero_pos 78
+zz1 9 nn 2 zz2 6 zero_pos 79
+zz1 5 nn 1 zz2 3 zero_pos 80
+zz1 1 nn 2 zz2 4 zero_pos 81
+zz1 7 nn 1 zz2 7 zero_pos 0
+zz1 7 nn 1 zz2 6 zero_pos 1
+zz1 3 nn 7 zz2 9 zero_pos 2
+zz1 1 nn 7 zz2 8 zero_pos 3
+zz1 2 nn 7 zz2 7 zero_pos 4
+hit 2 7
+zz1 9 nn 3 zz2 9 zero_pos 5
+zz1 6 nn 6 zz2 1 zero_pos 6
+Hit 1  6
+zz1 4 nn 8 zz2 1 zero_pos 7
+zz1 9 nn 1 zz2 0 zero_pos 8
+zz1 3 nn 3 zz2 7 zero_pos 9
+Hit 1  3
+zz1 3 nn 1 zz2 4 zero_pos 10
+zz1 8 nn 9 zz2 0 zero_pos 11
+zz1 7 nn 7 zz2 5 zero_pos 12
+Hit 1  7
+zz1 4 nn 1 zz2 1 zero_pos 13
+hit 2 1
+zz1 4 nn 4 zz2 1 zero_pos 14
+Hit 1  4
+zz1 6 nn 5 zz2 7 zero_pos 15
+zz1 5 nn 5 zz2 0 zero_pos 16
+Hit 1  5
+zz1 8 nn 6 zz2 2 zero_pos 17
+zz1 6 nn 0 zz2 1 zero_pos 18
+zz1 5 nn 1 zz2 2 zero_pos 19
+zz1 1 nn 4 zz2 1 zero_pos 20
+zz1 2 nn 8 zz2 2 zero_pos 21
+zz1 8 nn 3 zz2 0 zero_pos 22
+zz1 8 nn 9 zz2 1 zero_pos 23
+zz1 3 nn 4 zz2 2 zero_pos 24
+zz1 3 nn 8 zz2 6 zero_pos 25
+zz1 8 nn 7 zz2 4 zero_pos 26
+zz1 2 nn 2 zz2 0 zero_pos 27
+Hit 1  2
+zz1 9 nn 3 zz2 2 zero_pos 28
+zz1 0 nn 0 zz2 3 zero_pos 29
+Hit 1  0
+zz1 7 nn 1 zz2 0 zero_pos 30
+zz1 8 nn 7 zz2 5 zero_pos 31
+zz1 5 nn 9 zz2 7 zero_pos 32
+zz1 8 nn 6 zz2 7 zero_pos 33
+zz1 7 nn 7 zz2 1 zero_pos 34
+Hit 1  7
+zz1 0 nn 9 zz2 7 zero_pos 35
+zz1 1 nn 9 zz2 3 zero_pos 36
+zz1 9 nn 7 zz2 9 zero_pos 37
+zz1 5 nn 9 zz2 2 zero_pos 38
+zz1 9 nn 5 zz2 8 zero_pos 39
+zz1 5 nn 6 zz2 0 zero_pos 40
+zz1 1 nn 7 zz2 0 zero_pos 41
+zz1 6 nn 9 zz2 7 zero_pos 42
+zz1 8 nn 5 zz2 4 zero_pos 43
+zz1 9 nn 1 zz2 9 zero_pos 44
+zz1 7 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 8 nn 2 zz2 9 zero_pos 46
+zz1 9 nn 9 zz2 8 zero_pos 47
+Hit 1  9
+zz1 9 nn 6 zz2 8 zero_pos 48
+zz1 3 nn 6 zz2 9 zero_pos 49
+zz1 7 nn 9 zz2 4 zero_pos 50
+zz1 6 nn 6 zz2 2 zero_pos 51
+Hit 1  6
+zz1 7 nn 7 zz2 5 zero_pos 52
+Hit 1  7
+zz1 0 nn 1 zz2 2 zero_pos 53
+zz1 3 nn 6 zz2 2 zero_pos 54
+zz1 0 nn 5 zz2 3 zero_pos 55
+zz1 1 nn 3 zz2 8 zero_pos 56
+zz1 4 nn 0 zz2 4 zero_pos 57
+zz1 7 nn 5 zz2 5 zero_pos 58
+hit 2 5
+zz1 1 nn 1 zz2 9 zero_pos 59
+Hit 1  1
+zz1 7 nn 3 zz2 1 zero_pos 60
+zz1 0 nn 2 zz2 8 zero_pos 61
+zz1 5 nn 4 zz2 2 zero_pos 62
+zz1 9 nn 3 zz2 8 zero_pos 63
+zz1 0 nn 2 zz2 6 zero_pos 64
+zz1 3 nn 1 zz2 1 zero_pos 65
+hit 2 1
+zz1 8 nn 9 zz2 9 zero_pos 66
+hit 2 9
+zz1 5 nn 6 zz2 3 zero_pos 67
+zz1 2 nn 0 zz2 4 zero_pos 68
+zz1 9 nn 5 zz2 4 zero_pos 69
+zz1 6 nn 4 zz2 2 zero_pos 70
+zz1 2 nn 4 zz2 1 zero_pos 71
+zz1 0 nn 4 zz2 1 zero_pos 72
+zz1 9 nn 2 zz2 1 zero_pos 73
+zz1 6 nn 8 zz2 1 zero_pos 74
+zz1 5 nn 3 zz2 8 zero_pos 75
+zz1 5 nn 1 zz2 0 zero_pos 76
+zz1 8 nn 0 zz2 3 zero_pos 77
+zz1 0 nn 2 zz2 5 zero_pos 78
+zz1 6 nn 2 zz2 4 zero_pos 79
+zz1 4 nn 1 zz2 2 zero_pos 80
+zz1 9 nn 2 zz2 5 zero_pos 81
+zz1 3 nn 1 zz2 9 zero_pos 0
+zz1 7 nn 1 zz2 5 zero_pos 1
+zz1 0 nn 7 zz2 0 zero_pos 2
+zz1 1 nn 7 zz2 0 zero_pos 3
+zz1 6 nn 7 zz2 6 zero_pos 4
+zz1 7 nn 3 zz2 4 zero_pos 5
+zz1 5 nn 6 zz2 1 zero_pos 6
+zz1 2 nn 8 zz2 6 zero_pos 7
+zz1 7 nn 1 zz2 3 zero_pos 8
+zz1 8 nn 3 zz2 1 zero_pos 9
+zz1 4 nn 1 zz2 0 zero_pos 10
+zz1 3 nn 9 zz2 5 zero_pos 11
+zz1 6 nn 7 zz2 2 zero_pos 12
+zz1 0 nn 1 zz2 1 zero_pos 13
+hit 2 1
+zz1 1 nn 4 zz2 4 zero_pos 14
+hit 2 4
+zz1 4 nn 5 zz2 0 zero_pos 15
+zz1 4 nn 5 zz2 7 zero_pos 16
+zz1 8 nn 6 zz2 8 zero_pos 17
+zz1 0 nn 0 zz2 0 zero_pos 18
+Hit 1  0
+hit 2 0
+numerator sum 165		denominator sum 114
+numerator count 34		denominator count 26
+total count 60
+Common Hit 0
+zz1 5 nn 1 zz2 5 zero_pos 19
+zz1 5 nn 4 zz2 1 zero_pos 20
+zz1 7 nn 8 zz2 9 zero_pos 21
+zz1 8 nn 3 zz2 5 zero_pos 22
+zz1 4 nn 9 zz2 1 zero_pos 23
+zz1 1 nn 4 zz2 1 zero_pos 24
+zz1 7 nn 8 zz2 4 zero_pos 25
+zz1 4 nn 7 zz2 4 zero_pos 26
+zz1 5 nn 2 zz2 2 zero_pos 27
+hit 2 2
+zz1 6 nn 3 zz2 4 zero_pos 28
+zz1 7 nn 0 zz2 8 zero_pos 29
+zz1 1 nn 1 zz2 0 zero_pos 30
+Hit 1  1
+zz1 9 nn 7 zz2 2 zero_pos 31
+zz1 9 nn 9 zz2 2 zero_pos 32
+Hit 1  9
+zz1 9 nn 6 zz2 3 zero_pos 33
+zz1 2 nn 7 zz2 6 zero_pos 34
+zz1 3 nn 9 zz2 3 zero_pos 35
+zz1 2 nn 9 zz2 3 zero_pos 36
+zz1 4 nn 7 zz2 0 zero_pos 37
+zz1 1 nn 9 zz2 1 zero_pos 38
+zz1 7 nn 5 zz2 8 zero_pos 39
+zz1 7 nn 6 zz2 8 zero_pos 40
+zz1 5 nn 7 zz2 3 zero_pos 41
+zz1 7 nn 9 zz2 4 zero_pos 42
+zz1 1 nn 5 zz2 5 zero_pos 43
+hit 2 5
+zz1 1 nn 1 zz2 3 zero_pos 44
+Hit 1  1
+zz1 4 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 2 nn 2 zz2 7 zero_pos 46
+Hit 1  2
+zz1 0 nn 9 zz2 4 zero_pos 47
+zz1 7 nn 6 zz2 4 zero_pos 48
+zz1 5 nn 6 zz2 7 zero_pos 49
+zz1 0 nn 9 zz2 1 zero_pos 50
+zz1 3 nn 6 zz2 5 zero_pos 51
+zz1 8 nn 7 zz2 5 zero_pos 52
+zz1 7 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 8 nn 6 zz2 5 zero_pos 54
+zz1 5 nn 5 zz2 4 zero_pos 55
+Hit 1  5
+zz1 6 nn 3 zz2 3 zero_pos 56
+hit 2 3
+zz1 8 nn 0 zz2 6 zero_pos 57
+zz1 2 nn 5 zz2 6 zero_pos 58
+zz1 4 nn 1 zz2 7 zero_pos 59
+zz1 6 nn 3 zz2 6 zero_pos 60
+zz1 4 nn 2 zz2 0 zero_pos 61
+zz1 0 nn 4 zz2 4 zero_pos 62
+hit 2 4
+zz1 4 nn 3 zz2 9 zero_pos 63
+zz1 5 nn 2 zz2 4 zero_pos 64
+zz1 4 nn 1 zz2 8 zero_pos 65
+zz1 6 nn 9 zz2 5 zero_pos 66
+zz1 7 nn 6 zz2 4 zero_pos 67
+zz1 1 nn 0 zz2 3 zero_pos 68
+zz1 2 nn 5 zz2 3 zero_pos 69
+zz1 3 nn 4 zz2 7 zero_pos 70
+zz1 1 nn 4 zz2 3 zero_pos 71
+zz1 5 nn 4 zz2 8 zero_pos 72
+zz1 7 nn 2 zz2 6 zero_pos 73
+zz1 7 nn 8 zz2 5 zero_pos 74
+zz1 8 nn 3 zz2 3 zero_pos 75
+hit 2 3
+zz1 7 nn 1 zz2 9 zero_pos 76
+zz1 9 nn 0 zz2 0 zero_pos 77
+hit 2 0
+zz1 0 nn 2 zz2 0 zero_pos 78
+zz1 8 nn 2 zz2 1 zero_pos 79
+zz1 7 nn 1 zz2 6 zero_pos 80
+zz1 3 nn 2 zz2 5 zero_pos 81
+zz1 5 nn 1 zz2 2 zero_pos 0
+zz1 8 nn 1 zz2 7 zero_pos 1
+zz1 6 nn 7 zz2 5 zero_pos 2
+zz1 3 nn 7 zz2 5 zero_pos 3
+zz1 6 nn 7 zz2 5 zero_pos 4
+zz1 4 nn 3 zz2 8 zero_pos 5
+zz1 1 nn 6 zz2 3 zero_pos 6
+zz1 9 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 0 nn 1 zz2 2 zero_pos 8
+zz1 9 nn 3 zz2 2 zero_pos 9
+zz1 7 nn 1 zz2 3 zero_pos 10
+zz1 0 nn 9 zz2 9 zero_pos 11
+hit 2 9
+zz1 8 nn 7 zz2 5 zero_pos 12
+zz1 1 nn 1 zz2 5 zero_pos 13
+Hit 1  1
+zz1 0 nn 4 zz2 2 zero_pos 14
+zz1 4 nn 5 zz2 7 zero_pos 15
+zz1 4 nn 5 zz2 6 zero_pos 16
+zz1 1 nn 6 zz2 8 zero_pos 17
+zz1 8 nn 0 zz2 0 zero_pos 18
+hit 2 0
+zz1 6 nn 1 zz2 3 zero_pos 19
+zz1 3 nn 4 zz2 5 zero_pos 20
+zz1 7 nn 8 zz2 0 zero_pos 21
+zz1 3 nn 3 zz2 4 zero_pos 22
+Hit 1  3
+zz1 8 nn 9 zz2 1 zero_pos 23
+zz1 2 nn 4 zz2 3 zero_pos 24
+zz1 3 nn 8 zz2 7 zero_pos 25
+zz1 6 nn 7 zz2 1 zero_pos 26
+zz1 3 nn 2 zz2 7 zero_pos 27
+zz1 5 nn 3 zz2 6 zero_pos 28
+zz1 7 nn 0 zz2 3 zero_pos 29
+zz1 3 nn 1 zz2 0 zero_pos 30
+zz1 3 nn 7 zz2 1 zero_pos 31
+zz1 6 nn 9 zz2 8 zero_pos 32
+zz1 9 nn 6 zz2 3 zero_pos 33
+zz1 9 nn 7 zz2 0 zero_pos 34
+zz1 3 nn 9 zz2 6 zero_pos 35
+zz1 9 nn 9 zz2 6 zero_pos 36
+Hit 1  9
+zz1 7 nn 7 zz2 0 zero_pos 37
+Hit 1  7
+zz1 4 nn 9 zz2 4 zero_pos 38
+zz1 2 nn 5 zz2 9 zero_pos 39
+zz1 9 nn 6 zz2 6 zero_pos 40
+hit 2 6
+zz1 7 nn 7 zz2 7 zero_pos 41
+Hit 1  7
+hit 2 7
+numerator sum 45		denominator sum 51
+numerator count 10		denominator count 13
+total count 23
+Common Hit 7
+zz1 0 nn 9 zz2 7 zero_pos 42
+zz1 6 nn 5 zz2 0 zero_pos 43
+zz1 3 nn 1 zz2 5 zero_pos 44
+zz1 4 nn 3 zz2 8 zero_pos 45
+zz1 8 nn 2 zz2 0 zero_pos 46
+zz1 8 nn 9 zz2 1 zero_pos 47
+zz1 4 nn 6 zz2 8 zero_pos 48
+zz1 8 nn 6 zz2 8 zero_pos 49
+zz1 3 nn 9 zz2 1 zero_pos 50
+zz1 7 nn 6 zz2 5 zero_pos 51
+zz1 0 nn 7 zz2 9 zero_pos 52
+zz1 3 nn 1 zz2 5 zero_pos 53
+zz1 1 nn 6 zz2 7 zero_pos 54
+zz1 6 nn 5 zz2 7 zero_pos 55
+zz1 2 nn 3 zz2 5 zero_pos 56
+zz1 8 nn 0 zz2 6 zero_pos 57
+zz1 7 nn 5 zz2 8 zero_pos 58
+zz1 8 nn 1 zz2 4 zero_pos 59
+zz1 3 nn 3 zz2 4 zero_pos 60
+Hit 1  3
+zz1 1 nn 2 zz2 7 zero_pos 61
+zz1 2 nn 4 zz2 3 zero_pos 62
+zz1 9 nn 3 zz2 9 zero_pos 63
+zz1 4 nn 2 zz2 7 zero_pos 64
+zz1 1 nn 1 zz2 3 zero_pos 65
+Hit 1  1
+zz1 9 nn 9 zz2 7 zero_pos 66
+Hit 1  9
+zz1 0 nn 6 zz2 3 zero_pos 67
+zz1 2 nn 0 zz2 1 zero_pos 68
+zz1 5 nn 5 zz2 1 zero_pos 69
+Hit 1  5
+zz1 7 nn 4 zz2 9 zero_pos 70
+zz1 9 nn 4 zz2 7 zero_pos 71
+zz1 7 nn 4 zz2 5 zero_pos 72
+zz1 8 nn 2 zz2 7 zero_pos 73
+zz1 5 nn 8 zz2 5 zero_pos 74
+zz1 1 nn 3 zz2 3 zero_pos 75
+hit 2 3
+zz1 7 nn 1 zz2 0 zero_pos 76
+zz1 6 nn 0 zz2 8 zero_pos 77
+zz1 6 nn 2 zz2 2 zero_pos 78
+hit 2 2
+zz1 3 nn 2 zz2 5 zero_pos 79
+zz1 2 nn 1 zz2 1 zero_pos 80
+hit 2 1
+zz1 7 nn 2 zz2 0 zero_pos 81
+zz1 1 nn 1 zz2 3 zero_pos 0
+Hit 1  1
+zz1 0 nn 1 zz2 0 zero_pos 1
+zz1 4 nn 7 zz2 8 zero_pos 2
+zz1 6 nn 7 zz2 9 zero_pos 3
+zz1 1 nn 7 zz2 2 zero_pos 4
+zz1 0 nn 3 zz2 8 zero_pos 5
+zz1 6 nn 6 zz2 5 zero_pos 6
+Hit 1  6
+zz1 2 nn 8 zz2 9 zero_pos 7
+zz1 8 nn 1 zz2 4 zero_pos 8
+zz1 7 nn 3 zz2 7 zero_pos 9
+zz1 5 nn 1 zz2 2 zero_pos 10
+zz1 8 nn 9 zz2 3 zero_pos 11
+zz1 9 nn 7 zz2 9 zero_pos 12
+zz1 4 nn 1 zz2 7 zero_pos 13
+zz1 8 nn 4 zz2 3 zero_pos 14
+zz1 0 nn 5 zz2 5 zero_pos 15
+hit 2 5
+zz1 3 nn 5 zz2 0 zero_pos 16
+zz1 9 nn 6 zz2 0 zero_pos 17
+zz1 6 nn 0 zz2 5 zero_pos 18
+zz1 8 nn 1 zz2 2 zero_pos 19
+zz1 5 nn 4 zz2 9 zero_pos 20
+zz1 7 nn 8 zz2 8 zero_pos 21
+hit 2 8
+zz1 1 nn 3 zz2 0 zero_pos 22
+zz1 6 nn 9 zz2 9 zero_pos 23
+hit 2 9
+zz1 6 nn 4 zz2 3 zero_pos 24
+zz1 4 nn 8 zz2 3 zero_pos 25
+zz1 9 nn 7 zz2 1 zero_pos 26
+zz1 3 nn 2 zz2 4 zero_pos 27
+zz1 2 nn 3 zz2 5 zero_pos 28
+zz1 5 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 1 nn 1 zz2 0 zero_pos 30
+Hit 1  1
+zz1 6 nn 7 zz2 8 zero_pos 31
+zz1 5 nn 9 zz2 3 zero_pos 32
+zz1 5 nn 6 zz2 9 zero_pos 33
+zz1 5 nn 7 zz2 8 zero_pos 34
+zz1 9 nn 9 zz2 3 zero_pos 35
+Hit 1  9
+zz1 3 nn 9 zz2 7 zero_pos 36
+zz1 9 nn 7 zz2 5 zero_pos 37
+zz1 8 nn 9 zz2 3 zero_pos 38
+zz1 8 nn 5 zz2 9 zero_pos 39
+zz1 3 nn 6 zz2 8 zero_pos 40
+zz1 3 nn 7 zz2 7 zero_pos 41
+hit 2 7
+zz1 8 nn 9 zz2 6 zero_pos 42
+zz1 9 nn 5 zz2 5 zero_pos 43
+hit 2 5
+zz1 9 nn 1 zz2 6 zero_pos 44
+zz1 8 nn 3 zz2 1 zero_pos 45
+zz1 6 nn 2 zz2 5 zero_pos 46
+zz1 3 nn 9 zz2 7 zero_pos 47
+zz1 0 nn 6 zz2 9 zero_pos 48
+zz1 1 nn 6 zz2 5 zero_pos 49
+zz1 4 nn 9 zz2 8 zero_pos 50
+zz1 4 nn 6 zz2 0 zero_pos 51
+zz1 1 nn 7 zz2 0 zero_pos 52
+zz1 9 nn 1 zz2 4 zero_pos 53
+zz1 5 nn 6 zz2 3 zero_pos 54
+zz1 1 nn 5 zz2 7 zero_pos 55
+zz1 3 nn 3 zz2 3 zero_pos 56
+Hit 1  3
+hit 2 3
+numerator sum 38		denominator sum 43
+numerator count 9		denominator count 10
+total count 19
+Common Hit 3
+zz1 6 nn 0 zz2 4 zero_pos 57
+zz1 7 nn 5 zz2 1 zero_pos 58
+zz1 3 nn 1 zz2 0 zero_pos 59
+zz1 7 nn 3 zz2 1 zero_pos 60
+zz1 3 nn 2 zz2 8 zero_pos 61
+zz1 9 nn 4 zz2 9 zero_pos 62
+zz1 9 nn 3 zz2 1 zero_pos 63
+zz1 8 nn 2 zz2 8 zero_pos 64
+zz1 7 nn 1 zz2 3 zero_pos 65
+zz1 6 nn 9 zz2 4 zero_pos 66
+zz1 1 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 5 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 1 nn 5 zz2 2 zero_pos 69
+zz1 3 nn 4 zz2 3 zero_pos 70
+zz1 6 nn 4 zz2 0 zero_pos 71
+zz1 6 nn 4 zz2 9 zero_pos 72
+zz1 5 nn 2 zz2 5 zero_pos 73
+zz1 5 nn 8 zz2 9 zero_pos 74
+zz1 9 nn 3 zz2 4 zero_pos 75
+zz1 7 nn 1 zz2 4 zero_pos 76
+zz1 2 nn 0 zz2 8 zero_pos 77
+zz1 6 nn 2 zz2 8 zero_pos 78
+zz1 3 nn 2 zz2 3 zero_pos 79
+zz1 6 nn 1 zz2 4 zero_pos 80
+zz1 4 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 0 nn 1 zz2 8 zero_pos 0
+zz1 1 nn 1 zz2 7 zero_pos 1
+Hit 1  1
+zz1 4 nn 7 zz2 7 zero_pos 2
+hit 2 7
+zz1 4 nn 7 zz2 3 zero_pos 3
+zz1 1 nn 7 zz2 4 zero_pos 4
+zz1 2 nn 3 zz2 8 zero_pos 5
+zz1 7 nn 6 zz2 2 zero_pos 6
+zz1 1 nn 8 zz2 1 zero_pos 7
+zz1 5 nn 1 zz2 6 zero_pos 8
+zz1 2 nn 3 zz2 8 zero_pos 9
+zz1 1 nn 1 zz2 7 zero_pos 10
+Hit 1  1
+zz1 4 nn 9 zz2 9 zero_pos 11
+hit 2 9
+zz1 9 nn 7 zz2 4 zero_pos 12
+zz1 7 nn 1 zz2 5 zero_pos 13
+zz1 1 nn 4 zz2 1 zero_pos 14
+zz1 5 nn 5 zz2 0 zero_pos 15
+Hit 1  5
+zz1 2 nn 5 zz2 8 zero_pos 16
+zz1 9 nn 6 zz2 1 zero_pos 17
+zz1 0 nn 0 zz2 7 zero_pos 18
+Hit 1  0
+zz1 4 nn 1 zz2 9 zero_pos 19
+zz1 4 nn 4 zz2 5 zero_pos 20
+Hit 1  4
+zz1 6 nn 8 zz2 0 zero_pos 21
+zz1 1 nn 3 zz2 8 zero_pos 22
+zz1 6 nn 9 zz2 1 zero_pos 23
+zz1 3 nn 4 zz2 7 zero_pos 24
+zz1 7 nn 8 zz2 4 zero_pos 25
+zz1 7 nn 7 zz2 0 zero_pos 26
+Hit 1  7
+zz1 5 nn 2 zz2 9 zero_pos 27
+zz1 9 nn 3 zz2 7 zero_pos 28
+zz1 4 nn 0 zz2 2 zero_pos 29
+zz1 1 nn 1 zz2 5 zero_pos 30
+Hit 1  1
+zz1 7 nn 7 zz2 2 zero_pos 31
+Hit 1  7
+zz1 4 nn 9 zz2 3 zero_pos 32
+zz1 1 nn 6 zz2 5 zero_pos 33
+zz1 2 nn 7 zz2 4 zero_pos 34
+zz1 6 nn 9 zz2 5 zero_pos 35
+zz1 5 nn 9 zz2 1 zero_pos 36
+zz1 8 nn 7 zz2 1 zero_pos 37
+zz1 9 nn 9 zz2 5 zero_pos 38
+Hit 1  9
+zz1 8 nn 5 zz2 0 zero_pos 39
+zz1 3 nn 6 zz2 5 zero_pos 40
+zz1 1 nn 7 zz2 9 zero_pos 41
+zz1 5 nn 9 zz2 6 zero_pos 42
+zz1 9 nn 5 zz2 7 zero_pos 43
+zz1 0 nn 1 zz2 0 zero_pos 44
+zz1 1 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 8 nn 2 zz2 9 zero_pos 46
+zz1 7 nn 9 zz2 5 zero_pos 47
+zz1 5 nn 6 zz2 6 zero_pos 48
+hit 2 6
+zz1 8 nn 6 zz2 3 zero_pos 49
+zz1 6 nn 9 zz2 2 zero_pos 50
+zz1 9 nn 6 zz2 2 zero_pos 51
+zz1 0 nn 7 zz2 3 zero_pos 52
+zz1 3 nn 1 zz2 7 zero_pos 53
+zz1 1 nn 6 zz2 1 zero_pos 54
+zz1 7 nn 5 zz2 6 zero_pos 55
+zz1 0 nn 3 zz2 9 zero_pos 56
+zz1 9 nn 0 zz2 1 zero_pos 57
+zz1 4 nn 5 zz2 7 zero_pos 58
+zz1 6 nn 1 zz2 3 zero_pos 59
+zz1 5 nn 3 zz2 3 zero_pos 60
+hit 2 3
+zz1 3 nn 2 zz2 3 zero_pos 61
+zz1 9 nn 4 zz2 6 zero_pos 62
+zz1 3 nn 3 zz2 2 zero_pos 63
+Hit 1  3
+zz1 8 nn 2 zz2 6 zero_pos 64
+zz1 5 nn 1 zz2 6 zero_pos 65
+zz1 9 nn 9 zz2 1 zero_pos 66
+Hit 1  9
+zz1 9 nn 6 zz2 2 zero_pos 67
+zz1 6 nn 0 zz2 6 zero_pos 68
+zz1 1 nn 5 zz2 6 zero_pos 69
+zz1 5 nn 4 zz2 1 zero_pos 70
+zz1 7 nn 4 zz2 8 zero_pos 71
+zz1 9 nn 4 zz2 0 zero_pos 72
+zz1 7 nn 2 zz2 4 zero_pos 73
+zz1 9 nn 8 zz2 1 zero_pos 74
+zz1 0 nn 3 zz2 9 zero_pos 75
+zz1 6 nn 1 zz2 7 zero_pos 76
+zz1 0 nn 0 zz2 1 zero_pos 77
+Hit 1  0
+zz1 0 nn 2 zz2 7 zero_pos 78
+zz1 9 nn 2 zz2 4 zero_pos 79
+zz1 0 nn 1 zz2 2 zero_pos 80
+zz1 5 nn 2 zz2 9 zero_pos 81
+zz1 6 nn 1 zz2 7 zero_pos 0
+zz1 9 nn 1 zz2 6 zero_pos 1
+zz1 2 nn 7 zz2 7 zero_pos 2
+hit 2 7
+zz1 6 nn 7 zz2 0 zero_pos 3
+zz1 9 nn 7 zz2 6 zero_pos 4
+zz1 3 nn 3 zz2 3 zero_pos 5
+Hit 1  3
+hit 2 3
+numerator sum 50		denominator sum 46
+numerator count 13		denominator count 10
+total count 23
+Common Hit 3
+zz1 6 nn 6 zz2 1 zero_pos 6
+Hit 1  6
+zz1 3 nn 8 zz2 5 zero_pos 7
+zz1 0 nn 1 zz2 5 zero_pos 8
+zz1 1 nn 3 zz2 0 zero_pos 9
+zz1 8 nn 1 zz2 9 zero_pos 10
+zz1 4 nn 9 zz2 2 zero_pos 11
+zz1 3 nn 7 zz2 9 zero_pos 12
+zz1 2 nn 1 zz2 7 zero_pos 13
+zz1 1 nn 4 zz2 9 zero_pos 14
+zz1 2 nn 5 zz2 0 zero_pos 15
+zz1 2 nn 5 zz2 9 zero_pos 16
+zz1 0 nn 6 zz2 3 zero_pos 17
+zz1 2 nn 0 zz2 4 zero_pos 18
+zz1 3 nn 1 zz2 8 zero_pos 19
+zz1 8 nn 4 zz2 9 zero_pos 20
+zz1 3 nn 8 zz2 6 zero_pos 21
+zz1 2 nn 3 zz2 7 zero_pos 22
+zz1 9 nn 9 zz2 7 zero_pos 23
+Hit 1  9
+zz1 2 nn 4 zz2 3 zero_pos 24
+zz1 1 nn 8 zz2 6 zero_pos 25
+zz1 6 nn 7 zz2 3 zero_pos 26
+zz1 0 nn 2 zz2 4 zero_pos 27
+zz1 2 nn 3 zz2 9 zero_pos 28
+zz1 4 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 5 nn 1 zz2 4 zero_pos 30
+zz1 2 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 3 nn 9 zz2 0 zero_pos 32
+zz1 3 nn 6 zz2 8 zero_pos 33
+zz1 9 nn 7 zz2 4 zero_pos 34
+zz1 1 nn 9 zz2 2 zero_pos 35
+zz1 8 nn 9 zz2 0 zero_pos 36
+zz1 6 nn 7 zz2 0 zero_pos 37
+zz1 4 nn 9 zz2 6 zero_pos 38
+zz1 9 nn 5 zz2 8 zero_pos 39
+zz1 8 nn 6 zz2 3 zero_pos 40
+zz1 5 nn 7 zz2 8 zero_pos 41
+zz1 3 nn 9 zz2 5 zero_pos 42
+zz1 1 nn 5 zz2 1 zero_pos 43
+zz1 7 nn 1 zz2 9 zero_pos 44
+zz1 8 nn 3 zz2 8 zero_pos 45
+zz1 0 nn 2 zz2 5 zero_pos 46
+zz1 9 nn 9 zz2 7 zero_pos 47
+Hit 1  9
+zz1 6 nn 6 zz2 4 zero_pos 48
+Hit 1  6
+zz1 1 nn 6 zz2 5 zero_pos 49
+zz1 6 nn 9 zz2 4 zero_pos 50
+zz1 1 nn 6 zz2 3 zero_pos 51
+zz1 2 nn 7 zz2 0 zero_pos 52
+zz1 7 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 0 nn 6 zz2 5 zero_pos 54
+zz1 5 nn 5 zz2 9 zero_pos 55
+Hit 1  5
+zz1 1 nn 3 zz2 8 zero_pos 56
+zz1 2 nn 0 zz2 8 zero_pos 57
+zz1 4 nn 5 zz2 7 zero_pos 58
+zz1 0 nn 1 zz2 8 zero_pos 59
+zz1 1 nn 3 zz2 5 zero_pos 60
+zz1 5 nn 2 zz2 1 zero_pos 61
+zz1 3 nn 4 zz2 8 zero_pos 62
+zz1 6 nn 3 zz2 0 zero_pos 63
+zz1 1 nn 2 zz2 8 zero_pos 64
+zz1 9 nn 1 zz2 8 zero_pos 65
+zz1 4 nn 9 zz2 0 zero_pos 66
+zz1 7 nn 6 zz2 0 zero_pos 67
+zz1 2 nn 0 zz2 3 zero_pos 68
+zz1 3 nn 5 zz2 0 zero_pos 69
+zz1 4 nn 4 zz2 5 zero_pos 70
+Hit 1  4
+zz1 9 nn 4 zz2 2 zero_pos 71
+zz1 4 nn 4 zz2 5 zero_pos 72
+Hit 1  4
+zz1 2 nn 2 zz2 2 zero_pos 73
+Hit 1  2
+hit 2 2
+numerator sum 45		denominator sum 10
+numerator count 8		denominator count 4
+total count 12
+Common Hit 2
+zz1 6 nn 8 zz2 2 zero_pos 74
+zz1 9 nn 3 zz2 5 zero_pos 75
+zz1 4 nn 1 zz2 6 zero_pos 76
+zz1 4 nn 0 zz2 1 zero_pos 77
+zz1 6 nn 2 zz2 8 zero_pos 78
+zz1 4 nn 2 zz2 7 zero_pos 79
+zz1 7 nn 1 zz2 5 zero_pos 80
+zz1 6 nn 2 zz2 1 zero_pos 81
+zz1 8 nn 1 zz2 5 zero_pos 0
+zz1 7 nn 1 zz2 8 zero_pos 1
+zz1 2 nn 7 zz2 4 zero_pos 2
+zz1 3 nn 7 zz2 5 zero_pos 3
+zz1 1 nn 7 zz2 6 zero_pos 4
+zz1 0 nn 3 zz2 7 zero_pos 5
+zz1 9 nn 6 zz2 7 zero_pos 6
+zz1 0 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 2 nn 1 zz2 9 zero_pos 8
+zz1 7 nn 3 zz2 0 zero_pos 9
+zz1 2 nn 1 zz2 1 zero_pos 10
+hit 2 1
+zz1 7 nn 9 zz2 9 zero_pos 11
+hit 2 9
+zz1 0 nn 7 zz2 9 zero_pos 12
+zz1 0 nn 1 zz2 2 zero_pos 13
+zz1 9 nn 4 zz2 9 zero_pos 14
+zz1 3 nn 5 zz2 9 zero_pos 15
+zz1 4 nn 5 zz2 5 zero_pos 16
+hit 2 5
+zz1 0 nn 6 zz2 3 zero_pos 17
+zz1 1 nn 0 zz2 0 zero_pos 18
+hit 2 0
+zz1 0 nn 1 zz2 9 zero_pos 19
+zz1 7 nn 4 zz2 4 zero_pos 20
+hit 2 4
+zz1 6 nn 8 zz2 7 zero_pos 21
+zz1 0 nn 3 zz2 1 zero_pos 22
+zz1 9 nn 9 zz2 2 zero_pos 23
+Hit 1  9
+zz1 5 nn 4 zz2 1 zero_pos 24
+zz1 0 nn 8 zz2 6 zero_pos 25
+zz1 0 nn 7 zz2 4 zero_pos 26
+zz1 6 nn 2 zz2 4 zero_pos 27
+zz1 3 nn 3 zz2 8 zero_pos 28
+Hit 1  3
+zz1 8 nn 0 zz2 2 zero_pos 29
+zz1 2 nn 1 zz2 3 zero_pos 30
+zz1 4 nn 7 zz2 9 zero_pos 31
+zz1 7 nn 9 zz2 9 zero_pos 32
+hit 2 9
+zz1 1 nn 6 zz2 1 zero_pos 33
+zz1 8 nn 7 zz2 8 zero_pos 34
+zz1 2 nn 9 zz2 1 zero_pos 35
+zz1 4 nn 9 zz2 2 zero_pos 36
+zz1 5 nn 7 zz2 8 zero_pos 37
+zz1 2 nn 9 zz2 6 zero_pos 38
+zz1 7 nn 5 zz2 1 zero_pos 39
+zz1 5 nn 6 zz2 0 zero_pos 40
+zz1 7 nn 7 zz2 6 zero_pos 41
+Hit 1  7
+zz1 6 nn 9 zz2 3 zero_pos 42
+zz1 4 nn 5 zz2 2 zero_pos 43
+zz1 0 nn 1 zz2 4 zero_pos 44
+zz1 6 nn 3 zz2 0 zero_pos 45
+zz1 0 nn 2 zz2 3 zero_pos 46
+zz1 1 nn 9 zz2 5 zero_pos 47
+zz1 0 nn 6 zz2 4 zero_pos 48
+zz1 2 nn 6 zz2 3 zero_pos 49
+zz1 6 nn 9 zz2 2 zero_pos 50
+zz1 7 nn 6 zz2 4 zero_pos 51
+zz1 6 nn 7 zz2 9 zero_pos 52
+zz1 0 nn 1 zz2 4 zero_pos 53
+zz1 6 nn 6 zz2 8 zero_pos 54
+Hit 1  6
+zz1 0 nn 5 zz2 6 zero_pos 55
+zz1 7 nn 3 zz2 6 zero_pos 56
+zz1 4 nn 0 zz2 0 zero_pos 57
+hit 2 0
+zz1 6 nn 5 zz2 0 zero_pos 58
+zz1 8 nn 1 zz2 3 zero_pos 59
+zz1 4 nn 3 zz2 1 zero_pos 60
+zz1 2 nn 2 zz2 2 zero_pos 61
+Hit 1  2
+hit 2 2
+numerator sum 27		denominator sum 38
+numerator count 5		denominator count 9
+total count 14
+Common Hit 2
+zz1 5 nn 4 zz2 1 zero_pos 62
+zz1 2 nn 3 zz2 2 zero_pos 63
+zz1 8 nn 2 zz2 6 zero_pos 64
+zz1 9 nn 1 zz2 7 zero_pos 65
+zz1 6 nn 9 zz2 3 zero_pos 66
+zz1 8 nn 6 zz2 4 zero_pos 67
+zz1 8 nn 0 zz2 9 zero_pos 68
+zz1 5 nn 5 zz2 3 zero_pos 69
+Hit 1  5
+zz1 9 nn 4 zz2 1 zero_pos 70
+zz1 4 nn 4 zz2 9 zero_pos 71
+Hit 1  4
+zz1 2 nn 4 zz2 5 zero_pos 72
+zz1 5 nn 2 zz2 0 zero_pos 73
+zz1 1 nn 8 zz2 0 zero_pos 74
+zz1 2 nn 3 zz2 2 zero_pos 75
+zz1 5 nn 1 zz2 1 zero_pos 76
+hit 2 1
+zz1 0 nn 0 zz2 1 zero_pos 77
+Hit 1  0
+zz1 7 nn 2 zz2 3 zero_pos 78
+zz1 3 nn 2 zz2 9 zero_pos 79
+zz1 9 nn 1 zz2 6 zero_pos 80
+zz1 6 nn 2 zz2 1 zero_pos 81
+zz1 4 nn 1 zz2 3 zero_pos 0
+zz1 9 nn 1 zz2 5 zero_pos 1
+zz1 4 nn 7 zz2 5 zero_pos 2
+zz1 8 nn 7 zz2 4 zero_pos 3
+zz1 9 nn 7 zz2 9 zero_pos 4
+zz1 4 nn 3 zz2 7 zero_pos 5
+zz1 1 nn 6 zz2 3 zero_pos 6
+zz1 1 nn 8 zz2 5 zero_pos 7
+zz1 4 nn 1 zz2 2 zero_pos 8
+zz1 4 nn 3 zz2 9 zero_pos 9
+zz1 3 nn 1 zz2 4 zero_pos 10
+zz1 7 nn 9 zz2 8 zero_pos 11
+zz1 0 nn 7 zz2 2 zero_pos 12
+zz1 9 nn 1 zz2 9 zero_pos 13
+zz1 6 nn 4 zz2 5 zero_pos 14
+zz1 4 nn 5 zz2 7 zero_pos 15
+zz1 8 nn 5 zz2 3 zero_pos 16
+zz1 6 nn 6 zz2 9 zero_pos 17
+Hit 1  6
+zz1 9 nn 0 zz2 1 zero_pos 18
+zz1 3 nn 1 zz2 8 zero_pos 19
+zz1 2 nn 4 zz2 3 zero_pos 20
+zz1 2 nn 8 zz2 8 zero_pos 21
+hit 2 8
+zz1 5 nn 3 zz2 9 zero_pos 22
+zz1 3 nn 9 zz2 3 zero_pos 23
+zz1 5 nn 4 zz2 6 zero_pos 24
+zz1 5 nn 8 zz2 1 zero_pos 25
+zz1 4 nn 7 zz2 2 zero_pos 26
+zz1 5 nn 2 zz2 7 zero_pos 27
+zz1 0 nn 3 zz2 7 zero_pos 28
+zz1 2 nn 0 zz2 6 zero_pos 29
+zz1 5 nn 1 zz2 5 zero_pos 30
+zz1 2 nn 7 zz2 0 zero_pos 31
+zz1 0 nn 9 zz2 8 zero_pos 32
+zz1 1 nn 6 zz2 8 zero_pos 33
+zz1 0 nn 7 zz2 8 zero_pos 34
+zz1 8 nn 9 zz2 0 zero_pos 35
+zz1 5 nn 9 zz2 1 zero_pos 36
+zz1 6 nn 7 zz2 8 zero_pos 37
+zz1 0 nn 9 zz2 0 zero_pos 38
+zz1 0 nn 5 zz2 4 zero_pos 39
+zz1 4 nn 6 zz2 5 zero_pos 40
+zz1 4 nn 7 zz2 7 zero_pos 41
+hit 2 7
+zz1 1 nn 9 zz2 6 zero_pos 42
+zz1 6 nn 5 zz2 3 zero_pos 43
+zz1 6 nn 1 zz2 8 zero_pos 44
+zz1 9 nn 3 zz2 6 zero_pos 45
+zz1 4 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 4 nn 9 zz2 3 zero_pos 47
+zz1 6 nn 6 zz2 2 zero_pos 48
+Hit 1  6
+zz1 4 nn 6 zz2 0 zero_pos 49
+zz1 0 nn 9 zz2 6 zero_pos 50
+zz1 1 nn 6 zz2 3 zero_pos 51
+zz1 8 nn 7 zz2 1 zero_pos 52
+zz1 6 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 8 nn 6 zz2 4 zero_pos 54
+zz1 9 nn 5 zz2 0 zero_pos 55
+zz1 1 nn 3 zz2 5 zero_pos 56
+zz1 0 nn 0 zz2 5 zero_pos 57
+Hit 1  0
+zz1 5 nn 5 zz2 3 zero_pos 58
+Hit 1  5
+zz1 5 nn 1 zz2 8 zero_pos 59
+zz1 1 nn 3 zz2 5 zero_pos 60
+zz1 7 nn 2 zz2 4 zero_pos 61
+zz1 1 nn 4 zz2 6 zero_pos 62
+zz1 3 nn 3 zz2 1 zero_pos 63
+Hit 1  3
+zz1 8 nn 2 zz2 7 zero_pos 64
+zz1 7 nn 1 zz2 6 zero_pos 65
+zz1 3 nn 9 zz2 0 zero_pos 66
+zz1 2 nn 6 zz2 8 zero_pos 67
+zz1 6 nn 0 zz2 8 zero_pos 68
+zz1 5 nn 5 zz2 9 zero_pos 69
+Hit 1  5
+zz1 6 nn 4 zz2 9 zero_pos 70
+zz1 0 nn 4 zz2 7 zero_pos 71
+zz1 0 nn 4 zz2 7 zero_pos 72
+zz1 9 nn 2 zz2 9 zero_pos 73
+zz1 5 nn 8 zz2 3 zero_pos 74
+zz1 6 nn 3 zz2 6 zero_pos 75
+zz1 8 nn 1 zz2 2 zero_pos 76
+zz1 7 nn 0 zz2 8 zero_pos 77
+zz1 8 nn 2 zz2 6 zero_pos 78
+zz1 0 nn 2 zz2 0 zero_pos 79
+zz1 5 nn 1 zz2 0 zero_pos 80
+zz1 6 nn 2 zz2 1 zero_pos 81
+zz1 8 nn 1 zz2 0 zero_pos 0
+zz1 9 nn 1 zz2 5 zero_pos 1
+zz1 2 nn 7 zz2 2 zero_pos 2
+zz1 3 nn 7 zz2 2 zero_pos 3
+zz1 2 nn 7 zz2 0 zero_pos 4
+zz1 4 nn 3 zz2 6 zero_pos 5
+zz1 0 nn 6 zz2 4 zero_pos 6
+zz1 2 nn 8 zz2 6 zero_pos 7
+zz1 8 nn 1 zz2 2 zero_pos 8
+zz1 4 nn 3 zz2 2 zero_pos 9
+zz1 0 nn 1 zz2 6 zero_pos 10
+zz1 9 nn 9 zz2 3 zero_pos 11
+Hit 1  9
+zz1 2 nn 7 zz2 3 zero_pos 12
+zz1 6 nn 1 zz2 7 zero_pos 13
+zz1 4 nn 4 zz2 0 zero_pos 14
+Hit 1  4
+zz1 9 nn 5 zz2 9 zero_pos 15
+zz1 6 nn 5 zz2 3 zero_pos 16
+zz1 3 nn 6 zz2 1 zero_pos 17
+zz1 2 nn 0 zz2 5 zero_pos 18
+zz1 7 nn 1 zz2 5 zero_pos 19
+zz1 4 nn 4 zz2 5 zero_pos 20
+Hit 1  4
+zz1 6 nn 8 zz2 4 zero_pos 21
+zz1 4 nn 3 zz2 3 zero_pos 22
+hit 2 3
+zz1 6 nn 9 zz2 9 zero_pos 23
+hit 2 9
+zz1 7 nn 4 zz2 6 zero_pos 24
+zz1 6 nn 8 zz2 3 zero_pos 25
+zz1 6 nn 7 zz2 3 zero_pos 26
+zz1 9 nn 2 zz2 3 zero_pos 27
+zz1 7 nn 3 zz2 8 zero_pos 28
+zz1 0 nn 0 zz2 1 zero_pos 29
+Hit 1  0
+zz1 9 nn 1 zz2 9 zero_pos 30
+zz1 4 nn 7 zz2 8 zero_pos 31
+zz1 1 nn 9 zz2 6 zero_pos 32
+zz1 7 nn 6 zz2 4 zero_pos 33
+zz1 1 nn 7 zz2 2 zero_pos 34
+zz1 2 nn 9 zz2 4 zero_pos 35
+zz1 3 nn 9 zz2 5 zero_pos 36
+zz1 4 nn 7 zz2 3 zero_pos 37
+zz1 3 nn 9 zz2 7 zero_pos 38
+zz1 5 nn 5 zz2 1 zero_pos 39
+Hit 1  5
+zz1 7 nn 6 zz2 0 zero_pos 40
+zz1 8 nn 7 zz2 2 zero_pos 41
+zz1 3 nn 9 zz2 6 zero_pos 42
+zz1 8 nn 5 zz2 9 zero_pos 43
+zz1 6 nn 1 zz2 3 zero_pos 44
+zz1 7 nn 3 zz2 9 zero_pos 45
+zz1 7 nn 2 zz2 8 zero_pos 46
+zz1 2 nn 9 zz2 3 zero_pos 47
+zz1 3 nn 6 zz2 8 zero_pos 48
+zz1 6 nn 6 zz2 2 zero_pos 49
+Hit 1  6
+zz1 7 nn 9 zz2 2 zero_pos 50
+zz1 1 nn 6 zz2 1 zero_pos 51
+zz1 2 nn 7 zz2 4 zero_pos 52
+zz1 0 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 0 nn 6 zz2 1 zero_pos 54
+zz1 8 nn 5 zz2 4 zero_pos 55
+zz1 3 nn 3 zz2 4 zero_pos 56
+Hit 1  3
+zz1 1 nn 0 zz2 5 zero_pos 57
+zz1 7 nn 5 zz2 4 zero_pos 58
+zz1 1 nn 1 zz2 1 zero_pos 59
+Hit 1  1
+hit 2 1
+numerator sum 66		denominator sum 33
+numerator count 17		denominator count 9
+total count 26
+Common Hit 1
+zz1 6 nn 3 zz2 9 zero_pos 60
+zz1 5 nn 2 zz2 2 zero_pos 61
+hit 2 2
+zz1 7 nn 4 zz2 8 zero_pos 62
+zz1 8 nn 3 zz2 5 zero_pos 63
+zz1 6 nn 2 zz2 1 zero_pos 64
+zz1 2 nn 1 zz2 3 zero_pos 65
+zz1 6 nn 9 zz2 4 zero_pos 66
+zz1 7 nn 6 zz2 9 zero_pos 67
+zz1 6 nn 0 zz2 4 zero_pos 68
+zz1 7 nn 5 zz2 7 zero_pos 69
+zz1 4 nn 4 zz2 6 zero_pos 70
+Hit 1  4
+zz1 3 nn 4 zz2 6 zero_pos 71
+zz1 2 nn 4 zz2 3 zero_pos 72
+zz1 3 nn 2 zz2 2 zero_pos 73
+hit 2 2
+zz1 6 nn 8 zz2 1 zero_pos 74
+zz1 1 nn 3 zz2 6 zero_pos 75
+zz1 3 nn 1 zz2 3 zero_pos 76
+zz1 6 nn 0 zz2 9 zero_pos 77
+zz1 4 nn 2 zz2 8 zero_pos 78
+zz1 1 nn 2 zz2 1 zero_pos 79
+zz1 4 nn 1 zz2 8 zero_pos 80
+zz1 4 nn 2 zz2 8 zero_pos 81
+zz1 6 nn 1 zz2 0 zero_pos 0
+zz1 7 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 0 nn 7 zz2 9 zero_pos 2
+zz1 4 nn 7 zz2 5 zero_pos 3
+zz1 7 nn 7 zz2 8 zero_pos 4
+Hit 1  7
+zz1 5 nn 3 zz2 0 zero_pos 5
+zz1 2 nn 6 zz2 3 zero_pos 6
+zz1 4 nn 8 zz2 3 zero_pos 7
+zz1 5 nn 1 zz2 4 zero_pos 8
+zz1 6 nn 3 zz2 2 zero_pos 9
+zz1 8 nn 1 zz2 8 zero_pos 10
+zz1 1 nn 9 zz2 1 zero_pos 11
+zz1 0 nn 7 zz2 6 zero_pos 12
+zz1 8 nn 1 zz2 2 zero_pos 13
+zz1 0 nn 4 zz2 5 zero_pos 14
+zz1 0 nn 5 zz2 1 zero_pos 15
+zz1 5 nn 5 zz2 9 zero_pos 16
+Hit 1  5
+zz1 3 nn 6 zz2 0 zero_pos 17
+zz1 6 nn 0 zz2 3 zero_pos 18
+zz1 3 nn 1 zz2 2 zero_pos 19
+zz1 3 nn 4 zz2 3 zero_pos 20
+zz1 1 nn 8 zz2 8 zero_pos 21
+hit 2 8
+zz1 5 nn 3 zz2 5 zero_pos 22
+zz1 6 nn 9 zz2 7 zero_pos 23
+zz1 8 nn 4 zz2 7 zero_pos 24
+zz1 7 nn 8 zz2 7 zero_pos 25
+zz1 9 nn 7 zz2 6 zero_pos 26
+zz1 2 nn 2 zz2 6 zero_pos 27
+Hit 1  2
+zz1 3 nn 3 zz2 6 zero_pos 28
+Hit 1  3
+zz1 9 nn 0 zz2 3 zero_pos 29
+zz1 8 nn 1 zz2 8 zero_pos 30
+zz1 4 nn 7 zz2 4 zero_pos 31
+zz1 3 nn 9 zz2 0 zero_pos 32
+zz1 3 nn 6 zz2 3 zero_pos 33
+zz1 0 nn 7 zz2 1 zero_pos 34
+zz1 0 nn 9 zz2 3 zero_pos 35
+zz1 2 nn 9 zz2 3 zero_pos 36
+zz1 9 nn 7 zz2 2 zero_pos 37
+zz1 4 nn 9 zz2 7 zero_pos 38
+zz1 8 nn 5 zz2 3 zero_pos 39
+zz1 9 nn 6 zz2 4 zero_pos 40
+zz1 2 nn 7 zz2 0 zero_pos 41
+zz1 4 nn 9 zz2 0 zero_pos 42
+zz1 3 nn 5 zz2 2 zero_pos 43
+zz1 0 nn 1 zz2 7 zero_pos 44
+zz1 2 nn 3 zz2 0 zero_pos 45
+zz1 3 nn 2 zz2 3 zero_pos 46
+zz1 0 nn 9 zz2 3 zero_pos 47
+zz1 2 nn 6 zz2 8 zero_pos 48
+zz1 3 nn 6 zz2 1 zero_pos 49
+zz1 8 nn 9 zz2 9 zero_pos 50
+hit 2 9
+zz1 5 nn 6 zz2 8 zero_pos 51
+zz1 3 nn 7 zz2 6 zero_pos 52
+zz1 1 nn 1 zz2 1 zero_pos 53
+Hit 1  1
+hit 2 1
+numerator sum 22		denominator sum 23
+numerator count 6		denominator count 6
+total count 12
+Common Hit 1
+zz1 8 nn 6 zz2 2 zero_pos 54
+zz1 8 nn 5 zz2 8 zero_pos 55
+zz1 1 nn 3 zz2 0 zero_pos 56
+zz1 0 nn 0 zz2 0 zero_pos 57
+Hit 1  0
+hit 2 0
+numerator sum 0		denominator sum 0
+numerator count 1		denominator count 1
+total count 2
+Common Hit 0
+zz1 9 nn 5 zz2 6 zero_pos 58
+zz1 2 nn 1 zz2 5 zero_pos 59
+zz1 7 nn 3 zz2 5 zero_pos 60
+zz1 7 nn 2 zz2 6 zero_pos 61
+zz1 8 nn 4 zz2 2 zero_pos 62
+zz1 6 nn 3 zz2 5 zero_pos 63
+zz1 9 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 6 nn 1 zz2 3 zero_pos 65
+zz1 3 nn 9 zz2 1 zero_pos 66
+zz1 5 nn 6 zz2 5 zero_pos 67
+zz1 4 nn 0 zz2 8 zero_pos 68
+zz1 2 nn 5 zz2 1 zero_pos 69
+zz1 4 nn 4 zz2 7 zero_pos 70
+Hit 1  4
+zz1 9 nn 4 zz2 3 zero_pos 71
+zz1 9 nn 4 zz2 0 zero_pos 72
+zz1 5 nn 2 zz2 6 zero_pos 73
+zz1 1 nn 8 zz2 0 zero_pos 74
+zz1 3 nn 3 zz2 3 zero_pos 75
+Hit 1  3
+hit 2 3
+numerator sum 7		denominator sum 5
+numerator count 2		denominator count 2
+total count 4
+Common Hit 3
+zz1 3 nn 1 zz2 9 zero_pos 76
+zz1 8 nn 0 zz2 8 zero_pos 77
+zz1 4 nn 2 zz2 4 zero_pos 78
+zz1 2 nn 2 zz2 5 zero_pos 79
+Hit 1  2
+zz1 2 nn 1 zz2 0 zero_pos 80
+zz1 5 nn 2 zz2 7 zero_pos 81
+zz1 5 nn 1 zz2 5 zero_pos 0
+zz1 2 nn 1 zz2 9 zero_pos 1
+zz1 4 nn 7 zz2 2 zero_pos 2
+zz1 6 nn 7 zz2 4 zero_pos 3
+zz1 8 nn 7 zz2 5 zero_pos 4
+zz1 5 nn 3 zz2 1 zero_pos 5
+zz1 2 nn 6 zz2 3 zero_pos 6
+zz1 2 nn 8 zz2 6 zero_pos 7
+zz1 5 nn 1 zz2 6 zero_pos 8
+zz1 1 nn 3 zz2 1 zero_pos 9
+zz1 3 nn 1 zz2 2 zero_pos 10
+zz1 2 nn 9 zz2 0 zero_pos 11
+zz1 4 nn 7 zz2 5 zero_pos 12
+zz1 7 nn 1 zz2 8 zero_pos 13
+zz1 3 nn 4 zz2 4 zero_pos 14
+hit 2 4
+zz1 9 nn 5 zz2 1 zero_pos 15
+zz1 8 nn 5 zz2 2 zero_pos 16
+zz1 2 nn 6 zz2 7 zero_pos 17
+zz1 4 nn 0 zz2 1 zero_pos 18
+zz1 2 nn 1 zz2 4 zero_pos 19
+zz1 7 nn 4 zz2 0 zero_pos 20
+zz1 7 nn 8 zz2 9 zero_pos 21
+zz1 5 nn 3 zz2 8 zero_pos 22
+zz1 3 nn 9 zz2 8 zero_pos 23
+zz1 9 nn 4 zz2 7 zero_pos 24
+zz1 2 nn 8 zz2 0 zero_pos 25
+zz1 8 nn 7 zz2 3 zero_pos 26
+zz1 5 nn 2 zz2 3 zero_pos 27
+zz1 5 nn 3 zz2 2 zero_pos 28
+zz1 1 nn 0 zz2 8 zero_pos 29
+zz1 6 nn 1 zz2 6 zero_pos 30
+zz1 8 nn 7 zz2 3 zero_pos 31
+zz1 3 nn 9 zz2 1 zero_pos 32
+zz1 9 nn 6 zz2 3 zero_pos 33
+zz1 5 nn 7 zz2 3 zero_pos 34
+zz1 0 nn 9 zz2 5 zero_pos 35
+zz1 5 nn 9 zz2 4 zero_pos 36
+zz1 3 nn 7 zz2 6 zero_pos 37
+zz1 1 nn 9 zz2 1 zero_pos 38
+zz1 9 nn 5 zz2 3 zero_pos 39
+zz1 6 nn 6 zz2 5 zero_pos 40
+Hit 1  6
+zz1 2 nn 7 zz2 9 zero_pos 41
+zz1 1 nn 9 zz2 0 zero_pos 42
+zz1 9 nn 5 zz2 9 zero_pos 43
+zz1 5 nn 1 zz2 8 zero_pos 44
+zz1 8 nn 3 zz2 4 zero_pos 45
+zz1 6 nn 2 zz2 5 zero_pos 46
+zz1 3 nn 9 zz2 2 zero_pos 47
+zz1 8 nn 6 zz2 9 zero_pos 48
+zz1 6 nn 6 zz2 5 zero_pos 49
+Hit 1  6
+zz1 9 nn 9 zz2 5 zero_pos 50
+Hit 1  9
+zz1 4 nn 6 zz2 2 zero_pos 51
+zz1 4 nn 7 zz2 6 zero_pos 52
+zz1 5 nn 1 zz2 6 zero_pos 53
+zz1 7 nn 6 zz2 4 zero_pos 54
+zz1 9 nn 5 zz2 6 zero_pos 55
+zz1 8 nn 3 zz2 0 zero_pos 56
+zz1 1 nn 0 zz2 9 zero_pos 57
+zz1 3 nn 5 zz2 3 zero_pos 58
+zz1 2 nn 1 zz2 7 zero_pos 59
+zz1 1 nn 3 zz2 3 zero_pos 60
+hit 2 3
+zz1 3 nn 2 zz2 1 zero_pos 61
+zz1 8 nn 4 zz2 3 zero_pos 62
+zz1 9 nn 3 zz2 9 zero_pos 63
+zz1 3 nn 2 zz2 3 zero_pos 64
+zz1 6 nn 1 zz2 9 zero_pos 65
+zz1 1 nn 9 zz2 8 zero_pos 66
+zz1 8 nn 6 zz2 3 zero_pos 67
+zz1 9 nn 0 zz2 9 zero_pos 68
+zz1 5 nn 5 zz2 1 zero_pos 69
+Hit 1  5
+zz1 2 nn 4 zz2 0 zero_pos 70
+zz1 4 nn 4 zz2 9 zero_pos 71
+Hit 1  4
+zz1 9 nn 4 zz2 8 zero_pos 72
+zz1 6 nn 2 zz2 2 zero_pos 73
+hit 2 2
+zz1 0 nn 8 zz2 3 zero_pos 74
+zz1 8 nn 3 zz2 6 zero_pos 75
+zz1 3 nn 1 zz2 9 zero_pos 76
+zz1 4 nn 0 zz2 7 zero_pos 77
+zz1 3 nn 2 zz2 3 zero_pos 78
+zz1 4 nn 2 zz2 3 zero_pos 79
+zz1 9 nn 1 zz2 1 zero_pos 80
+hit 2 1
+zz1 3 nn 2 zz2 9 zero_pos 81
+zz1 4 nn 1 zz2 2 zero_pos 0
+zz1 3 nn 1 zz2 9 zero_pos 1
+zz1 1 nn 7 zz2 7 zero_pos 2
+hit 2 7
+zz1 9 nn 7 zz2 1 zero_pos 3
+zz1 6 nn 7 zz2 4 zero_pos 4
+zz1 7 nn 3 zz2 9 zero_pos 5
+zz1 6 nn 6 zz2 1 zero_pos 6
+Hit 1  6
+zz1 6 nn 8 zz2 2 zero_pos 7
+zz1 5 nn 1 zz2 0 zero_pos 8
+zz1 1 nn 3 zz2 4 zero_pos 9
+zz1 8 nn 1 zz2 1 zero_pos 10
+hit 2 1
+zz1 5 nn 9 zz2 1 zero_pos 11
+zz1 1 nn 7 zz2 2 zero_pos 12
+zz1 4 nn 1 zz2 0 zero_pos 13
+zz1 3 nn 4 zz2 4 zero_pos 14
+hit 2 4
+zz1 5 nn 5 zz2 4 zero_pos 15
+Hit 1  5
+zz1 4 nn 5 zz2 6 zero_pos 16
+zz1 0 nn 6 zz2 7 zero_pos 17
+zz1 8 nn 0 zz2 5 zero_pos 18
+zz1 4 nn 1 zz2 3 zero_pos 19
+zz1 7 nn 4 zz2 9 zero_pos 20
+zz1 8 nn 8 zz2 6 zero_pos 21
+Hit 1  8
+zz1 3 nn 3 zz2 3 zero_pos 22
+Hit 1  3
+hit 2 3
+numerator sum 54		denominator sum 25
+numerator count 10		denominator count 8
+total count 18
+Common Hit 3
+zz1 2 nn 9 zz2 0 zero_pos 23
+zz1 5 nn 4 zz2 1 zero_pos 24
+zz1 5 nn 8 zz2 5 zero_pos 25
+zz1 5 nn 7 zz2 9 zero_pos 26
+zz1 4 nn 2 zz2 8 zero_pos 27
+zz1 1 nn 3 zz2 3 zero_pos 28
+hit 2 3
+zz1 4 nn 0 zz2 6 zero_pos 29
+zz1 5 nn 1 zz2 5 zero_pos 30
+zz1 3 nn 7 zz2 2 zero_pos 31
+zz1 9 nn 9 zz2 9 zero_pos 32
+Hit 1  9
+hit 2 9
+numerator sum 9		denominator sum 12
+numerator count 1		denominator count 2
+total count 3
+Common Hit 9
+zz1 0 nn 6 zz2 0 zero_pos 33
+zz1 6 nn 7 zz2 2 zero_pos 34
+zz1 3 nn 9 zz2 4 zero_pos 35
+zz1 9 nn 9 zz2 0 zero_pos 36
+Hit 1  9
+zz1 2 nn 7 zz2 3 zero_pos 37
+zz1 0 nn 9 zz2 8 zero_pos 38
+zz1 3 nn 5 zz2 2 zero_pos 39
+zz1 4 nn 6 zz2 2 zero_pos 40
+zz1 9 nn 7 zz2 6 zero_pos 41
+zz1 1 nn 9 zz2 7 zero_pos 42
+zz1 3 nn 5 zz2 0 zero_pos 43
+zz1 9 nn 1 zz2 3 zero_pos 44
+zz1 1 nn 3 zz2 4 zero_pos 45
+zz1 2 nn 2 zz2 3 zero_pos 46
+Hit 1  2
+zz1 9 nn 9 zz2 7 zero_pos 47
+Hit 1  9
+zz1 6 nn 6 zz2 9 zero_pos 48
+Hit 1  6
+zz1 5 nn 6 zz2 1 zero_pos 49
+zz1 9 nn 9 zz2 0 zero_pos 50
+Hit 1  9
+zz1 1 nn 6 zz2 7 zero_pos 51
+zz1 8 nn 7 zz2 4 zero_pos 52
+zz1 9 nn 1 zz2 9 zero_pos 53
+zz1 9 nn 6 zz2 5 zero_pos 54
+zz1 5 nn 5 zz2 7 zero_pos 55
+Hit 1  5
+zz1 5 nn 3 zz2 3 zero_pos 56
+hit 2 3
+zz1 9 nn 0 zz2 1 zero_pos 57
+zz1 2 nn 5 zz2 1 zero_pos 58
+zz1 4 nn 1 zz2 3 zero_pos 59
+zz1 1 nn 3 zz2 2 zero_pos 60
+zz1 1 nn 2 zz2 8 zero_pos 61
+zz1 0 nn 4 zz2 0 zero_pos 62
+zz1 8 nn 3 zz2 7 zero_pos 63
+zz1 1 nn 2 zz2 8 zero_pos 64
+zz1 0 nn 1 zz2 8 zero_pos 65
+zz1 6 nn 9 zz2 7 zero_pos 66
+zz1 1 nn 6 zz2 8 zero_pos 67
+zz1 8 nn 0 zz2 8 zero_pos 68
+zz1 6 nn 5 zz2 8 zero_pos 69
+zz1 1 nn 4 zz2 7 zero_pos 70
+zz1 4 nn 4 zz2 7 zero_pos 71
+Hit 1  4
+zz1 2 nn 4 zz2 4 zero_pos 72
+hit 2 4
+zz1 9 nn 2 zz2 6 zero_pos 73
+zz1 6 nn 8 zz2 0 zero_pos 74
+zz1 6 nn 3 zz2 2 zero_pos 75
+zz1 5 nn 1 zz2 3 zero_pos 76
+zz1 9 nn 0 zz2 6 zero_pos 77
+zz1 6 nn 2 zz2 6 zero_pos 78
+zz1 6 nn 2 zz2 4 zero_pos 79
+zz1 2 nn 1 zz2 9 zero_pos 80
+zz1 3 nn 2 zz2 6 zero_pos 81
+zz1 1 nn 1 zz2 2 zero_pos 0
+Hit 1  1
+zz1 6 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 3 nn 7 zz2 6 zero_pos 2
+zz1 0 nn 7 zz2 3 zero_pos 3
+zz1 0 nn 7 zz2 7 zero_pos 4
+hit 2 7
+zz1 4 nn 3 zz2 1 zero_pos 5
+zz1 7 nn 6 zz2 9 zero_pos 6
+zz1 6 nn 8 zz2 0 zero_pos 7
+zz1 8 nn 1 zz2 7 zero_pos 8
+zz1 1 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 3 nn 1 zz2 5 zero_pos 10
+zz1 9 nn 9 zz2 7 zero_pos 11
+Hit 1  9
+zz1 1 nn 7 zz2 2 zero_pos 12
+zz1 8 nn 1 zz2 3 zero_pos 13
+zz1 5 nn 4 zz2 1 zero_pos 14
+zz1 8 nn 5 zz2 9 zero_pos 15
+zz1 3 nn 5 zz2 2 zero_pos 16
+zz1 0 nn 6 zz2 7 zero_pos 17
+zz1 3 nn 0 zz2 1 zero_pos 18
+zz1 5 nn 1 zz2 7 zero_pos 19
+zz1 8 nn 4 zz2 3 zero_pos 20
+zz1 9 nn 8 zz2 4 zero_pos 21
+zz1 8 nn 3 zz2 1 zero_pos 22
+zz1 8 nn 9 zz2 9 zero_pos 23
+hit 2 9
+zz1 6 nn 4 zz2 2 zero_pos 24
+zz1 5 nn 8 zz2 2 zero_pos 25
+zz1 5 nn 7 zz2 1 zero_pos 26
+zz1 9 nn 2 zz2 7 zero_pos 27
+zz1 1 nn 3 zz2 7 zero_pos 28
+zz1 3 nn 0 zz2 4 zero_pos 29
+zz1 6 nn 1 zz2 2 zero_pos 30
+zz1 6 nn 7 zz2 6 zero_pos 31
+zz1 8 nn 9 zz2 3 zero_pos 32
+zz1 2 nn 6 zz2 0 zero_pos 33
+zz1 3 nn 7 zz2 8 zero_pos 34
+zz1 6 nn 9 zz2 2 zero_pos 35
+zz1 3 nn 9 zz2 0 zero_pos 36
+zz1 7 nn 7 zz2 5 zero_pos 37
+Hit 1  7
+zz1 1 nn 9 zz2 0 zero_pos 38
+zz1 3 nn 5 zz2 2 zero_pos 39
+zz1 0 nn 6 zz2 5 zero_pos 40
+zz1 1 nn 7 zz2 1 zero_pos 41
+zz1 7 nn 9 zz2 4 zero_pos 42
+zz1 7 nn 5 zz2 1 zero_pos 43
+zz1 8 nn 1 zz2 9 zero_pos 44
+zz1 8 nn 3 zz2 7 zero_pos 45
+zz1 1 nn 2 zz2 4 zero_pos 46
+zz1 0 nn 9 zz2 9 zero_pos 47
+hit 2 9
+zz1 8 nn 6 zz2 9 zero_pos 48
+zz1 2 nn 6 zz2 5 zero_pos 49
+zz1 2 nn 9 zz2 5 zero_pos 50
+zz1 2 nn 6 zz2 5 zero_pos 51
+zz1 3 nn 7 zz2 8 zero_pos 52
+zz1 9 nn 1 zz2 0 zero_pos 53
+zz1 4 nn 6 zz2 9 zero_pos 54
+zz1 3 nn 5 zz2 8 zero_pos 55
+zz1 1 nn 3 zz2 2 zero_pos 56
+zz1 9 nn 0 zz2 4 zero_pos 57
+zz1 3 nn 5 zz2 7 zero_pos 58
+zz1 3 nn 1 zz2 0 zero_pos 59
+zz1 8 nn 3 zz2 8 zero_pos 60
+zz1 2 nn 2 zz2 1 zero_pos 61
+Hit 1  2
+zz1 1 nn 4 zz2 0 zero_pos 62
+zz1 9 nn 3 zz2 2 zero_pos 63
+zz1 4 nn 2 zz2 8 zero_pos 64
+zz1 8 nn 1 zz2 0 zero_pos 65
+zz1 7 nn 9 zz2 8 zero_pos 66
+zz1 2 nn 6 zz2 4 zero_pos 67
+zz1 5 nn 0 zz2 5 zero_pos 68
+zz1 2 nn 5 zz2 8 zero_pos 69
+zz1 3 nn 4 zz2 3 zero_pos 70
+zz1 4 nn 4 zz2 4 zero_pos 71
+Hit 1  4
+hit 2 4
+numerator sum 67		denominator sum 40
+numerator count 12		denominator count 8
+total count 20
+Common Hit 4
+zz1 6 nn 4 zz2 5 zero_pos 72
+zz1 5 nn 2 zz2 0 zero_pos 73
+zz1 3 nn 8 zz2 4 zero_pos 74
+zz1 8 nn 3 zz2 5 zero_pos 75
+zz1 8 nn 1 zz2 0 zero_pos 76
+zz1 9 nn 0 zz2 0 zero_pos 77
+hit 2 0
+zz1 5 nn 2 zz2 5 zero_pos 78
+zz1 5 nn 2 zz2 1 zero_pos 79
+zz1 0 nn 1 zz2 1 zero_pos 80
+hit 2 1
+zz1 8 nn 2 zz2 4 zero_pos 81
+zz1 3 nn 1 zz2 7 zero_pos 0
+zz1 7 nn 1 zz2 2 zero_pos 1
+zz1 3 nn 7 zz2 3 zero_pos 2
+zz1 3 nn 7 zz2 9 zero_pos 3
+zz1 8 nn 7 zz2 5 zero_pos 4
+zz1 5 nn 3 zz2 0 zero_pos 5
+zz1 5 nn 6 zz2 2 zero_pos 6
+zz1 2 nn 8 zz2 3 zero_pos 7
+zz1 3 nn 1 zz2 9 zero_pos 8
+zz1 0 nn 3 zz2 9 zero_pos 9
+zz1 7 nn 1 zz2 8 zero_pos 10
+zz1 0 nn 9 zz2 5 zero_pos 11
+zz1 9 nn 7 zz2 1 zero_pos 12
+zz1 2 nn 1 zz2 2 zero_pos 13
+zz1 4 nn 4 zz2 7 zero_pos 14
+Hit 1  4
+zz1 5 nn 5 zz2 5 zero_pos 15
+Hit 1  5
+hit 2 5
+numerator sum 9		denominator sum 6
+numerator count 2		denominator count 3
+total count 5
+Common Hit 5
+zz1 9 nn 5 zz2 8 zero_pos 16
+zz1 1 nn 6 zz2 6 zero_pos 17
+hit 2 6
+zz1 1 nn 0 zz2 6 zero_pos 18
+zz1 9 nn 1 zz2 3 zero_pos 19
+zz1 4 nn 4 zz2 7 zero_pos 20
+Hit 1  4
+zz1 6 nn 8 zz2 0 zero_pos 21
+zz1 8 nn 3 zz2 1 zero_pos 22
+zz1 6 nn 9 zz2 6 zero_pos 23
+zz1 0 nn 4 zz2 8 zero_pos 24
+zz1 6 nn 8 zz2 6 zero_pos 25
+zz1 2 nn 7 zz2 3 zero_pos 26
+zz1 1 nn 2 zz2 3 zero_pos 27
+zz1 4 nn 3 zz2 9 zero_pos 28
+zz1 7 nn 0 zz2 9 zero_pos 29
+zz1 3 nn 1 zz2 4 zero_pos 30
+zz1 0 nn 7 zz2 0 zero_pos 31
+zz1 5 nn 9 zz2 7 zero_pos 32
+zz1 5 nn 6 zz2 6 zero_pos 33
+hit 2 6
+zz1 4 nn 7 zz2 1 zero_pos 34
+zz1 7 nn 9 zz2 8 zero_pos 35
+zz1 3 nn 9 zz2 5 zero_pos 36
+zz1 0 nn 7 zz2 1 zero_pos 37
+zz1 6 nn 9 zz2 4 zero_pos 38
+zz1 6 nn 5 zz2 6 zero_pos 39
+zz1 5 nn 6 zz2 7 zero_pos 40
+zz1 1 nn 7 zz2 0 zero_pos 41
+zz1 9 nn 9 zz2 2 zero_pos 42
+Hit 1  9
+zz1 8 nn 5 zz2 4 zero_pos 43
+zz1 3 nn 1 zz2 5 zero_pos 44
+zz1 6 nn 3 zz2 6 zero_pos 45
+zz1 3 nn 2 zz2 9 zero_pos 46
+zz1 4 nn 9 zz2 3 zero_pos 47
+zz1 0 nn 6 zz2 5 zero_pos 48
+zz1 2 nn 6 zz2 9 zero_pos 49
+zz1 4 nn 9 zz2 6 zero_pos 50
+zz1 4 nn 6 zz2 1 zero_pos 51
+zz1 3 nn 7 zz2 3 zero_pos 52
+zz1 3 nn 1 zz2 9 zero_pos 53
+zz1 3 nn 6 zz2 7 zero_pos 54
+zz1 6 nn 5 zz2 7 zero_pos 55
+zz1 5 nn 3 zz2 2 zero_pos 56
+zz1 6 nn 0 zz2 3 zero_pos 57
+zz1 1 nn 5 zz2 8 zero_pos 58
+zz1 7 nn 1 zz2 4 zero_pos 59
+zz1 1 nn 3 zz2 9 zero_pos 60
+zz1 6 nn 2 zz2 9 zero_pos 61
+zz1 1 nn 4 zz2 3 zero_pos 62
+zz1 1 nn 3 zz2 9 zero_pos 63
+zz1 5 nn 2 zz2 0 zero_pos 64
+zz1 3 nn 1 zz2 2 zero_pos 65
+zz1 6 nn 9 zz2 7 zero_pos 66
+zz1 6 nn 6 zz2 2 zero_pos 67
+Hit 1  6
+zz1 0 nn 0 zz2 4 zero_pos 68
+Hit 1  0
+zz1 5 nn 5 zz2 9 zero_pos 69
+Hit 1  5
+zz1 1 nn 4 zz2 6 zero_pos 70
+zz1 7 nn 4 zz2 3 zero_pos 71
+zz1 1 nn 4 zz2 5 zero_pos 72
+zz1 2 nn 2 zz2 7 zero_pos 73
+Hit 1  2
+zz1 1 nn 8 zz2 5 zero_pos 74
+zz1 4 nn 3 zz2 3 zero_pos 75
+hit 2 3
+zz1 3 nn 1 zz2 8 zero_pos 76
+zz1 5 nn 0 zz2 3 zero_pos 77
+zz1 3 nn 2 zz2 9 zero_pos 78
+zz1 1 nn 2 zz2 7 zero_pos 79
+zz1 9 nn 1 zz2 7 zero_pos 80
+zz1 5 nn 2 zz2 4 zero_pos 81
+zz1 8 nn 1 zz2 6 zero_pos 0
+zz1 6 nn 1 zz2 8 zero_pos 1
+zz1 6 nn 7 zz2 6 zero_pos 2
+zz1 6 nn 7 zz2 4 zero_pos 3
+zz1 3 nn 7 zz2 3 zero_pos 4
+zz1 6 nn 3 zz2 6 zero_pos 5
+zz1 5 nn 6 zz2 2 zero_pos 6
+zz1 8 nn 8 zz2 1 zero_pos 7
+Hit 1  8
+zz1 8 nn 1 zz2 7 zero_pos 8
+zz1 6 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 8 nn 1 zz2 2 zero_pos 10
+zz1 8 nn 9 zz2 2 zero_pos 11
+zz1 4 nn 7 zz2 4 zero_pos 12
+zz1 7 nn 1 zz2 4 zero_pos 13
+zz1 6 nn 4 zz2 3 zero_pos 14
+zz1 9 nn 5 zz2 5 zero_pos 15
+hit 2 5
+zz1 0 nn 5 zz2 3 zero_pos 16
+zz1 7 nn 6 zz2 8 zero_pos 17
+zz1 0 nn 0 zz2 2 zero_pos 18
+Hit 1  0
+zz1 7 nn 1 zz2 1 zero_pos 19
+hit 2 1
+zz1 1 nn 4 zz2 2 zero_pos 20
+zz1 7 nn 8 zz2 2 zero_pos 21
+zz1 5 nn 3 zz2 7 zero_pos 22
+zz1 5 nn 9 zz2 5 zero_pos 23
+zz1 6 nn 4 zz2 5 zero_pos 24
+zz1 0 nn 8 zz2 3 zero_pos 25
+zz1 5 nn 7 zz2 3 zero_pos 26
+zz1 5 nn 2 zz2 0 zero_pos 27
+zz1 9 nn 3 zz2 5 zero_pos 28
+zz1 4 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 6 nn 1 zz2 5 zero_pos 30
+zz1 2 nn 7 zz2 1 zero_pos 31
+zz1 0 nn 9 zz2 3 zero_pos 32
+zz1 1 nn 6 zz2 7 zero_pos 33
+zz1 6 nn 7 zz2 6 zero_pos 34
+zz1 5 nn 9 zz2 0 zero_pos 35
+zz1 4 nn 9 zz2 0 zero_pos 36
+zz1 5 nn 7 zz2 0 zero_pos 37
+zz1 3 nn 9 zz2 4 zero_pos 38
+zz1 1 nn 5 zz2 5 zero_pos 39
+hit 2 5
+zz1 1 nn 6 zz2 0 zero_pos 40
+zz1 9 nn 7 zz2 5 zero_pos 41
+zz1 0 nn 9 zz2 5 zero_pos 42
+zz1 0 nn 5 zz2 2 zero_pos 43
+zz1 4 nn 1 zz2 8 zero_pos 44
+zz1 0 nn 3 zz2 0 zero_pos 45
+zz1 8 nn 2 zz2 8 zero_pos 46
+zz1 8 nn 9 zz2 4 zero_pos 47
+zz1 6 nn 6 zz2 0 zero_pos 48
+Hit 1  6
+zz1 9 nn 6 zz2 6 zero_pos 49
+hit 2 6
+zz1 4 nn 9 zz2 9 zero_pos 50
+hit 2 9
+zz1 9 nn 6 zz2 5 zero_pos 51
+zz1 0 nn 7 zz2 5 zero_pos 52
+zz1 8 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 4 nn 6 zz2 3 zero_pos 54
+zz1 3 nn 5 zz2 8 zero_pos 55
+zz1 7 nn 3 zz2 9 zero_pos 56
+zz1 0 nn 0 zz2 4 zero_pos 57
+Hit 1  0
+zz1 0 nn 5 zz2 1 zero_pos 58
+zz1 8 nn 1 zz2 3 zero_pos 59
+zz1 9 nn 3 zz2 8 zero_pos 60
+zz1 0 nn 2 zz2 0 zero_pos 61
+zz1 2 nn 4 zz2 0 zero_pos 62
+zz1 7 nn 3 zz2 0 zero_pos 63
+zz1 7 nn 2 zz2 8 zero_pos 64
+zz1 5 nn 1 zz2 6 zero_pos 65
+zz1 6 nn 9 zz2 4 zero_pos 66
+zz1 1 nn 6 zz2 1 zero_pos 67
+zz1 1 nn 0 zz2 3 zero_pos 68
+zz1 1 nn 5 zz2 9 zero_pos 69
+zz1 7 nn 4 zz2 7 zero_pos 70
+zz1 7 nn 4 zz2 0 zero_pos 71
+zz1 4 nn 4 zz2 4 zero_pos 72
+Hit 1  4
+hit 2 4
+numerator sum 44		denominator sum 49
+numerator count 11		denominator count 12
+total count 23
+Common Hit 4
+zz1 7 nn 2 zz2 7 zero_pos 73
+zz1 8 nn 8 zz2 8 zero_pos 74
+Hit 1  8
+hit 2 8
+numerator sum 8		denominator sum 8
+numerator count 1		denominator count 1
+total count 2
+Common Hit 8
+zz1 4 nn 3 zz2 2 zero_pos 75
+zz1 4 nn 1 zz2 1 zero_pos 76
+hit 2 1
+zz1 1 nn 0 zz2 5 zero_pos 77
+zz1 1 nn 2 zz2 1 zero_pos 78
+zz1 5 nn 2 zz2 6 zero_pos 79
+zz1 2 nn 1 zz2 0 zero_pos 80
+zz1 1 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 1 nn 1 zz2 8 zero_pos 0
+Hit 1  1
+zz1 4 nn 1 zz2 7 zero_pos 1
+zz1 8 nn 7 zz2 5 zero_pos 2
+zz1 7 nn 7 zz2 3 zero_pos 3
+Hit 1  7
+zz1 9 nn 7 zz2 6 zero_pos 4
+zz1 5 nn 3 zz2 7 zero_pos 5
+zz1 3 nn 6 zz2 4 zero_pos 6
+zz1 4 nn 8 zz2 2 zero_pos 7
+zz1 1 nn 1 zz2 1 zero_pos 8
+Hit 1  1
+hit 2 1
+numerator sum 9		denominator sum 4
+numerator count 3		denominator count 3
+total count 6
+Common Hit 1
+zz1 6 nn 3 zz2 2 zero_pos 9
+zz1 4 nn 1 zz2 8 zero_pos 10
+zz1 0 nn 9 zz2 4 zero_pos 11
+zz1 6 nn 7 zz2 8 zero_pos 12
+zz1 1 nn 1 zz2 6 zero_pos 13
+Hit 1  1
+zz1 7 nn 4 zz2 3 zero_pos 14
+zz1 4 nn 5 zz2 6 zero_pos 15
+zz1 4 nn 5 zz2 1 zero_pos 16
+zz1 9 nn 6 zz2 3 zero_pos 17
+zz1 8 nn 0 zz2 1 zero_pos 18
+zz1 9 nn 1 zz2 5 zero_pos 19
+zz1 6 nn 4 zz2 6 zero_pos 20
+zz1 1 nn 8 zz2 4 zero_pos 21
+zz1 4 nn 3 zz2 4 zero_pos 22
+zz1 1 nn 9 zz2 3 zero_pos 23
+zz1 4 nn 4 zz2 2 zero_pos 24
+Hit 1  4
+zz1 6 nn 8 zz2 0 zero_pos 25
+zz1 8 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 5 nn 2 zz2 9 zero_pos 27
+zz1 4 nn 3 zz2 2 zero_pos 28
+zz1 5 nn 0 zz2 8 zero_pos 29
+zz1 9 nn 1 zz2 3 zero_pos 30
+zz1 4 nn 7 zz2 0 zero_pos 31
+zz1 1 nn 9 zz2 9 zero_pos 32
+hit 2 9
+zz1 8 nn 6 zz2 5 zero_pos 33
+zz1 2 nn 7 zz2 3 zero_pos 34
+zz1 4 nn 9 zz2 5 zero_pos 35
+zz1 6 nn 9 zz2 1 zero_pos 36
+zz1 8 nn 7 zz2 3 zero_pos 37
+zz1 6 nn 9 zz2 5 zero_pos 38
+zz1 6 nn 5 zz2 2 zero_pos 39
+zz1 5 nn 6 zz2 9 zero_pos 40
+zz1 4 nn 7 zz2 6 zero_pos 41
+zz1 3 nn 9 zz2 5 zero_pos 42
+zz1 5 nn 5 zz2 6 zero_pos 43
+Hit 1  5
+zz1 9 nn 1 zz2 3 zero_pos 44
+zz1 9 nn 3 zz2 2 zero_pos 45
+zz1 7 nn 2 zz2 4 zero_pos 46
+zz1 7 nn 9 zz2 4 zero_pos 47
+zz1 6 nn 6 zz2 3 zero_pos 48
+Hit 1  6
+zz1 6 nn 6 zz2 1 zero_pos 49
+Hit 1  6
+zz1 4 nn 9 zz2 8 zero_pos 50
+zz1 7 nn 6 zz2 5 zero_pos 51
+zz1 1 nn 7 zz2 5 zero_pos 52
+zz1 5 nn 1 zz2 8 zero_pos 53
+zz1 1 nn 6 zz2 4 zero_pos 54
+zz1 3 nn 5 zz2 8 zero_pos 55
+zz1 9 nn 3 zz2 3 zero_pos 56
+hit 2 3
+zz1 3 nn 0 zz2 6 zero_pos 57
+zz1 8 nn 5 zz2 7 zero_pos 58
+zz1 6 nn 1 zz2 9 zero_pos 59
+zz1 8 nn 3 zz2 7 zero_pos 60
+zz1 8 nn 2 zz2 6 zero_pos 61
+zz1 4 nn 4 zz2 7 zero_pos 62
+Hit 1  4
+zz1 1 nn 3 zz2 2 zero_pos 63
+zz1 7 nn 2 zz2 6 zero_pos 64
+zz1 5 nn 1 zz2 2 zero_pos 65
+zz1 5 nn 9 zz2 4 zero_pos 66
+zz1 9 nn 6 zz2 5 zero_pos 67
+zz1 8 nn 0 zz2 9 zero_pos 68
+zz1 8 nn 5 zz2 6 zero_pos 69
+zz1 9 nn 4 zz2 5 zero_pos 70
+zz1 9 nn 4 zz2 4 zero_pos 71
+hit 2 4
+zz1 4 nn 4 zz2 9 zero_pos 72
+Hit 1  4
+zz1 7 nn 2 zz2 7 zero_pos 73
+zz1 7 nn 8 zz2 0 zero_pos 74
+zz1 7 nn 3 zz2 1 zero_pos 75
+zz1 9 nn 1 zz2 0 zero_pos 76
+zz1 8 nn 0 zz2 6 zero_pos 77
+zz1 1 nn 2 zz2 3 zero_pos 78
+zz1 7 nn 2 zz2 7 zero_pos 79
+zz1 8 nn 1 zz2 7 zero_pos 80
+zz1 3 nn 2 zz2 7 zero_pos 81
+zz1 1 nn 1 zz2 9 zero_pos 0
+Hit 1  1
+zz1 8 nn 1 zz2 5 zero_pos 1
+zz1 0 nn 7 zz2 9 zero_pos 2
+zz1 8 nn 7 zz2 1 zero_pos 3
+zz1 4 nn 7 zz2 7 zero_pos 4
+hit 2 7
+zz1 9 nn 3 zz2 1 zero_pos 5
+zz1 1 nn 6 zz2 8 zero_pos 6
+zz1 9 nn 8 zz2 1 zero_pos 7
+zz1 0 nn 1 zz2 9 zero_pos 8
+zz1 4 nn 3 zz2 8 zero_pos 9
+zz1 3 nn 1 zz2 7 zero_pos 10
+zz1 6 nn 9 zz2 5 zero_pos 11
+zz1 7 nn 7 zz2 9 zero_pos 12
+Hit 1  7
+zz1 5 nn 1 zz2 7 zero_pos 13
+zz1 6 nn 4 zz2 9 zero_pos 14
+zz1 8 nn 5 zz2 6 zero_pos 15
+zz1 4 nn 5 zz2 7 zero_pos 16
+zz1 5 nn 6 zz2 3 zero_pos 17
+zz1 2 nn 0 zz2 1 zero_pos 18
+zz1 8 nn 1 zz2 5 zero_pos 19
+zz1 5 nn 4 zz2 4 zero_pos 20
+hit 2 4
+zz1 0 nn 8 zz2 0 zero_pos 21
+zz1 3 nn 3 zz2 4 zero_pos 22
+Hit 1  3
+zz1 8 nn 9 zz2 6 zero_pos 23
+zz1 8 nn 4 zz2 9 zero_pos 24
+zz1 4 nn 8 zz2 4 zero_pos 25
+zz1 3 nn 7 zz2 8 zero_pos 26
+zz1 8 nn 2 zz2 7 zero_pos 27
+zz1 7 nn 3 zz2 0 zero_pos 28
+zz1 8 nn 0 zz2 2 zero_pos 29
+zz1 7 nn 1 zz2 7 zero_pos 30
+zz1 0 nn 7 zz2 3 zero_pos 31
+zz1 5 nn 9 zz2 1 zero_pos 32
+zz1 7 nn 6 zz2 6 zero_pos 33
+hit 2 6
+zz1 6 nn 7 zz2 8 zero_pos 34
+zz1 0 nn 9 zz2 7 zero_pos 35
+zz1 6 nn 9 zz2 1 zero_pos 36
+zz1 8 nn 7 zz2 1 zero_pos 37
+zz1 7 nn 9 zz2 6 zero_pos 38
+zz1 8 nn 5 zz2 5 zero_pos 39
+hit 2 5
+zz1 4 nn 6 zz2 0 zero_pos 40
+zz1 4 nn 7 zz2 3 zero_pos 41
+zz1 9 nn 9 zz2 7 zero_pos 42
+Hit 1  9
+zz1 7 nn 5 zz2 3 zero_pos 43
+zz1 9 nn 1 zz2 2 zero_pos 44
+zz1 7 nn 3 zz2 6 zero_pos 45
+zz1 0 nn 2 zz2 9 zero_pos 46
+zz1 4 nn 9 zz2 6 zero_pos 47
+zz1 3 nn 6 zz2 9 zero_pos 48
+zz1 8 nn 6 zz2 3 zero_pos 49
+zz1 6 nn 9 zz2 3 zero_pos 50
+zz1 6 nn 6 zz2 9 zero_pos 51
+Hit 1  6
+zz1 5 nn 7 zz2 1 zero_pos 52
+zz1 8 nn 1 zz2 8 zero_pos 53
+zz1 1 nn 6 zz2 6 zero_pos 54
+hit 2 6
+zz1 1 nn 5 zz2 7 zero_pos 55
+zz1 8 nn 3 zz2 8 zero_pos 56
+zz1 0 nn 0 zz2 2 zero_pos 57
+Hit 1  0
+zz1 2 nn 5 zz2 5 zero_pos 58
+hit 2 5
+zz1 2 nn 1 zz2 2 zero_pos 59
+zz1 7 nn 3 zz2 5 zero_pos 60
+zz1 8 nn 2 zz2 6 zero_pos 61
+zz1 6 nn 4 zz2 2 zero_pos 62
+zz1 4 nn 3 zz2 2 zero_pos 63
+zz1 5 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 8 nn 1 zz2 4 zero_pos 65
+zz1 7 nn 9 zz2 2 zero_pos 66
+zz1 0 nn 6 zz2 9 zero_pos 67
+zz1 5 nn 0 zz2 2 zero_pos 68
+zz1 5 nn 5 zz2 0 zero_pos 69
+Hit 1  5
+zz1 9 nn 4 zz2 7 zero_pos 70
+zz1 5 nn 4 zz2 8 zero_pos 71
+zz1 4 nn 4 zz2 3 zero_pos 72
+Hit 1  4
+zz1 1 nn 2 zz2 8 zero_pos 73
+zz1 3 nn 8 zz2 6 zero_pos 74
+zz1 6 nn 3 zz2 2 zero_pos 75
+zz1 9 nn 1 zz2 8 zero_pos 76
+zz1 9 nn 0 zz2 7 zero_pos 77
+zz1 3 nn 2 zz2 9 zero_pos 78
+zz1 8 nn 2 zz2 5 zero_pos 79
+zz1 3 nn 1 zz2 6 zero_pos 80
+zz1 7 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 2 nn 1 zz2 5 zero_pos 0
+zz1 7 nn 1 zz2 8 zero_pos 1
+zz1 5 nn 7 zz2 7 zero_pos 2
+hit 2 7
+zz1 2 nn 7 zz2 4 zero_pos 3
+zz1 4 nn 7 zz2 1 zero_pos 4
+zz1 1 nn 3 zz2 7 zero_pos 5
+zz1 2 nn 6 zz2 5 zero_pos 6
+zz1 1 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 1 nn 1 zz2 0 zero_pos 8
+Hit 1  1
+zz1 4 nn 3 zz2 1 zero_pos 9
+zz1 8 nn 1 zz2 3 zero_pos 10
+zz1 5 nn 9 zz2 6 zero_pos 11
+zz1 3 nn 7 zz2 1 zero_pos 12
+zz1 8 nn 1 zz2 8 zero_pos 13
+zz1 8 nn 4 zz2 4 zero_pos 14
+hit 2 4
+zz1 0 nn 5 zz2 7 zero_pos 15
+zz1 1 nn 5 zz2 2 zero_pos 16
+zz1 7 nn 6 zz2 8 zero_pos 17
+zz1 8 nn 0 zz2 8 zero_pos 18
+zz1 0 nn 1 zz2 2 zero_pos 19
+zz1 4 nn 4 zz2 3 zero_pos 20
+Hit 1  4
+zz1 3 nn 8 zz2 7 zero_pos 21
+zz1 1 nn 3 zz2 7 zero_pos 22
+zz1 2 nn 9 zz2 7 zero_pos 23
+zz1 0 nn 4 zz2 2 zero_pos 24
+zz1 1 nn 8 zz2 8 zero_pos 25
+hit 2 8
+zz1 4 nn 7 zz2 9 zero_pos 26
+zz1 5 nn 2 zz2 9 zero_pos 27
+zz1 1 nn 3 zz2 4 zero_pos 28
+zz1 1 nn 0 zz2 2 zero_pos 29
+zz1 5 nn 1 zz2 1 zero_pos 30
+hit 2 1
+zz1 5 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 5 nn 9 zz2 0 zero_pos 32
+zz1 5 nn 6 zz2 9 zero_pos 33
+zz1 6 nn 7 zz2 1 zero_pos 34
+zz1 3 nn 9 zz2 1 zero_pos 35
+zz1 3 nn 9 zz2 2 zero_pos 36
+zz1 8 nn 7 zz2 8 zero_pos 37
+zz1 5 nn 9 zz2 2 zero_pos 38
+zz1 0 nn 5 zz2 0 zero_pos 39
+zz1 8 nn 6 zz2 5 zero_pos 40
+zz1 8 nn 7 zz2 8 zero_pos 41
+zz1 2 nn 9 zz2 4 zero_pos 42
+zz1 5 nn 5 zz2 2 zero_pos 43
+Hit 1  5
+zz1 4 nn 1 zz2 8 zero_pos 44
+zz1 2 nn 3 zz2 7 zero_pos 45
+zz1 6 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 3 nn 9 zz2 6 zero_pos 47
+zz1 1 nn 6 zz2 1 zero_pos 48
+zz1 3 nn 6 zz2 2 zero_pos 49
+zz1 9 nn 9 zz2 2 zero_pos 50
+Hit 1  9
+zz1 7 nn 6 zz2 1 zero_pos 51
+zz1 0 nn 7 zz2 1 zero_pos 52
+zz1 8 nn 1 zz2 9 zero_pos 53
+zz1 2 nn 6 zz2 7 zero_pos 54
+zz1 1 nn 5 zz2 0 zero_pos 55
+zz1 8 nn 3 zz2 6 zero_pos 56
+zz1 6 nn 0 zz2 2 zero_pos 57
+zz1 4 nn 5 zz2 0 zero_pos 58
+zz1 2 nn 1 zz2 1 zero_pos 59
+hit 2 1
+zz1 2 nn 3 zz2 2 zero_pos 60
+zz1 2 nn 2 zz2 2 zero_pos 61
+Hit 1  2
+hit 2 2
+numerator sum 86		denominator sum 100
+numerator count 20		denominator count 21
+total count 41
+Common Hit 2
+zz1 6 nn 4 zz2 2 zero_pos 62
+zz1 1 nn 3 zz2 4 zero_pos 63
+zz1 3 nn 2 zz2 0 zero_pos 64
+zz1 9 nn 1 zz2 8 zero_pos 65
+zz1 0 nn 9 zz2 9 zero_pos 66
+hit 2 9
+zz1 1 nn 6 zz2 5 zero_pos 67
+zz1 9 nn 0 zz2 9 zero_pos 68
+zz1 1 nn 5 zz2 3 zero_pos 69
+zz1 1 nn 4 zz2 0 zero_pos 70
+zz1 0 nn 4 zz2 1 zero_pos 71
+zz1 9 nn 4 zz2 6 zero_pos 72
+zz1 8 nn 2 zz2 1 zero_pos 73
+zz1 7 nn 8 zz2 7 zero_pos 74
+zz1 9 nn 3 zz2 8 zero_pos 75
+zz1 7 nn 1 zz2 3 zero_pos 76
+zz1 6 nn 0 zz2 5 zero_pos 77
+zz1 4 nn 2 zz2 8 zero_pos 78
+zz1 5 nn 2 zz2 4 zero_pos 79
+zz1 1 nn 1 zz2 4 zero_pos 80
+Hit 1  1
+zz1 7 nn 2 zz2 9 zero_pos 81
+zz1 6 nn 1 zz2 6 zero_pos 0
+zz1 0 nn 1 zz2 9 zero_pos 1
+zz1 6 nn 7 zz2 1 zero_pos 2
+zz1 3 nn 7 zz2 0 zero_pos 3
+zz1 6 nn 7 zz2 1 zero_pos 4
+zz1 3 nn 3 zz2 2 zero_pos 5
+Hit 1  3
+zz1 1 nn 6 zz2 9 zero_pos 6
+zz1 6 nn 8 zz2 2 zero_pos 7
+zz1 2 nn 1 zz2 6 zero_pos 8
+zz1 1 nn 3 zz2 0 zero_pos 9
+zz1 5 nn 1 zz2 2 zero_pos 10
+zz1 2 nn 9 zz2 0 zero_pos 11
+zz1 0 nn 7 zz2 4 zero_pos 12
+zz1 2 nn 1 zz2 3 zero_pos 13
+zz1 7 nn 4 zz2 9 zero_pos 14
+zz1 8 nn 5 zz2 2 zero_pos 15
+zz1 2 nn 5 zz2 4 zero_pos 16
+zz1 2 nn 6 zz2 2 zero_pos 17
+zz1 1 nn 0 zz2 6 zero_pos 18
+zz1 8 nn 1 zz2 2 zero_pos 19
+zz1 1 nn 4 zz2 8 zero_pos 20
+zz1 6 nn 8 zz2 6 zero_pos 21
+zz1 0 nn 3 zz2 2 zero_pos 22
+zz1 6 nn 9 zz2 2 zero_pos 23
+zz1 2 nn 4 zz2 5 zero_pos 24
+zz1 7 nn 8 zz2 1 zero_pos 25
+zz1 8 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 7 nn 2 zz2 4 zero_pos 27
+zz1 3 nn 3 zz2 4 zero_pos 28
+Hit 1  3
+zz1 3 nn 0 zz2 8 zero_pos 29
+zz1 6 nn 1 zz2 7 zero_pos 30
+zz1 7 nn 7 zz2 0 zero_pos 31
+Hit 1  7
+zz1 4 nn 9 zz2 6 zero_pos 32
+zz1 5 nn 6 zz2 2 zero_pos 33
+zz1 5 nn 7 zz2 6 zero_pos 34
+zz1 7 nn 9 zz2 1 zero_pos 35
+zz1 0 nn 9 zz2 0 zero_pos 36
+zz1 2 nn 7 zz2 6 zero_pos 37
+zz1 7 nn 9 zz2 2 zero_pos 38
+zz1 3 nn 5 zz2 2 zero_pos 39
+zz1 5 nn 6 zz2 7 zero_pos 40
+zz1 7 nn 7 zz2 5 zero_pos 41
+Hit 1  7
+zz1 1 nn 9 zz2 7 zero_pos 42
+zz1 7 nn 5 zz2 0 zero_pos 43
+zz1 8 nn 1 zz2 0 zero_pos 44
+zz1 6 nn 3 zz2 4 zero_pos 45
+zz1 1 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 0 nn 9 zz2 4 zero_pos 47
+zz1 0 nn 6 zz2 7 zero_pos 48
+zz1 7 nn 6 zz2 5 zero_pos 49
+zz1 6 nn 9 zz2 8 zero_pos 50
+zz1 8 nn 6 zz2 8 zero_pos 51
+zz1 1 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 8 nn 1 zz2 6 zero_pos 53
+zz1 7 nn 6 zz2 3 zero_pos 54
+zz1 0 nn 5 zz2 2 zero_pos 55
+zz1 3 nn 3 zz2 6 zero_pos 56
+Hit 1  3
+zz1 5 nn 0 zz2 5 zero_pos 57
+zz1 8 nn 5 zz2 5 zero_pos 58
+hit 2 5
+zz1 7 nn 1 zz2 3 zero_pos 59
+zz1 9 nn 3 zz2 9 zero_pos 60
+zz1 2 nn 2 zz2 9 zero_pos 61
+Hit 1  2
+zz1 4 nn 4 zz2 6 zero_pos 62
+Hit 1  4
+zz1 1 nn 3 zz2 7 zero_pos 63
+zz1 8 nn 2 zz2 0 zero_pos 64
+zz1 3 nn 1 zz2 7 zero_pos 65
+zz1 2 nn 9 zz2 1 zero_pos 66
+zz1 2 nn 6 zz2 0 zero_pos 67
+zz1 6 nn 0 zz2 2 zero_pos 68
+zz1 9 nn 5 zz2 3 zero_pos 69
+zz1 9 nn 4 zz2 7 zero_pos 70
+zz1 5 nn 4 zz2 8 zero_pos 71
+zz1 8 nn 4 zz2 1 zero_pos 72
+zz1 0 nn 2 zz2 3 zero_pos 73
+zz1 4 nn 8 zz2 7 zero_pos 74
+zz1 2 nn 3 zz2 1 zero_pos 75
+zz1 4 nn 1 zz2 3 zero_pos 76
+zz1 4 nn 0 zz2 1 zero_pos 77
+zz1 7 nn 2 zz2 3 zero_pos 78
+zz1 1 nn 2 zz2 9 zero_pos 79
+zz1 8 nn 1 zz2 0 zero_pos 80
+zz1 3 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 5 nn 1 zz2 3 zero_pos 0
+zz1 8 nn 1 zz2 2 zero_pos 1
+zz1 9 nn 7 zz2 9 zero_pos 2
+zz1 6 nn 7 zz2 4 zero_pos 3
+zz1 8 nn 7 zz2 5 zero_pos 4
+zz1 4 nn 3 zz2 9 zero_pos 5
+zz1 1 nn 6 zz2 0 zero_pos 6
+zz1 0 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 0 nn 1 zz2 6 zero_pos 8
+zz1 7 nn 3 zz2 7 zero_pos 9
+zz1 6 nn 1 zz2 4 zero_pos 10
+zz1 3 nn 9 zz2 0 zero_pos 11
+zz1 2 nn 7 zz2 7 zero_pos 12
+hit 2 7
+zz1 0 nn 1 zz2 9 zero_pos 13
+zz1 3 nn 4 zz2 9 zero_pos 14
+zz1 4 nn 5 zz2 3 zero_pos 15
+zz1 7 nn 5 zz2 9 zero_pos 16
+zz1 1 nn 6 zz2 1 zero_pos 17
+zz1 4 nn 0 zz2 2 zero_pos 18
+zz1 3 nn 1 zz2 6 zero_pos 19
+zz1 5 nn 4 zz2 7 zero_pos 20
+zz1 6 nn 8 zz2 3 zero_pos 21
+zz1 3 nn 3 zz2 5 zero_pos 22
+Hit 1  3
+zz1 0 nn 9 zz2 1 zero_pos 23
+zz1 6 nn 4 zz2 5 zero_pos 24
+zz1 8 nn 8 zz2 5 zero_pos 25
+Hit 1  8
+zz1 8 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 8 nn 2 zz2 1 zero_pos 27
+zz1 1 nn 3 zz2 1 zero_pos 28
+zz1 0 nn 0 zz2 6 zero_pos 29
+Hit 1  0
+zz1 4 nn 1 zz2 9 zero_pos 30
+zz1 8 nn 7 zz2 8 zero_pos 31
+zz1 1 nn 9 zz2 0 zero_pos 32
+zz1 5 nn 6 zz2 4 zero_pos 33
+zz1 1 nn 7 zz2 4 zero_pos 34
+zz1 1 nn 9 zz2 0 zero_pos 35
+zz1 5 nn 9 zz2 7 zero_pos 36
+zz1 5 nn 7 zz2 2 zero_pos 37
+zz1 5 nn 9 zz2 6 zero_pos 38
+zz1 7 nn 5 zz2 7 zero_pos 39
+zz1 4 nn 6 zz2 6 zero_pos 40
+hit 2 6
+zz1 8 nn 7 zz2 7 zero_pos 41
+hit 2 7
+zz1 0 nn 9 zz2 5 zero_pos 42
+zz1 2 nn 5 zz2 1 zero_pos 43
+zz1 6 nn 1 zz2 7 zero_pos 44
+zz1 4 nn 3 zz2 3 zero_pos 45
+hit 2 3
+zz1 2 nn 2 zz2 4 zero_pos 46
+Hit 1  2
+zz1 8 nn 9 zz2 3 zero_pos 47
+zz1 1 nn 6 zz2 9 zero_pos 48
+zz1 3 nn 6 zz2 8 zero_pos 49
+zz1 8 nn 9 zz2 4 zero_pos 50
+zz1 3 nn 6 zz2 3 zero_pos 51
+zz1 3 nn 7 zz2 7 zero_pos 52
+hit 2 7
+zz1 7 nn 1 zz2 6 zero_pos 53
+zz1 0 nn 6 zz2 9 zero_pos 54
+zz1 5 nn 5 zz2 3 zero_pos 55
+Hit 1  5
+zz1 6 nn 3 zz2 1 zero_pos 56
+zz1 5 nn 0 zz2 9 zero_pos 57
+zz1 3 nn 5 zz2 8 zero_pos 58
+zz1 8 nn 1 zz2 2 zero_pos 59
+zz1 3 nn 3 zz2 3 zero_pos 60
+Hit 1  3
+hit 2 3
+numerator sum 51		denominator sum 80
+numerator count 14		denominator count 14
+total count 28
+Common Hit 3
+zz1 9 nn 2 zz2 1 zero_pos 61
+zz1 3 nn 4 zz2 1 zero_pos 62
+zz1 4 nn 3 zz2 1 zero_pos 63
+zz1 9 nn 2 zz2 9 zero_pos 64
+zz1 7 nn 1 zz2 6 zero_pos 65
+zz1 3 nn 9 zz2 8 zero_pos 66
+zz1 8 nn 6 zz2 0 zero_pos 67
+zz1 9 nn 0 zz2 9 zero_pos 68
+zz1 6 nn 5 zz2 3 zero_pos 69
+zz1 5 nn 4 zz2 7 zero_pos 70
+zz1 1 nn 4 zz2 5 zero_pos 71
+zz1 9 nn 4 zz2 8 zero_pos 72
+zz1 5 nn 2 zz2 0 zero_pos 73
+zz1 0 nn 8 zz2 5 zero_pos 74
+zz1 4 nn 3 zz2 7 zero_pos 75
+zz1 5 nn 1 zz2 6 zero_pos 76
+zz1 7 nn 0 zz2 6 zero_pos 77
+zz1 2 nn 2 zz2 8 zero_pos 78
+Hit 1  2
+zz1 9 nn 2 zz2 6 zero_pos 79
+zz1 4 nn 1 zz2 1 zero_pos 80
+hit 2 1
+zz1 0 nn 2 zz2 1 zero_pos 81
+zz1 9 nn 1 zz2 8 zero_pos 0
+zz1 6 nn 1 zz2 5 zero_pos 1
+zz1 0 nn 7 zz2 5 zero_pos 2
+zz1 4 nn 7 zz2 6 zero_pos 3
+zz1 0 nn 7 zz2 4 zero_pos 4
+zz1 2 nn 3 zz2 3 zero_pos 5
+hit 2 3
+zz1 6 nn 6 zz2 7 zero_pos 6
+Hit 1  6
+zz1 5 nn 8 zz2 5 zero_pos 7
+zz1 6 nn 1 zz2 3 zero_pos 8
+zz1 8 nn 3 zz2 2 zero_pos 9
+zz1 1 nn 1 zz2 1 zero_pos 10
+Hit 1  1
+hit 2 1
+numerator sum 9		denominator sum 5
+numerator count 3		denominator count 3
+total count 6
+Common Hit 1
+zz1 9 nn 9 zz2 1 zero_pos 11
+Hit 1  9
+zz1 2 nn 7 zz2 5 zero_pos 12
+zz1 9 nn 1 zz2 3 zero_pos 13
+zz1 1 nn 4 zz2 0 zero_pos 14
+zz1 4 nn 5 zz2 9 zero_pos 15
+zz1 3 nn 5 zz2 7 zero_pos 16
+zz1 6 nn 6 zz2 5 zero_pos 17
+Hit 1  6
+zz1 5 nn 0 zz2 9 zero_pos 18
+zz1 3 nn 1 zz2 5 zero_pos 19
+zz1 4 nn 4 zz2 8 zero_pos 20
+Hit 1  4
+zz1 1 nn 8 zz2 2 zero_pos 21
+zz1 4 nn 3 zz2 6 zero_pos 22
+zz1 5 nn 9 zz2 2 zero_pos 23
+zz1 3 nn 4 zz2 4 zero_pos 24
+hit 2 4
+zz1 7 nn 8 zz2 4 zero_pos 25
+zz1 4 nn 7 zz2 8 zero_pos 26
+zz1 3 nn 2 zz2 2 zero_pos 27
+hit 2 2
+zz1 0 nn 3 zz2 6 zero_pos 28
+zz1 6 nn 0 zz2 6 zero_pos 29
+zz1 6 nn 1 zz2 5 zero_pos 30
+zz1 3 nn 7 zz2 0 zero_pos 31
+zz1 8 nn 9 zz2 4 zero_pos 32
+zz1 2 nn 6 zz2 6 zero_pos 33
+hit 2 6
+zz1 8 nn 7 zz2 7 zero_pos 34
+hit 2 7
+zz1 9 nn 9 zz2 4 zero_pos 35
+Hit 1  9
+zz1 4 nn 9 zz2 5 zero_pos 36
+zz1 8 nn 7 zz2 8 zero_pos 37
+zz1 4 nn 9 zz2 9 zero_pos 38
+hit 2 9
+zz1 4 nn 5 zz2 3 zero_pos 39
+zz1 6 nn 6 zz2 2 zero_pos 40
+Hit 1  6
+zz1 2 nn 7 zz2 9 zero_pos 41
+zz1 6 nn 9 zz2 1 zero_pos 42
+zz1 6 nn 5 zz2 9 zero_pos 43
+zz1 6 nn 1 zz2 0 zero_pos 44
+zz1 1 nn 3 zz2 0 zero_pos 45
+zz1 3 nn 2 zz2 7 zero_pos 46
+zz1 5 nn 9 zz2 6 zero_pos 47
+zz1 9 nn 6 zz2 8 zero_pos 48
+zz1 7 nn 6 zz2 3 zero_pos 49
+zz1 7 nn 9 zz2 8 zero_pos 50
+zz1 7 nn 6 zz2 1 zero_pos 51
+zz1 8 nn 7 zz2 1 zero_pos 52
+zz1 7 nn 1 zz2 9 zero_pos 53
+zz1 5 nn 6 zz2 3 zero_pos 54
+zz1 2 nn 5 zz2 5 zero_pos 55
+hit 2 5
+zz1 1 nn 3 zz2 4 zero_pos 56
+zz1 0 nn 0 zz2 1 zero_pos 57
+Hit 1  0
+zz1 5 nn 5 zz2 4 zero_pos 58
+Hit 1  5
+zz1 4 nn 1 zz2 3 zero_pos 59
+zz1 2 nn 3 zz2 8 zero_pos 60
+zz1 0 nn 2 zz2 8 zero_pos 61
+zz1 0 nn 4 zz2 2 zero_pos 62
+zz1 4 nn 3 zz2 9 zero_pos 63
+zz1 9 nn 2 zz2 5 zero_pos 64
+zz1 6 nn 1 zz2 7 zero_pos 65
+zz1 7 nn 9 zz2 5 zero_pos 66
+zz1 0 nn 6 zz2 7 zero_pos 67
+zz1 8 nn 0 zz2 4 zero_pos 68
+zz1 0 nn 5 zz2 9 zero_pos 69
+zz1 4 nn 4 zz2 1 zero_pos 70
+Hit 1  4
+zz1 2 nn 4 zz2 1 zero_pos 71
+zz1 2 nn 4 zz2 4 zero_pos 72
+hit 2 4
+zz1 7 nn 2 zz2 1 zero_pos 73
+zz1 8 nn 8 zz2 9 zero_pos 74
+Hit 1  8
+zz1 6 nn 3 zz2 4 zero_pos 75
+zz1 1 nn 1 zz2 6 zero_pos 76
+Hit 1  1
+zz1 3 nn 0 zz2 3 zero_pos 77
+zz1 7 nn 2 zz2 8 zero_pos 78
+zz1 1 nn 2 zz2 8 zero_pos 79
+zz1 6 nn 1 zz2 6 zero_pos 80
+zz1 0 nn 2 zz2 3 zero_pos 81
+zz1 2 nn 1 zz2 8 zero_pos 0
+zz1 7 nn 1 zz2 1 zero_pos 1
+hit 2 1
+zz1 9 nn 7 zz2 3 zero_pos 2
+zz1 5 nn 7 zz2 9 zero_pos 3
+zz1 5 nn 7 zz2 5 zero_pos 4
+zz1 6 nn 3 zz2 2 zero_pos 5
+zz1 5 nn 6 zz2 0 zero_pos 6
+zz1 4 nn 8 zz2 6 zero_pos 7
+zz1 0 nn 1 zz2 1 zero_pos 8
+hit 2 1
+zz1 1 nn 3 zz2 0 zero_pos 9
+zz1 3 nn 1 zz2 3 zero_pos 10
+zz1 7 nn 9 zz2 7 zero_pos 11
+zz1 3 nn 7 zz2 5 zero_pos 12
+zz1 3 nn 1 zz2 8 zero_pos 13
+zz1 2 nn 4 zz2 5 zero_pos 14
+zz1 1 nn 5 zz2 6 zero_pos 15
+zz1 9 nn 5 zz2 6 zero_pos 16
+zz1 4 nn 6 zz2 4 zero_pos 17
+zz1 4 nn 0 zz2 6 zero_pos 18
+zz1 6 nn 1 zz2 1 zero_pos 19
+hit 2 1
+zz1 6 nn 4 zz2 3 zero_pos 20
+zz1 5 nn 8 zz2 6 zero_pos 21
+zz1 6 nn 3 zz2 5 zero_pos 22
+zz1 0 nn 9 zz2 5 zero_pos 23
+zz1 1 nn 4 zz2 5 zero_pos 24
+zz1 0 nn 8 zz2 0 zero_pos 25
+zz1 7 nn 7 zz2 0 zero_pos 26
+Hit 1  7
+zz1 5 nn 2 zz2 4 zero_pos 27
+zz1 9 nn 3 zz2 1 zero_pos 28
+zz1 8 nn 0 zz2 4 zero_pos 29
+zz1 2 nn 1 zz2 8 zero_pos 30
+zz1 5 nn 7 zz2 5 zero_pos 31
+zz1 0 nn 9 zz2 1 zero_pos 32
+zz1 0 nn 6 zz2 0 zero_pos 33
+zz1 0 nn 7 zz2 6 zero_pos 34
+zz1 7 nn 9 zz2 5 zero_pos 35
+zz1 9 nn 9 zz2 4 zero_pos 36
+Hit 1  9
+zz1 2 nn 7 zz2 2 zero_pos 37
+zz1 0 nn 9 zz2 6 zero_pos 38
+zz1 0 nn 5 zz2 8 zero_pos 39
+zz1 9 nn 6 zz2 7 zero_pos 40
+zz1 8 nn 7 zz2 9 zero_pos 41
+zz1 8 nn 9 zz2 6 zero_pos 42
+zz1 6 nn 5 zz2 7 zero_pos 43
+zz1 3 nn 1 zz2 6 zero_pos 44
+zz1 2 nn 3 zz2 5 zero_pos 45
+zz1 2 nn 2 zz2 7 zero_pos 46
+Hit 1  2
+zz1 4 nn 9 zz2 1 zero_pos 47
+zz1 9 nn 6 zz2 7 zero_pos 48
+zz1 8 nn 6 zz2 2 zero_pos 49
+zz1 8 nn 9 zz2 3 zero_pos 50
+zz1 4 nn 6 zz2 7 zero_pos 51
+zz1 5 nn 7 zz2 0 zero_pos 52
+zz1 9 nn 1 zz2 0 zero_pos 53
+zz1 9 nn 6 zz2 0 zero_pos 54
+zz1 5 nn 5 zz2 8 zero_pos 55
+Hit 1  5
+zz1 8 nn 3 zz2 4 zero_pos 56
+zz1 6 nn 0 zz2 2 zero_pos 57
+zz1 0 nn 5 zz2 7 zero_pos 58
+zz1 1 nn 1 zz2 8 zero_pos 59
+Hit 1  1
+zz1 7 nn 3 zz2 3 zero_pos 60
+hit 2 3
+zz1 3 nn 2 zz2 0 zero_pos 61
+zz1 3 nn 4 zz2 6 zero_pos 62
+zz1 9 nn 3 zz2 0 zero_pos 63
+zz1 1 nn 2 zz2 3 zero_pos 64
+zz1 1 nn 1 zz2 8 zero_pos 65
+Hit 1  1
+zz1 6 nn 9 zz2 6 zero_pos 66
+zz1 7 nn 6 zz2 9 zero_pos 67
+zz1 4 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 5 nn 5 zz2 2 zero_pos 69
+Hit 1  5
+zz1 5 nn 4 zz2 9 zero_pos 70
+zz1 7 nn 4 zz2 5 zero_pos 71
+zz1 2 nn 4 zz2 4 zero_pos 72
+hit 2 4
+zz1 6 nn 2 zz2 4 zero_pos 73
+zz1 3 nn 8 zz2 2 zero_pos 74
+zz1 5 nn 3 zz2 7 zero_pos 75
+zz1 1 nn 1 zz2 6 zero_pos 76
+Hit 1  1
+zz1 0 nn 0 zz2 0 zero_pos 77
+Hit 1  0
+hit 2 0
+numerator sum 83		denominator sum 47
+numerator count 19		denominator count 14
+total count 33
+Common Hit 0
+zz1 5 nn 2 zz2 5 zero_pos 78
+zz1 7 nn 2 zz2 3 zero_pos 79
+zz1 4 nn 1 zz2 0 zero_pos 80
+zz1 3 nn 2 zz2 2 zero_pos 81
+hit 2 2
+zz1 5 nn 1 zz2 9 zero_pos 0
+zz1 3 nn 1 zz2 5 zero_pos 1
+zz1 0 nn 7 zz2 2 zero_pos 2
+zz1 9 nn 7 zz2 0 zero_pos 3
+zz1 6 nn 7 zz2 0 zero_pos 4
+zz1 2 nn 3 zz2 6 zero_pos 5
+zz1 3 nn 6 zz2 4 zero_pos 6
+zz1 9 nn 8 zz2 5 zero_pos 7
+zz1 8 nn 1 zz2 3 zero_pos 8
+zz1 5 nn 3 zz2 7 zero_pos 9
+zz1 2 nn 1 zz2 9 zero_pos 10
+zz1 7 nn 9 zz2 4 zero_pos 11
+zz1 1 nn 7 zz2 0 zero_pos 12
+zz1 8 nn 1 zz2 4 zero_pos 13
+zz1 0 nn 4 zz2 6 zero_pos 14
+zz1 5 nn 5 zz2 1 zero_pos 15
+Hit 1  5
+zz1 5 nn 5 zz2 6 zero_pos 16
+Hit 1  5
+zz1 8 nn 6 zz2 0 zero_pos 17
+zz1 8 nn 0 zz2 1 zero_pos 18
+zz1 9 nn 1 zz2 6 zero_pos 19
+zz1 5 nn 4 zz2 7 zero_pos 20
+zz1 0 nn 8 zz2 3 zero_pos 21
+zz1 6 nn 3 zz2 7 zero_pos 22
+zz1 6 nn 9 zz2 0 zero_pos 23
+zz1 1 nn 4 zz2 2 zero_pos 24
+zz1 0 nn 8 zz2 0 zero_pos 25
+zz1 2 nn 7 zz2 7 zero_pos 26
+hit 2 7
+zz1 6 nn 2 zz2 0 zero_pos 27
+zz1 0 nn 3 zz2 9 zero_pos 28
+zz1 8 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 0 nn 1 zz2 8 zero_pos 30
+zz1 0 nn 7 zz2 8 zero_pos 31
+zz1 5 nn 9 zz2 1 zero_pos 32
+zz1 5 nn 6 zz2 3 zero_pos 33
+zz1 8 nn 7 zz2 1 zero_pos 34
+zz1 3 nn 9 zz2 2 zero_pos 35
+zz1 7 nn 9 zz2 0 zero_pos 36
+zz1 8 nn 7 zz2 5 zero_pos 37
+zz1 1 nn 9 zz2 4 zero_pos 38
+zz1 6 nn 5 zz2 5 zero_pos 39
+hit 2 5
+zz1 4 nn 6 zz2 9 zero_pos 40
+zz1 3 nn 7 zz2 7 zero_pos 41
+hit 2 7
+zz1 4 nn 9 zz2 5 zero_pos 42
+zz1 0 nn 5 zz2 2 zero_pos 43
+zz1 1 nn 1 zz2 7 zero_pos 44
+Hit 1  1
+zz1 8 nn 3 zz2 0 zero_pos 45
+zz1 3 nn 2 zz2 5 zero_pos 46
+zz1 8 nn 9 zz2 5 zero_pos 47
+zz1 0 nn 6 zz2 2 zero_pos 48
+zz1 4 nn 6 zz2 9 zero_pos 49
+zz1 7 nn 9 zz2 4 zero_pos 50
+zz1 6 nn 6 zz2 2 zero_pos 51
+Hit 1  6
+zz1 1 nn 7 zz2 5 zero_pos 52
+zz1 2 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 3 nn 6 zz2 4 zero_pos 54
+zz1 3 nn 5 zz2 8 zero_pos 55
+zz1 0 nn 3 zz2 8 zero_pos 56
+zz1 8 nn 0 zz2 0 zero_pos 57
+hit 2 0
+zz1 3 nn 5 zz2 6 zero_pos 58
+zz1 0 nn 1 zz2 0 zero_pos 59
+zz1 2 nn 3 zz2 2 zero_pos 60
+zz1 7 nn 2 zz2 1 zero_pos 61
+zz1 7 nn 4 zz2 6 zero_pos 62
+zz1 7 nn 3 zz2 3 zero_pos 63
+hit 2 3
+zz1 9 nn 2 zz2 1 zero_pos 64
+zz1 5 nn 1 zz2 6 zero_pos 65
+zz1 2 nn 9 zz2 2 zero_pos 66
+zz1 5 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 3 nn 0 zz2 2 zero_pos 68
+zz1 0 nn 5 zz2 8 zero_pos 69
+zz1 6 nn 4 zz2 1 zero_pos 70
+zz1 7 nn 4 zz2 5 zero_pos 71
+zz1 6 nn 4 zz2 2 zero_pos 72
+zz1 7 nn 2 zz2 8 zero_pos 73
+zz1 8 nn 8 zz2 0 zero_pos 74
+Hit 1  8
+zz1 7 nn 3 zz2 1 zero_pos 75
+zz1 9 nn 1 zz2 5 zero_pos 76
+zz1 6 nn 0 zz2 4 zero_pos 77
+zz1 1 nn 2 zz2 8 zero_pos 78
+zz1 0 nn 2 zz2 7 zero_pos 79
+zz1 1 nn 1 zz2 7 zero_pos 80
+Hit 1  1
+zz1 6 nn 2 zz2 4 zero_pos 81
+zz1 2 nn 1 zz2 5 zero_pos 0
+zz1 6 nn 1 zz2 2 zero_pos 1
+zz1 0 nn 7 zz2 9 zero_pos 2
+zz1 2 nn 7 zz2 2 zero_pos 3
+zz1 3 nn 7 zz2 2 zero_pos 4
+zz1 7 nn 3 zz2 8 zero_pos 5
+zz1 9 nn 6 zz2 3 zero_pos 6
+zz1 8 nn 8 zz2 7 zero_pos 7
+Hit 1  8
+zz1 0 nn 1 zz2 8 zero_pos 8
+zz1 1 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 7 nn 1 zz2 9 zero_pos 10
+zz1 1 nn 9 zz2 8 zero_pos 11
+zz1 6 nn 7 zz2 4 zero_pos 12
+zz1 2 nn 1 zz2 6 zero_pos 13
+zz1 5 nn 4 zz2 0 zero_pos 14
+zz1 1 nn 5 zz2 1 zero_pos 15
+zz1 7 nn 5 zz2 8 zero_pos 16
+zz1 9 nn 6 zz2 4 zero_pos 17
+zz1 4 nn 0 zz2 8 zero_pos 18
+zz1 0 nn 1 zz2 4 zero_pos 19
+zz1 2 nn 4 zz2 9 zero_pos 20
+zz1 0 nn 8 zz2 4 zero_pos 21
+zz1 9 nn 3 zz2 3 zero_pos 22
+hit 2 3
+zz1 4 nn 9 zz2 2 zero_pos 23
+zz1 1 nn 4 zz2 3 zero_pos 24
+zz1 4 nn 8 zz2 7 zero_pos 25
+zz1 6 nn 7 zz2 9 zero_pos 26
+zz1 1 nn 2 zz2 5 zero_pos 27
+zz1 4 nn 3 zz2 9 zero_pos 28
+zz1 6 nn 0 zz2 8 zero_pos 29
+zz1 1 nn 1 zz2 1 zero_pos 30
+Hit 1  1
+hit 2 1
+numerator sum 35		denominator sum 38
+numerator count 8		denominator count 12
+total count 20
+Common Hit 1
+zz1 7 nn 7 zz2 4 zero_pos 31
+Hit 1  7
+zz1 8 nn 9 zz2 8 zero_pos 32
+zz1 4 nn 6 zz2 1 zero_pos 33
+zz1 1 nn 7 zz2 0 zero_pos 34
+zz1 3 nn 9 zz2 1 zero_pos 35
+zz1 5 nn 9 zz2 5 zero_pos 36
+zz1 9 nn 7 zz2 3 zero_pos 37
+zz1 1 nn 9 zz2 2 zero_pos 38
+zz1 9 nn 5 zz2 2 zero_pos 39
+zz1 4 nn 6 zz2 1 zero_pos 40
+zz1 5 nn 7 zz2 6 zero_pos 41
+zz1 3 nn 9 zz2 6 zero_pos 42
+zz1 5 nn 5 zz2 4 zero_pos 43
+Hit 1  5
+zz1 6 nn 1 zz2 5 zero_pos 44
+zz1 7 nn 3 zz2 5 zero_pos 45
+zz1 7 nn 2 zz2 5 zero_pos 46
+zz1 8 nn 9 zz2 6 zero_pos 47
+zz1 0 nn 6 zz2 8 zero_pos 48
+zz1 9 nn 6 zz2 0 zero_pos 49
+zz1 1 nn 9 zz2 5 zero_pos 50
+zz1 5 nn 6 zz2 3 zero_pos 51
+zz1 4 nn 7 zz2 0 zero_pos 52
+zz1 3 nn 1 zz2 0 zero_pos 53
+zz1 0 nn 6 zz2 4 zero_pos 54
+zz1 3 nn 5 zz2 8 zero_pos 55
+zz1 5 nn 3 zz2 1 zero_pos 56
+zz1 8 nn 0 zz2 3 zero_pos 57
+zz1 4 nn 5 zz2 4 zero_pos 58
+zz1 5 nn 1 zz2 3 zero_pos 59
+zz1 7 nn 3 zz2 4 zero_pos 60
+zz1 3 nn 2 zz2 7 zero_pos 61
+zz1 0 nn 4 zz2 9 zero_pos 62
+zz1 9 nn 3 zz2 9 zero_pos 63
+zz1 6 nn 2 zz2 1 zero_pos 64
+zz1 6 nn 1 zz2 4 zero_pos 65
+zz1 1 nn 9 zz2 0 zero_pos 66
+zz1 8 nn 6 zz2 4 zero_pos 67
+zz1 8 nn 0 zz2 3 zero_pos 68
+zz1 0 nn 5 zz2 8 zero_pos 69
+zz1 0 nn 4 zz2 9 zero_pos 70
+zz1 3 nn 4 zz2 4 zero_pos 71
+hit 2 4
+zz1 0 nn 4 zz2 6 zero_pos 72
+zz1 0 nn 2 zz2 0 zero_pos 73
+zz1 5 nn 8 zz2 8 zero_pos 74
+hit 2 8
+zz1 9 nn 3 zz2 4 zero_pos 75
+zz1 1 nn 1 zz2 2 zero_pos 76
+Hit 1  1
+zz1 4 nn 0 zz2 3 zero_pos 77
+zz1 4 nn 2 zz2 8 zero_pos 78
+zz1 2 nn 2 zz2 3 zero_pos 79
+Hit 1  2
+zz1 8 nn 1 zz2 8 zero_pos 80
+zz1 7 nn 2 zz2 7 zero_pos 81
+zz1 8 nn 1 zz2 9 zero_pos 0
+zz1 0 nn 1 zz2 6 zero_pos 1
+zz1 1 nn 7 zz2 3 zero_pos 2
+zz1 4 nn 7 zz2 4 zero_pos 3
+zz1 2 nn 7 zz2 0 zero_pos 4
+zz1 5 nn 3 zz2 2 zero_pos 5
+zz1 8 nn 6 zz2 5 zero_pos 6
+zz1 9 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 5 nn 1 zz2 6 zero_pos 8
+zz1 0 nn 3 zz2 1 zero_pos 9
+zz1 6 nn 1 zz2 8 zero_pos 10
+zz1 2 nn 9 zz2 7 zero_pos 11
+zz1 9 nn 7 zz2 5 zero_pos 12
+zz1 2 nn 1 zz2 9 zero_pos 13
+zz1 3 nn 4 zz2 3 zero_pos 14
+zz1 2 nn 5 zz2 5 zero_pos 15
+hit 2 5
+zz1 9 nn 5 zz2 6 zero_pos 16
+zz1 9 nn 6 zz2 2 zero_pos 17
+zz1 3 nn 0 zz2 6 zero_pos 18
+zz1 8 nn 1 zz2 5 zero_pos 19
+zz1 1 nn 4 zz2 6 zero_pos 20
+zz1 1 nn 8 zz2 0 zero_pos 21
+zz1 5 nn 3 zz2 4 zero_pos 22
+zz1 4 nn 9 zz2 4 zero_pos 23
+zz1 8 nn 4 zz2 3 zero_pos 24
+zz1 6 nn 8 zz2 1 zero_pos 25
+zz1 5 nn 7 zz2 6 zero_pos 26
+zz1 3 nn 2 zz2 2 zero_pos 27
+hit 2 2
+zz1 6 nn 3 zz2 4 zero_pos 28
+zz1 5 nn 0 zz2 2 zero_pos 29
+zz1 2 nn 1 zz2 2 zero_pos 30
+zz1 6 nn 7 zz2 3 zero_pos 31
+zz1 0 nn 9 zz2 1 zero_pos 32
+zz1 0 nn 6 zz2 1 zero_pos 33
+zz1 0 nn 7 zz2 8 zero_pos 34
+zz1 4 nn 9 zz2 3 zero_pos 35
+zz1 9 nn 9 zz2 0 zero_pos 36
+Hit 1  9
+zz1 7 nn 7 zz2 2 zero_pos 37
+Hit 1  7
+zz1 3 nn 9 zz2 4 zero_pos 38
+zz1 6 nn 5 zz2 7 zero_pos 39
+zz1 7 nn 6 zz2 2 zero_pos 40
+zz1 4 nn 7 zz2 9 zero_pos 41
+zz1 8 nn 9 zz2 2 zero_pos 42
+zz1 8 nn 5 zz2 8 zero_pos 43
+zz1 2 nn 1 zz2 7 zero_pos 44
+zz1 4 nn 3 zz2 9 zero_pos 45
+zz1 4 nn 2 zz2 1 zero_pos 46
+zz1 7 nn 9 zz2 0 zero_pos 47
+zz1 0 nn 6 zz2 4 zero_pos 48
+zz1 0 nn 6 zz2 4 zero_pos 49
+zz1 2 nn 9 zz2 7 zero_pos 50
+zz1 5 nn 6 zz2 5 zero_pos 51
+zz1 7 nn 7 zz2 2 zero_pos 52
+Hit 1  7
+zz1 6 nn 1 zz2 2 zero_pos 53
+zz1 1 nn 6 zz2 8 zero_pos 54
+zz1 5 nn 5 zz2 7 zero_pos 55
+Hit 1  5
+zz1 4 nn 3 zz2 2 zero_pos 56
+zz1 8 nn 0 zz2 7 zero_pos 57
+zz1 5 nn 5 zz2 5 zero_pos 58
+Hit 1  5
+hit 2 5
+numerator sum 48		denominator sum 32
+numerator count 9		denominator count 6
+total count 15
+Common Hit 5
+zz1 9 nn 1 zz2 4 zero_pos 59
+zz1 3 nn 3 zz2 8 zero_pos 60
+Hit 1  3
+zz1 2 nn 2 zz2 3 zero_pos 61
+Hit 1  2
+zz1 7 nn 4 zz2 7 zero_pos 62
+zz1 4 nn 3 zz2 0 zero_pos 63
+zz1 9 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 5 nn 1 zz2 8 zero_pos 65
+zz1 2 nn 9 zz2 9 zero_pos 66
+hit 2 9
+zz1 1 nn 6 zz2 2 zero_pos 67
+zz1 6 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 2 nn 5 zz2 3 zero_pos 69
+zz1 2 nn 4 zz2 2 zero_pos 70
+zz1 9 nn 4 zz2 4 zero_pos 71
+hit 2 4
+zz1 8 nn 4 zz2 7 zero_pos 72
+zz1 9 nn 2 zz2 1 zero_pos 73
+zz1 8 nn 8 zz2 0 zero_pos 74
+Hit 1  8
+zz1 8 nn 3 zz2 0 zero_pos 75
+zz1 6 nn 1 zz2 9 zero_pos 76
+zz1 5 nn 0 zz2 6 zero_pos 77
+zz1 6 nn 2 zz2 2 zero_pos 78
+hit 2 2
+zz1 4 nn 2 zz2 7 zero_pos 79
+zz1 4 nn 1 zz2 8 zero_pos 80
+zz1 1 nn 2 zz2 1 zero_pos 81
+zz1 3 nn 1 zz2 9 zero_pos 0
+zz1 2 nn 1 zz2 2 zero_pos 1
+zz1 4 nn 7 zz2 3 zero_pos 2
+zz1 2 nn 7 zz2 8 zero_pos 3
+zz1 0 nn 7 zz2 9 zero_pos 4
+zz1 6 nn 3 zz2 6 zero_pos 5
+zz1 4 nn 6 zz2 8 zero_pos 6
+zz1 1 nn 8 zz2 5 zero_pos 7
+zz1 8 nn 1 zz2 6 zero_pos 8
+zz1 2 nn 3 zz2 5 zero_pos 9
+zz1 0 nn 1 zz2 8 zero_pos 10
+zz1 5 nn 9 zz2 2 zero_pos 11
+zz1 2 nn 7 zz2 9 zero_pos 12
+zz1 4 nn 1 zz2 9 zero_pos 13
+zz1 4 nn 4 zz2 2 zero_pos 14
+Hit 1  4
+zz1 5 nn 5 zz2 3 zero_pos 15
+Hit 1  5
+zz1 4 nn 5 zz2 8 zero_pos 16
+zz1 5 nn 6 zz2 2 zero_pos 17
+zz1 1 nn 0 zz2 3 zero_pos 18
+zz1 9 nn 1 zz2 7 zero_pos 19
+zz1 8 nn 4 zz2 8 zero_pos 20
+zz1 8 nn 8 zz2 4 zero_pos 21
+Hit 1  8
+zz1 8 nn 3 zz2 2 zero_pos 22
+zz1 5 nn 9 zz2 9 zero_pos 23
+hit 2 9
+zz1 1 nn 4 zz2 5 zero_pos 24
+zz1 7 nn 8 zz2 7 zero_pos 25
+zz1 5 nn 7 zz2 4 zero_pos 26
+zz1 9 nn 2 zz2 5 zero_pos 27
+zz1 7 nn 3 zz2 8 zero_pos 28
+zz1 8 nn 0 zz2 2 zero_pos 29
+zz1 7 nn 1 zz2 7 zero_pos 30
+zz1 3 nn 7 zz2 4 zero_pos 31
+zz1 8 nn 9 zz2 1 zero_pos 32
+zz1 9 nn 6 zz2 9 zero_pos 33
+zz1 1 nn 7 zz2 7 zero_pos 34
+hit 2 7
+zz1 7 nn 9 zz2 9 zero_pos 35
+hit 2 9
+zz1 8 nn 9 zz2 2 zero_pos 36
+zz1 8 nn 7 zz2 0 zero_pos 37
+zz1 1 nn 9 zz2 8 zero_pos 38
+zz1 0 nn 5 zz2 5 zero_pos 39
+hit 2 5
+zz1 5 nn 6 zz2 5 zero_pos 40
+zz1 4 nn 7 zz2 8 zero_pos 41
+zz1 0 nn 9 zz2 4 zero_pos 42
+zz1 7 nn 5 zz2 6 zero_pos 43
+zz1 6 nn 1 zz2 8 zero_pos 44
+zz1 4 nn 3 zz2 2 zero_pos 45
+zz1 0 nn 2 zz2 7 zero_pos 46
+zz1 0 nn 9 zz2 0 zero_pos 47
+zz1 3 nn 6 zz2 4 zero_pos 48
+zz1 2 nn 6 zz2 1 zero_pos 49
+zz1 9 nn 9 zz2 1 zero_pos 50
+Hit 1  9
+zz1 7 nn 6 zz2 4 zero_pos 51
+zz1 5 nn 7 zz2 5 zero_pos 52
+zz1 9 nn 1 zz2 9 zero_pos 53
+zz1 7 nn 6 zz2 0 zero_pos 54
+zz1 7 nn 5 zz2 3 zero_pos 55
+zz1 5 nn 3 zz2 1 zero_pos 56
+zz1 8 nn 0 zz2 1 zero_pos 57
+zz1 0 nn 5 zz2 6 zero_pos 58
+zz1 7 nn 1 zz2 8 zero_pos 59
+zz1 2 nn 3 zz2 4 zero_pos 60
+zz1 3 nn 2 zz2 9 zero_pos 61
+zz1 3 nn 4 zz2 0 zero_pos 62
+zz1 2 nn 3 zz2 4 zero_pos 63
+zz1 6 nn 2 zz2 7 zero_pos 64
+zz1 7 nn 1 zz2 8 zero_pos 65
+zz1 7 nn 9 zz2 1 zero_pos 66
+zz1 7 nn 6 zz2 6 zero_pos 67
+hit 2 6
+zz1 3 nn 0 zz2 4 zero_pos 68
+zz1 7 nn 5 zz2 9 zero_pos 69
+zz1 7 nn 4 zz2 2 zero_pos 70
+zz1 7 nn 4 zz2 3 zero_pos 71
+zz1 0 nn 4 zz2 0 zero_pos 72
+zz1 8 nn 2 zz2 3 zero_pos 73
+zz1 6 nn 8 zz2 1 zero_pos 74
+zz1 0 nn 3 zz2 8 zero_pos 75
+zz1 9 nn 1 zz2 7 zero_pos 76
+zz1 7 nn 0 zz2 4 zero_pos 77
+zz1 2 nn 2 zz2 2 zero_pos 78
+Hit 1  2
+hit 2 2
+numerator sum 41		denominator sum 55
+numerator count 8		denominator count 11
+total count 19
+Common Hit 2
+zz1 3 nn 2 zz2 0 zero_pos 79
+zz1 7 nn 1 zz2 4 zero_pos 80
+zz1 8 nn 2 zz2 5 zero_pos 81
+zz1 2 nn 1 zz2 3 zero_pos 0
+zz1 8 nn 1 zz2 7 zero_pos 1
+zz1 3 nn 7 zz2 3 zero_pos 2
+zz1 8 nn 7 zz2 5 zero_pos 3
+zz1 5 nn 7 zz2 5 zero_pos 4
+zz1 3 nn 3 zz2 2 zero_pos 5
+Hit 1  3
+zz1 7 nn 6 zz2 8 zero_pos 6
+zz1 1 nn 8 zz2 9 zero_pos 7
+zz1 2 nn 1 zz2 9 zero_pos 8
+zz1 9 nn 3 zz2 4 zero_pos 9
+zz1 0 nn 1 zz2 0 zero_pos 10
+zz1 3 nn 9 zz2 0 zero_pos 11
+zz1 0 nn 7 zz2 2 zero_pos 12
+zz1 2 nn 1 zz2 4 zero_pos 13
+zz1 5 nn 4 zz2 9 zero_pos 14
+zz1 3 nn 5 zz2 7 zero_pos 15
+zz1 4 nn 5 zz2 6 zero_pos 16
+zz1 7 nn 6 zz2 4 zero_pos 17
+zz1 8 nn 0 zz2 1 zero_pos 18
+zz1 9 nn 1 zz2 5 zero_pos 19
+zz1 2 nn 4 zz2 2 zero_pos 20
+zz1 2 nn 8 zz2 7 zero_pos 21
+zz1 0 nn 3 zz2 7 zero_pos 22
+zz1 9 nn 9 zz2 9 zero_pos 23
+Hit 1  9
+hit 2 9
+numerator sum 12		denominator sum 9
+numerator count 2		denominator count 1
+total count 3
+Common Hit 9
+zz1 8 nn 4 zz2 2 zero_pos 24
+zz1 2 nn 8 zz2 3 zero_pos 25
+zz1 0 nn 7 zz2 8 zero_pos 26
+zz1 2 nn 2 zz2 2 zero_pos 27
+Hit 1  2
+hit 2 2
+numerator sum 2		denominator sum 2
+numerator count 1		denominator count 1
+total count 2
+Common Hit 2
+zz1 7 nn 3 zz2 2 zero_pos 28
+zz1 6 nn 0 zz2 7 zero_pos 29
+zz1 3 nn 1 zz2 7 zero_pos 30
+zz1 5 nn 7 zz2 4 zero_pos 31
+zz1 4 nn 9 zz2 9 zero_pos 32
+hit 2 9
+zz1 4 nn 6 zz2 5 zero_pos 33
+zz1 3 nn 7 zz2 2 zero_pos 34
+zz1 7 nn 9 zz2 8 zero_pos 35
+zz1 1 nn 9 zz2 6 zero_pos 36
+zz1 1 nn 7 zz2 2 zero_pos 37
+zz1 3 nn 9 zz2 9 zero_pos 38
+hit 2 9
+zz1 9 nn 5 zz2 8 zero_pos 39
+zz1 6 nn 6 zz2 2 zero_pos 40
+Hit 1  6
+zz1 8 nn 7 zz2 2 zero_pos 41
+zz1 9 nn 9 zz2 7 zero_pos 42
+Hit 1  9
+zz1 8 nn 5 zz2 7 zero_pos 43
+zz1 5 nn 1 zz2 5 zero_pos 44
+zz1 6 nn 3 zz2 9 zero_pos 45
+zz1 0 nn 2 zz2 8 zero_pos 46
+zz1 2 nn 9 zz2 9 zero_pos 47
+hit 2 9
+zz1 9 nn 6 zz2 0 zero_pos 48
+zz1 4 nn 6 zz2 0 zero_pos 49
+zz1 8 nn 9 zz2 7 zero_pos 50
+zz1 0 nn 6 zz2 5 zero_pos 51
+zz1 5 nn 7 zz2 9 zero_pos 52
+zz1 7 nn 1 zz2 3 zero_pos 53
+zz1 8 nn 6 zz2 8 zero_pos 54
+zz1 8 nn 5 zz2 3 zero_pos 55
+zz1 9 nn 3 zz2 8 zero_pos 56
+zz1 8 nn 0 zz2 4 zero_pos 57
+zz1 2 nn 5 zz2 4 zero_pos 58
+zz1 6 nn 1 zz2 7 zero_pos 59
+zz1 5 nn 3 zz2 1 zero_pos 60
+zz1 7 nn 2 zz2 9 zero_pos 61
+zz1 4 nn 4 zz2 3 zero_pos 62
+Hit 1  4
+zz1 3 nn 3 zz2 0 zero_pos 63
+Hit 1  3
+zz1 7 nn 2 zz2 7 zero_pos 64
+zz1 9 nn 1 zz2 1 zero_pos 65
+hit 2 1
+zz1 7 nn 9 zz2 3 zero_pos 66
+zz1 3 nn 6 zz2 4 zero_pos 67
+zz1 6 nn 0 zz2 3 zero_pos 68
+zz1 2 nn 5 zz2 3 zero_pos 69
+zz1 8 nn 4 zz2 6 zero_pos 70
+zz1 6 nn 4 zz2 6 zero_pos 71
+zz1 1 nn 4 zz2 0 zero_pos 72
+zz1 9 nn 2 zz2 0 zero_pos 73
+zz1 8 nn 8 zz2 8 zero_pos 74
+Hit 1  8
+hit 2 8
+numerator sum 30		denominator sum 36
+numerator count 5		denominator count 5
+total count 10
+Common Hit 8
+zz1 3 nn 3 zz2 7 zero_pos 75
+Hit 1  3
+zz1 3 nn 1 zz2 7 zero_pos 76
+zz1 9 nn 0 zz2 5 zero_pos 77
+zz1 5 nn 2 zz2 3 zero_pos 78
+zz1 2 nn 2 zz2 0 zero_pos 79
+Hit 1  2
+zz1 4 nn 1 zz2 0 zero_pos 80
+zz1 8 nn 2 zz2 1 zero_pos 81
+zz1 8 nn 1 zz2 8 zero_pos 0
+zz1 2 nn 1 zz2 0 zero_pos 1
+zz1 8 nn 7 zz2 2 zero_pos 2
+zz1 4 nn 7 zz2 1 zero_pos 3
+zz1 5 nn 7 zz2 0 zero_pos 4
+zz1 2 nn 3 zz2 8 zero_pos 5
+zz1 3 nn 6 zz2 3 zero_pos 6
+zz1 4 nn 8 zz2 1 zero_pos 7
+zz1 2 nn 1 zz2 9 zero_pos 8
+zz1 7 nn 3 zz2 3 zero_pos 9
+hit 2 3
+zz1 2 nn 1 zz2 0 zero_pos 10
+zz1 2 nn 9 zz2 9 zero_pos 11
+hit 2 9
+zz1 2 nn 7 zz2 5 zero_pos 12
+zz1 0 nn 1 zz2 4 zero_pos 13
+zz1 6 nn 4 zz2 2 zero_pos 14
+zz1 4 nn 5 zz2 2 zero_pos 15
+zz1 9 nn 5 zz2 5 zero_pos 16
+hit 2 5
+zz1 9 nn 6 zz2 1 zero_pos 17
+zz1 2 nn 0 zz2 1 zero_pos 18
+zz1 8 nn 1 zz2 7 zero_pos 19
+zz1 8 nn 4 zz2 0 zero_pos 20
+zz1 2 nn 8 zz2 4 zero_pos 21
+zz1 4 nn 3 zz2 2 zero_pos 22
+zz1 1 nn 9 zz2 7 zero_pos 23
+zz1 5 nn 4 zz2 6 zero_pos 24
+zz1 9 nn 8 zz2 6 zero_pos 25
+zz1 1 nn 7 zz2 5 zero_pos 26
+zz1 8 nn 2 zz2 3 zero_pos 27
+zz1 4 nn 3 zz2 6 zero_pos 28
+zz1 9 nn 0 zz2 0 zero_pos 29
+hit 2 0
+zz1 2 nn 1 zz2 0 zero_pos 30
+zz1 7 nn 7 zz2 4 zero_pos 31
+Hit 1  7
+zz1 9 nn 9 zz2 1 zero_pos 32
+Hit 1  9
+zz1 4 nn 6 zz2 5 zero_pos 33
+zz1 5 nn 7 zz2 3 zero_pos 34
+zz1 4 nn 9 zz2 1 zero_pos 35
+zz1 6 nn 9 zz2 2 zero_pos 36
+zz1 3 nn 7 zz2 9 zero_pos 37
+zz1 6 nn 9 zz2 0 zero_pos 38
+zz1 2 nn 5 zz2 8 zero_pos 39
+zz1 8 nn 6 zz2 4 zero_pos 40
+zz1 6 nn 7 zz2 1 zero_pos 41
+zz1 9 nn 9 zz2 7 zero_pos 42
+Hit 1  9
+zz1 1 nn 5 zz2 8 zero_pos 43
+zz1 5 nn 1 zz2 2 zero_pos 44
+zz1 9 nn 3 zz2 2 zero_pos 45
+zz1 0 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 7 nn 9 zz2 0 zero_pos 47
+zz1 3 nn 6 zz2 2 zero_pos 48
+zz1 6 nn 6 zz2 4 zero_pos 49
+Hit 1  6
+zz1 6 nn 9 zz2 6 zero_pos 50
+zz1 8 nn 6 zz2 4 zero_pos 51
+zz1 7 nn 7 zz2 1 zero_pos 52
+Hit 1  7
+zz1 1 nn 1 zz2 7 zero_pos 53
+Hit 1  1
+zz1 9 nn 6 zz2 2 zero_pos 54
+zz1 1 nn 5 zz2 6 zero_pos 55
+zz1 5 nn 3 zz2 4 zero_pos 56
+zz1 2 nn 0 zz2 2 zero_pos 57
+zz1 6 nn 5 zz2 3 zero_pos 58
+zz1 9 nn 1 zz2 4 zero_pos 59
+zz1 2 nn 3 zz2 7 zero_pos 60
+zz1 9 nn 2 zz2 8 zero_pos 61
+zz1 2 nn 4 zz2 7 zero_pos 62
+zz1 6 nn 3 zz2 3 zero_pos 63
+hit 2 3
+zz1 9 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 7 nn 1 zz2 2 zero_pos 65
+zz1 5 nn 9 zz2 8 zero_pos 66
+zz1 5 nn 6 zz2 0 zero_pos 67
+zz1 5 nn 0 zz2 6 zero_pos 68
+zz1 2 nn 5 zz2 5 zero_pos 69
+hit 2 5
+zz1 6 nn 4 zz2 7 zero_pos 70
+zz1 0 nn 4 zz2 8 zero_pos 71
+zz1 0 nn 4 zz2 7 zero_pos 72
+zz1 8 nn 2 zz2 4 zero_pos 73
+zz1 1 nn 8 zz2 4 zero_pos 74
+zz1 0 nn 3 zz2 1 zero_pos 75
+zz1 9 nn 1 zz2 2 zero_pos 76
+zz1 1 nn 0 zz2 4 zero_pos 77
+zz1 2 nn 2 zz2 7 zero_pos 78
+Hit 1  2
+zz1 5 nn 2 zz2 1 zero_pos 79
+zz1 7 nn 1 zz2 0 zero_pos 80
+zz1 0 nn 2 zz2 7 zero_pos 81
+zz1 6 nn 1 zz2 5 zero_pos 0
+zz1 5 nn 1 zz2 5 zero_pos 1
+zz1 6 nn 7 zz2 1 zero_pos 2
+zz1 8 nn 7 zz2 8 zero_pos 3
+zz1 1 nn 7 zz2 9 zero_pos 4
+zz1 4 nn 3 zz2 6 zero_pos 5
+zz1 6 nn 6 zz2 0 zero_pos 6
+Hit 1  6
+zz1 6 nn 8 zz2 7 zero_pos 7
+zz1 3 nn 1 zz2 2 zero_pos 8
+zz1 2 nn 3 zz2 1 zero_pos 9
+zz1 7 nn 1 zz2 0 zero_pos 10
+zz1 9 nn 9 zz2 8 zero_pos 11
+Hit 1  9
+zz1 6 nn 7 zz2 2 zero_pos 12
+zz1 6 nn 1 zz2 3 zero_pos 13
+zz1 5 nn 4 zz2 3 zero_pos 14
+zz1 6 nn 5 zz2 2 zero_pos 15
+zz1 5 nn 5 zz2 7 zero_pos 16
+Hit 1  5
+zz1 8 nn 6 zz2 0 zero_pos 17
+zz1 5 nn 0 zz2 8 zero_pos 18
+zz1 0 nn 1 zz2 9 zero_pos 19
+zz1 6 nn 4 zz2 2 zero_pos 20
+zz1 6 nn 8 zz2 1 zero_pos 21
+zz1 6 nn 3 zz2 4 zero_pos 22
+zz1 5 nn 9 zz2 3 zero_pos 23
+zz1 6 nn 4 zz2 8 zero_pos 24
+zz1 5 nn 8 zz2 8 zero_pos 25
+hit 2 8
+zz1 7 nn 7 zz2 9 zero_pos 26
+Hit 1  7
+zz1 8 nn 2 zz2 5 zero_pos 27
+zz1 9 nn 3 zz2 4 zero_pos 28
+zz1 3 nn 0 zz2 6 zero_pos 29
+zz1 6 nn 1 zz2 6 zero_pos 30
+zz1 2 nn 7 zz2 7 zero_pos 31
+hit 2 7
+zz1 7 nn 9 zz2 7 zero_pos 32
+zz1 1 nn 6 zz2 6 zero_pos 33
+hit 2 6
+zz1 0 nn 7 zz2 1 zero_pos 34
+zz1 1 nn 9 zz2 6 zero_pos 35
+zz1 3 nn 9 zz2 4 zero_pos 36
+zz1 8 nn 7 zz2 2 zero_pos 37
+zz1 2 nn 9 zz2 7 zero_pos 38
+zz1 2 nn 5 zz2 9 zero_pos 39
+zz1 4 nn 6 zz2 3 zero_pos 40
+zz1 5 nn 7 zz2 5 zero_pos 41
+zz1 2 nn 9 zz2 3 zero_pos 42
+zz1 8 nn 5 zz2 1 zero_pos 43
+zz1 3 nn 1 zz2 3 zero_pos 44
+zz1 0 nn 3 zz2 8 zero_pos 45
+zz1 7 nn 2 zz2 2 zero_pos 46
+hit 2 2
+zz1 2 nn 9 zz2 1 zero_pos 47
+zz1 6 nn 6 zz2 4 zero_pos 48
+Hit 1  6
+zz1 7 nn 6 zz2 4 zero_pos 49
+zz1 7 nn 9 zz2 8 zero_pos 50
+zz1 6 nn 6 zz2 2 zero_pos 51
+Hit 1  6
+zz1 5 nn 7 zz2 0 zero_pos 52
+zz1 4 nn 1 zz2 7 zero_pos 53
+zz1 4 nn 6 zz2 9 zero_pos 54
+zz1 3 nn 5 zz2 5 zero_pos 55
+hit 2 5
+zz1 9 nn 3 zz2 7 zero_pos 56
+zz1 5 nn 0 zz2 6 zero_pos 57
+zz1 4 nn 5 zz2 0 zero_pos 58
+zz1 9 nn 1 zz2 3 zero_pos 59
+zz1 6 nn 3 zz2 2 zero_pos 60
+zz1 8 nn 2 zz2 5 zero_pos 61
+zz1 4 nn 4 zz2 5 zero_pos 62
+Hit 1  4
+zz1 3 nn 3 zz2 4 zero_pos 63
+Hit 1  3
+zz1 8 nn 2 zz2 0 zero_pos 64
+zz1 9 nn 1 zz2 9 zero_pos 65
+zz1 6 nn 9 zz2 8 zero_pos 66
+zz1 6 nn 6 zz2 8 zero_pos 67
+Hit 1  6
+zz1 2 nn 0 zz2 5 zero_pos 68
+zz1 5 nn 5 zz2 1 zero_pos 69
+Hit 1  5
+zz1 3 nn 4 zz2 6 zero_pos 70
+zz1 9 nn 4 zz2 6 zero_pos 71
+zz1 2 nn 4 zz2 6 zero_pos 72
+zz1 8 nn 2 zz2 7 zero_pos 73
+zz1 3 nn 8 zz2 6 zero_pos 74
+zz1 1 nn 3 zz2 3 zero_pos 75
+hit 2 3
+zz1 8 nn 1 zz2 5 zero_pos 76
+zz1 0 nn 0 zz2 5 zero_pos 77
+Hit 1  0
+zz1 3 nn 2 zz2 8 zero_pos 78
+zz1 0 nn 2 zz2 5 zero_pos 79
+zz1 1 nn 1 zz2 2 zero_pos 80
+Hit 1  1
+zz1 8 nn 2 zz2 4 zero_pos 81
+zz1 6 nn 1 zz2 4 zero_pos 0
+zz1 0 nn 1 zz2 2 zero_pos 1
+zz1 9 nn 7 zz2 7 zero_pos 2
+hit 2 7
+zz1 5 nn 7 zz2 7 zero_pos 3
+hit 2 7
+zz1 5 nn 7 zz2 6 zero_pos 4
+zz1 9 nn 3 zz2 1 zero_pos 5
+zz1 0 nn 6 zz2 1 zero_pos 6
+zz1 6 nn 8 zz2 7 zero_pos 7
+zz1 4 nn 1 zz2 1 zero_pos 8
+hit 2 1
+zz1 2 nn 3 zz2 2 zero_pos 9
+zz1 9 nn 1 zz2 5 zero_pos 10
+zz1 2 nn 9 zz2 6 zero_pos 11
+zz1 9 nn 7 zz2 7 zero_pos 12
+hit 2 7
+zz1 5 nn 1 zz2 2 zero_pos 13
+zz1 7 nn 4 zz2 1 zero_pos 14
+zz1 7 nn 5 zz2 4 zero_pos 15
+zz1 9 nn 5 zz2 6 zero_pos 16
+zz1 4 nn 6 zz2 3 zero_pos 17
+zz1 2 nn 0 zz2 0 zero_pos 18
+hit 2 0
+zz1 1 nn 1 zz2 6 zero_pos 19
+Hit 1  1
+zz1 5 nn 4 zz2 0 zero_pos 20
+zz1 3 nn 8 zz2 5 zero_pos 21
+zz1 5 nn 3 zz2 8 zero_pos 22
+zz1 7 nn 9 zz2 6 zero_pos 23
+zz1 9 nn 4 zz2 2 zero_pos 24
+zz1 0 nn 8 zz2 9 zero_pos 25
+zz1 6 nn 7 zz2 3 zero_pos 26
+zz1 2 nn 2 zz2 3 zero_pos 27
+Hit 1  2
+zz1 8 nn 3 zz2 2 zero_pos 28
+zz1 4 nn 0 zz2 4 zero_pos 29
+zz1 9 nn 1 zz2 7 zero_pos 30
+zz1 9 nn 7 zz2 6 zero_pos 31
+zz1 5 nn 9 zz2 6 zero_pos 32
+zz1 1 nn 6 zz2 9 zero_pos 33
+zz1 4 nn 7 zz2 5 zero_pos 34
+zz1 3 nn 9 zz2 0 zero_pos 35
+zz1 4 nn 9 zz2 8 zero_pos 36
+zz1 4 nn 7 zz2 7 zero_pos 37
+hit 2 7
+zz1 9 nn 9 zz2 4 zero_pos 38
+Hit 1  9
+zz1 7 nn 5 zz2 0 zero_pos 39
+zz1 7 nn 6 zz2 6 zero_pos 40
+hit 2 6
+zz1 1 nn 7 zz2 2 zero_pos 41
+zz1 8 nn 9 zz2 7 zero_pos 42
+zz1 5 nn 5 zz2 2 zero_pos 43
+Hit 1  5
+zz1 5 nn 1 zz2 5 zero_pos 44
+zz1 2 nn 3 zz2 8 zero_pos 45
+zz1 5 nn 2 zz2 7 zero_pos 46
+zz1 8 nn 9 zz2 6 zero_pos 47
+zz1 2 nn 6 zz2 8 zero_pos 48
+zz1 4 nn 6 zz2 3 zero_pos 49
+zz1 9 nn 9 zz2 8 zero_pos 50
+Hit 1  9
+zz1 4 nn 6 zz2 7 zero_pos 51
+zz1 2 nn 7 zz2 5 zero_pos 52
+zz1 8 nn 1 zz2 1 zero_pos 53
+hit 2 1
+zz1 2 nn 6 zz2 9 zero_pos 54
+zz1 8 nn 5 zz2 9 zero_pos 55
+zz1 5 nn 3 zz2 0 zero_pos 56
+zz1 7 nn 0 zz2 2 zero_pos 57
+zz1 1 nn 5 zz2 1 zero_pos 58
+zz1 6 nn 1 zz2 3 zero_pos 59
+zz1 2 nn 3 zz2 4 zero_pos 60
+zz1 6 nn 2 zz2 0 zero_pos 61
+zz1 3 nn 4 zz2 8 zero_pos 62
+zz1 5 nn 3 zz2 9 zero_pos 63
+zz1 9 nn 2 zz2 2 zero_pos 64
+hit 2 2
+zz1 3 nn 1 zz2 0 zero_pos 65
+zz1 8 nn 9 zz2 3 zero_pos 66
+zz1 8 nn 6 zz2 3 zero_pos 67
+zz1 9 nn 0 zz2 0 zero_pos 68
+hit 2 0
+zz1 0 nn 5 zz2 6 zero_pos 69
+zz1 9 nn 4 zz2 4 zero_pos 70
+hit 2 4
+zz1 9 nn 4 zz2 0 zero_pos 71
+zz1 1 nn 4 zz2 6 zero_pos 72
+zz1 7 nn 2 zz2 2 zero_pos 73
+hit 2 2
+zz1 7 nn 8 zz2 2 zero_pos 74
+zz1 4 nn 3 zz2 4 zero_pos 75
+zz1 0 nn 1 zz2 1 zero_pos 76
+hit 2 1
+zz1 4 nn 0 zz2 1 zero_pos 77
+zz1 0 nn 2 zz2 9 zero_pos 78
+zz1 9 nn 2 zz2 4 zero_pos 79
+zz1 6 nn 1 zz2 8 zero_pos 80
+zz1 6 nn 2 zz2 0 zero_pos 81
+zz1 7 nn 1 zz2 8 zero_pos 0
+zz1 1 nn 1 zz2 7 zero_pos 1
+Hit 1  1
+zz1 4 nn 7 zz2 9 zero_pos 2
+zz1 3 nn 7 zz2 5 zero_pos 3
+zz1 8 nn 7 zz2 4 zero_pos 4
+zz1 8 nn 3 zz2 9 zero_pos 5
+zz1 1 nn 6 zz2 9 zero_pos 6
+zz1 1 nn 8 zz2 8 zero_pos 7
+hit 2 8
+zz1 9 nn 1 zz2 7 zero_pos 8
+zz1 1 nn 3 zz2 5 zero_pos 9
+zz1 4 nn 1 zz2 6 zero_pos 10
+zz1 3 nn 9 zz2 6 zero_pos 11
+zz1 2 nn 7 zz2 0 zero_pos 12
+zz1 1 nn 1 zz2 1 zero_pos 13
+Hit 1  1
+hit 2 1
+numerator sum 132		denominator sum 114
+numerator count 28		denominator count 29
+total count 57
+Common Hit 1
