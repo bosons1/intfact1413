@@ -51,6 +51,9 @@ int main(int argc, char* argv[]) {
 	char* zero1 = get_zero(1);
 	char* zero2 = get_zero(2);
         long long int zero_pos = 0;
+	long long int numerator_sum = 0, denominator_sum = 0;
+	long long int numerator_count = 0, denominator_count = 0;
+	long long int total_count = 0;
 	while (c < mid) {
                  char nn = num[zero_pos % l];
 		 char zz1 = zero1[zero_pos];
@@ -58,11 +61,22 @@ int main(int argc, char* argv[]) {
 		 printf("zz1 %c nn %c zz2 %c zero_pos %lld\n", zz1, nn, zz2, zero_pos % l);
 		 if (nn == zz1) {
 			 printf("Hit 1  %c\n", nn);
+			 numerator_sum += (nn-'0');
+			 numerator_count++;
+			 total_count++;
 		 } 
 		 if (nn == zz2) {
 			 printf("hit 2 %c\n", nn);
+			 denominator_sum += (nn-'0');
+			 denominator_count++;
+			 total_count++;
 		 }
 		 if (nn == zz2 && nn == zz1) {
+			 printf("numerator sum %lld\t\tdenominator sum %lld\n", numerator_sum, denominator_sum);
+			 printf("numerator count %lld\t\tdenominator count %lld\n", numerator_count, denominator_count);
+			 printf("total count %lld\n", total_count);
+			 total_count = numerator_count = denominator_count = 0;
+			 numerator_sum = denominator_sum = 0;
 			 printf("Common Hit %c\n", nn);
 			 ++c;
 			 if (c >= mid) {
