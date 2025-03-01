@@ -11,22 +11,10 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#include "pi.hpp"
-#include "e.hpp"
-#include "primes.hpp"
-#define PREC 4096
+#define PREC 131072
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
-
-bool in(int ctr, vector<int> primes) {
-      vector<int>::iterator it = std::find(primes.begin(), primes.end(), ctr);
-      if (it == primes.end()) {
-	      return false;
-      } else {
-	      return true;
-      }
-}
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
@@ -56,62 +44,32 @@ char* get_zero(int zero_index, int prec=PREC) {
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
-	FILE* pi = fopen("./pi.txt","r");
-	fseek(pi, 2, SEEK_SET);
-	char pp = 0, ee = 0;
-	FILE* e = fopen("./e.txt","r");
-	fseek(e, 2, SEEK_SET);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	long long int c = 0, pos = 0, zero_pos = 0;
-	int mid = ceil((l*1.0)/2);
-	int zero_index = 1;
-	char* zero = get_zero(zero_index);
-	int prev_zero_index = 0;
+	int mid =  ceil((l*1.0)/2);
+	long long int c = 0;
+	char* zero1 = get_zero(1);
+	char* zero2 = get_zero(2);
+        long long int zero_pos = 0;
 	while (c < mid) {
-                 char nn = num[pos % l];
-		 char zz = zero[zero_pos++];
-		 fscanf(pi, "%c", &pp);
-		 fscanf(e, "%c", &ee);
-                 ++pos;
-		 if (nn == zz) {
-			 int prev_pos = pos;
-			 while (nn == zz) {
-				 nn = num[pos % l];
-				 zz = zero[zero_pos++];
-				 if (nn == zz){
-				 ++pos;
-				 }
-			 }
-			 int d = pos - prev_pos;
-			 for (int i = 0; i < d; ++i) {
-				 fscanf(pi, "%c", &pp);
-				 fscanf(e, "%c", &ee);
-			 }
-			 if (pos > 0 && pos % l == 0) {
-				 int delta = zero_index - prev_zero_index;
-				 char pp1[3], pp2[3];
-				 pp1[0] = pp;
-				 pp1[1] = ee;
-				 pp1[2] = '\0';
-				 pp2[0] = ee;
-				 pp2[1] = pp;
-				 pp2[2] = '\0';
-				 int ctr1 = atoi(pp1);
-				 int ctr2 = atoi(pp2);
-				 if (in(ctr1, primes) || in(ctr2, primes)) {
-					 //synthesis
-					 printf("\nSynthesis Delta %d\n", delta);
-				         prev_zero_index = zero_index;
-					 cin.get();
-					 fseek(pi, 2, SEEK_SET);
-					 fseek(e, 2, SEEK_SET);
-				 }
-			 }
-			 ++zero_index;
-			 zero = get_zero(zero_index);
-			 zero_pos = 0;
+                 char nn = num[zero_pos % l];
+		 char zz1 = zero1[zero_pos];
+		 char zz2 = zero2[zero_pos++];
+		 printf("zz1 %c nn %c zz2 %c", zz1, nn, zz2);
+		 if (nn == zz1) {
+			 printf("Hit 1  %c", nn);
+		 } 
+		 if (nn == zz2) {
+			 printf("hit 2 %c\n", nn);
 		 }
+		 if (nn == zz2 && nn == zz1) {
+			 printf("Common Hit %c\n", nn);
+			 ++c;
+			 if (c >= mid) {
+				 break;
+			 }
+		 }
+		 cin.get();
 	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
