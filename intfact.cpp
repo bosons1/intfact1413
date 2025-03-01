@@ -55,9 +55,9 @@ int main(int argc, char* argv[]) {
                  char nn = num[zero_pos % l];
 		 char zz1 = zero1[zero_pos];
 		 char zz2 = zero2[zero_pos++];
-		 printf("zz1 %c nn %c zz2 %c", zz1, nn, zz2);
+		 printf("zz1 %c nn %c zz2 %c zero_pos %lld\n", zz1, nn, zz2, zero_pos % l);
 		 if (nn == zz1) {
-			 printf("Hit 1  %c", nn);
+			 printf("Hit 1  %c\n", nn);
 		 } 
 		 if (nn == zz2) {
 			 printf("hit 2 %c\n", nn);
