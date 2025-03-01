@@ -14,7 +14,7 @@
 #include "zeros.hpp"
 #include "pi.hpp"
 #include "e.hpp"
-#define PREC 131072
+#define PREC 8192
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
@@ -33,7 +33,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	arb_t im;
 	arb_init(im);
 	acb_get_imag(im, zeros);
-	char* zero = strdup(arb_get_str((const arb_struct*)im, PREC, 0));
+	char* zero = strdup(arb_get_str((const arb_struct*)im, prec, 0));
 	char* ptr = strstr(zero, "+/-");
 	*ptr = '\0';
 	ptr = strchr(zero,'.');
@@ -59,7 +59,10 @@ int main(int argc, char* argv[]) {
                  char nn = num[zero_pos % l];
 		 char zz = zero[zero_pos];
 		 long int zero__ = zeros[zero_pos];
-		 printf("zz %c nn %c zero_pos %lld, zero %ld \tmodulo l %lld\n", zz, nn, zero_pos, zero__, zero_pos % l);
+		 char pp = 0, ee = 0;
+		 fscanf(fp, "%c", &pp);
+		 fscanf(fe, "%c", &ee);
+		 printf("zz %c nn %c zero_pos %lld, zero %ld \tmodulo l %lld \t\tpp %c\t ee %c\n", zz, nn, zero_pos, zero__, zero_pos % l,pp, ee);
 		 ++zero_pos;
 		 if (nn == zz) {
 			 char p_trial = pi[zero__];
@@ -70,6 +73,7 @@ int main(int argc, char* argv[]) {
 			 if (e_trial == nn) {
 				 printf("e hit\n");
 			 }
+		         printf("zero %s", get_zero(zero_pos,128));
 		 }
 		 cin.get();
 	}
