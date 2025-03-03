@@ -14,7 +14,7 @@
 #include "zeros.hpp"
 #include "pi.hpp"
 #include "e.hpp"
-#define PREC 8192
+#define PREC 2048
 #define TOLERANCE 10
 using namespace std;
 using namespace boost;
@@ -49,36 +49,20 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	char* zero = get_zero(1);
-        long long int zero_pos = 0;
-	FILE* fp = fopen64("./pi.txt","r");
-	fseeko(fp, 2, SEEK_SET);
-	FILE* fe = fopen64("./e.txt","r");
-	fseeko(fe, 2, SEEK_SET);
+        long long int zero_pos = 1, c = 0;
 	while (1) {
-                 char nn = num[zero_pos % l];
-		 char zz = zero[zero_pos];
-		 long int zero__ = zeros[zero_pos];
-		 char pp = 0, ee = 0;
-		 fscanf(fp, "%c", &pp);
-		 fscanf(fe, "%c", &ee);
-		 printf("zz %c nn %c zero_pos %lld, zero %ld \tmodulo l %lld \t\tpp %c\t ee %c\n", zz, nn, zero_pos, zero__, zero_pos % l,pp, ee);
-		 ++zero_pos;
-		 if (nn == zz) {
-			 char p_trial = pi[zero__];
-			 char e_trial = e[zero__];
-			 if (p_trial == nn) {
-				 printf("pi hit\n");
-			 } 
-			 if (e_trial == nn) {
-				 printf("e hit\n");
-			 }
-		         printf("zero %s", get_zero(zero_pos,128));
+                 char nn = num[c % l];
+	         char* zero = get_zero(c+1);
+		 char zz = zero[zero_pos-1];
+		 char pp = pi[zeros[c]];
+		 char ee = e[zeros[c]];
+		 ++c;
+		 if (c % l == 0) {
+			 ++zero_pos;
 		 }
+		 printf("zz %c nn %c pp %c\t ee %c\n", zz, nn, pp, ee);
 		 cin.get();
 	}
-	fclose(fp);
-	fclose(fe);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	//printf("Total time taken is %f seconds\n", time_taken);
