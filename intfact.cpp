@@ -56,11 +56,11 @@ int main(int argc, char* argv[]) {
 		 char zz = zero[zero_pos-1];
 		 char pp = pi[zeros[c]];
 		 char ee = e[zeros[c]];
+		 printf("zero %ld zz %c nn %c pp %c\t ee %c\n", zeros[c], zz, nn, pp, ee);
 		 ++c;
 		 if (c % l == 0) {
 			 ++zero_pos;
 		 }
-		 printf("zz %c nn %c pp %c\t ee %c\n", zz, nn, pp, ee);
 		 cin.get();
 	}
 	gettimeofday(&end, NULL);
