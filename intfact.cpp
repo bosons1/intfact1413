@@ -121,12 +121,12 @@ int main(int argc, char* argv[]) {
 				--zero_pos;
 				zz = zero[zero_pos % l];
 				printf("hit\n");
-				if (pp == target) {
+				if (zz == target) {
 					c += 2; 
-					printf("Goal reached");
+					printf("Goal reached\n");
 					cin.get();
 				} else {
-					printf("Goal Missed");
+					printf("Goal Missed\n");
 					c = zero_index;
 					fseeko(fp, zero_index, SEEK_SET);
 				}
