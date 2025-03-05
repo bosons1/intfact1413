@@ -55,11 +55,13 @@ int main(int argc, char* argv[]) {
 	char target = 0;
 	//fseek(fe, OFFSET, SEEK_SET);
 	while (zero_pos < mid) {
+		printf("Synthesis...\n");
 		while (1) {
                  char nn = num[c % l];
 		 char pp = 0/*, ee = 0*/;
 		 fscanf(fp, "%c", &pp);
 		 //fscanf(fe, "%c", &ee);
+		 printf("pp %c\t\tnn %c\n", pp, nn);
 		 if (pp == nn) {
 			 if (c % l == zero_pos) {
 				 target = num[(zero_pos + 1)];
@@ -70,16 +72,19 @@ int main(int argc, char* argv[]) {
 		 }
 		 ++c;
 		}
+		printf("\n\nAnalysis...\n");
 		char* zero = get_zero(c);
 		unsigned long long int m = 0;
 		while (1) {
 			char nn = zero[m++];
 			char pp = 0;
 			fscanf(fp, "%c", &pp);
+			printf("pp %c\t\tzz %c\n", pp, nn);
 			if ((pp == nn) && (pp == target)) {
 				break;
 			}
 		}
+		printf("\n");
 	}
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
