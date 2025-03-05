@@ -67,6 +67,7 @@ int main(int argc, char* argv[]) {
 			//	 target = num[(zero_pos + 1)];
 			//	 ++zero_pos;
 		                 ++c;
+			 printf("Breakup Point...%lld L %d\n", c % l, l);
 				 target = num[c % l];
 				 break;
 			 //}
