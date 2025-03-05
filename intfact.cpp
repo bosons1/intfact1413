@@ -63,12 +63,13 @@ int main(int argc, char* argv[]) {
 		 //fscanf(fe, "%c", &ee);
 		 printf("pp %c\t\tnn %c\n", pp, nn);
 		 if (pp == nn) {
-			 if (c % l == zero_pos) {
-				 target = num[(zero_pos + 1)];
-				 ++zero_pos;
+			 //if (c % l == zero_pos) {
+			//	 target = num[(zero_pos + 1)];
+			//	 ++zero_pos;
 		                 ++c;
+				 target = num[c % l];
 				 break;
-			 }
+			 //}
 		 }
 		 ++c;
 		}
