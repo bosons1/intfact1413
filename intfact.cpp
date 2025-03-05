@@ -125,6 +125,7 @@ int main(int argc, char* argv[]) {
 				if (prev_zz == target) {
 					c++; 
 					printf("Goal reached\n");
+					printf("c  %lld c_l %lld\n", c, c % l);
 				} else {
 					printf("Goal Missed\n");
 					fseeko(fp, zero_index+OFFSET, SEEK_SET);
