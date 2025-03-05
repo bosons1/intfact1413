@@ -81,8 +81,6 @@ int main(int argc, char* argv[]) {
 					}
 				}
 				fseeko(fp, pos, SEEK_SET);
-				--c;
-				nn = num[c % l];
 				printf("hit\n");
 				break;
 			} else {
@@ -93,10 +91,10 @@ int main(int argc, char* argv[]) {
 		//found the breakoff point
 		//now find fitment along the digits of pi
 		//for appropriate zero
-		long long int zero_index = (c + 1);
+		long long int zero_index = c;
 		printf("zero index %lld\n", zero_index);
 		long int prev_pos = zero_index;
-		char target = num[zero_index % l];
+		char target = num[c % l];
 		printf("target %c\n", target);
 		char* zero = get_zero(zero_index);
 		int lz = strlen(zero);
@@ -111,26 +109,25 @@ int main(int argc, char* argv[]) {
 			fscanf(fp, "%c", &pp);
 			printf("pp %c zz %c\n", pp, zz);
 			if (pp == zz) {
+				char prev_zz = zz;
 				long int pos = ftello(fp);
 				while (pp == zz) {
 					zz = zero[zero_pos++];
 					fscanf(fp, "%c", &pp);
 					if (pp == zz) {
+						prev_zz = zz;
 			                        printf("zz %c\t\t pp %c\n", zz, pp);
 						pos = ftello(fp);
 					}
 				}
 				fseeko(fp, pos, SEEK_SET);
-				--zero_pos;
-				zz = zero[zero_pos % l];
 				printf("hit\n");
-				if (zz == target) {
-					c += 2; 
+				if (prev_zz == target) {
+					c++; 
 					printf("Goal reached\n");
 				} else {
 					printf("Goal Missed\n");
-					c = zero_index;
-					fseeko(fp, zero_index, SEEK_SET);
+					fseeko(fp, zero_index+OFFSET, SEEK_SET);
 				}
 				break;
 			}
