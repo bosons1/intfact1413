@@ -85,7 +85,10 @@ int main(int argc, char* argv[]) {
 				nn = num[c % l];
 				printf("hit\n");
 				break;
+			} else {
+				++c;
 			}
+			cin.get();
 		}
 		//found the breakoff point
 		//now find fitment along the digits of pi
@@ -124,7 +127,6 @@ int main(int argc, char* argv[]) {
 				if (zz == target) {
 					c += 2; 
 					printf("Goal reached\n");
-					cin.get();
 				} else {
 					printf("Goal Missed\n");
 					c = zero_index;
@@ -132,6 +134,7 @@ int main(int argc, char* argv[]) {
 				}
 				break;
 			}
+			cin.get();
 		}
 	}
 	fclose(fp);
