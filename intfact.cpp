@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
 	fseek(fp, OFFSET, SEEK_SET);
 	char target = 0;
 	//fseek(fe, OFFSET, SEEK_SET);
-	while ((c % l) <= mid) {
+	while ((c==0) || !((c % l) ==0 && c > 0)) {
 		printf("Synthesis...\n");
 		while (1) {
                  char nn = num[c % l];
