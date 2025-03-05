@@ -68,6 +68,7 @@ int main(int argc, char* argv[]) {
 			char nn = num[c % l];
 			char pp = 0;
 			fscanf(fp, "%c", &pp);
+			printf("pp %c\t\t nn %c\n", pp, nn);
 			if (pp == nn) {
 				long int pos = ftello(fp);
 				while (pp == nn) {
@@ -75,12 +76,14 @@ int main(int argc, char* argv[]) {
 					nn = num[c % l];
 					fscanf(fp, "%c", &pp);
 					if (pp == nn) {
+			                        printf("pp %c\t\t nn %c\n", pp, nn);
 						pos = ftello(fp);
 					}
 				}
 				fseeko(fp, pos, SEEK_SET);
 				--c;
 				nn = num[c % l];
+				printf("hit\n");
 				break;
 			}
 		}
@@ -88,8 +91,10 @@ int main(int argc, char* argv[]) {
 		//now find fitment along the digits of pi
 		//for appropriate zero
 		long long int zero_index = (c + 1);
+		printf("zero index %lld\n", zero_index);
 		long int prev_pos = zero_index;
 		char target = num[zero_index % l];
+		printf("target %c\n", target);
 		char* zero = get_zero(zero_index);
 		int lz = strlen(zero);
 		long long int zero_pos = 0;
@@ -101,7 +106,21 @@ int main(int argc, char* argv[]) {
 			char zz = zero[zero_pos++];
 			char pp = 0;
 			fscanf(fp, "%c", &pp);
+			printf("pp %c zz %c\n", pp, zz);
 			if (pp == zz) {
+				long int pos = ftello(fp);
+				while (pp == zz) {
+					zz = zero[zero_pos++];
+					fscanf(fp, "%c", &pp);
+					if (pp == zz) {
+			                        printf("zz %c\t\t pp %c\n", zz, pp);
+						pos = ftello(fp);
+					}
+				}
+				fseeko(fp, pos, SEEK_SET);
+				--zero_pos;
+				zz = zero[zero_pos % l];
+				printf("hit\n");
 				if (pp == target) {
 					c += 2; 
 					printf("Goal reached");
