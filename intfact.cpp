@@ -27,7 +27,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	acb_dirichlet_zeta_zeros(zeros, n, 1, prec);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
-//	printf("Zero generation in %f seconds\n", time_taken);
+	//	printf("Zero generation in %f seconds\n", time_taken);
 	arb_t im;
 	arb_init(im);
 	acb_get_imag(im, zeros);
@@ -47,49 +47,76 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	int mid = ceil(l / 2.0);
-        long long int zero_pos = 0, c = 0;
+	long long int c = 0;
 	FILE* fp = fopen64("./pi.txt","r");
-//	FILE* fe = fopen64("./e.txt","r");
 	fseek(fp, OFFSET, SEEK_SET);
-	char target = 0;
-	//fseek(fe, OFFSET, SEEK_SET);
-	while ((c==0) || !((c % l) ==0 && c > 0)) {
-		printf("Synthesis...\n");
+	//Terminating condition not known yet
+	//Find breakoff point for pi
+	//after the breakoff point, 
+	//get the appropriate zero 
+	//and run it along the digits of pi
+	//if "resolution point" fits
+	//then accept else reject
+	//continue after the breakoff point
+	//along the digits of pi 
+	//to find the next breakoff point
+	//and repeat the process
+	//terminate when? will find out TBD 
+	while (1) {
 		while (1) {
-                 char nn = num[c % l];
-		 char pp = 0/*, ee = 0*/;
-		 fscanf(fp, "%c", &pp);
-		 //fscanf(fe, "%c", &ee);
-		 printf("pp %c\t\tnn %c\n", pp, nn);
-		 if (pp == nn) {
-			 //if (c % l == zero_pos) {
-			//	 target = num[(zero_pos + 1)];
-			//	 ++zero_pos;
-		                 ++c;
-			 printf("Breakup Point...%lld L %d\n", c % l, l);
-				 target = num[c % l];
-				 break;
-			 //}
-		 }
-		 ++c;
-		}
-		printf("\n\nAnalysis...\n");
-		char* zero = get_zero(c);
-		unsigned long long int m = 0;
-		while (1) {
-			char nn = zero[m++];
+			//find the breakoff point along the digits of pi
+			char nn = num[c % l];
 			char pp = 0;
 			fscanf(fp, "%c", &pp);
-			printf("pp %c\t\tzz %c\n", pp, nn);
-			if ((pp == nn) && (pp == target)) {
+			if (pp == nn) {
+				long int pos = ftello(fp);
+				while (pp == nn) {
+					++c;
+					nn = num[c % l];
+					fscanf(fp, "%c", &pp);
+					if (pp == nn) {
+						pos = ftello(fp);
+					}
+				}
+				fseeko(fp, pos, SEEK_SET);
+				--c;
+				nn = num[c % l];
 				break;
 			}
 		}
-		++c;
-		printf("\n");
+		//found the breakoff point
+		//now find fitment along the digits of pi
+		//for appropriate zero
+		long long int zero_index = (c + 1);
+		long int prev_pos = zero_index;
+		char target = num[zero_index % l];
+		char* zero = get_zero(zero_index);
+		int lz = strlen(zero);
+		long long int zero_pos = 0;
+		while (1) {
+			if (zero_pos >= lz) {
+				printf("Out of Precision !!\n");
+				exit(1);
+			}
+			char zz = zero[zero_pos++];
+			char pp = 0;
+			fscanf(fp, "%c", &pp);
+			if (pp == zz) {
+				if (pp == target) {
+					c += 2; 
+					printf("Goal reached");
+					cin.get();
+				} else {
+					printf("Goal Missed");
+					c = zero_index;
+					fseeko(fp, zero_index, SEEK_SET);
+				}
+				break;
+			}
+		}
 	}
+	fclose(fp);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
-	//printf("Total time taken is %f seconds\n", time_taken);
+	printf("Total time taken is %f seconds\n", time_taken);
 }
