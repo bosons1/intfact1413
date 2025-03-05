@@ -84,6 +84,7 @@ int main(int argc, char* argv[]) {
 				break;
 			}
 		}
+		++c;
 		printf("\n");
 	}
 	gettimeofday(&end, NULL);
