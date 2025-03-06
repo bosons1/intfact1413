@@ -50,10 +50,6 @@ int main(int argc, char* argv[]) {
 	long long int c = 0;
 	FILE* fp = fopen64("./pi.txt","r");
 	fseek(fp, OFFSET, SEEK_SET);
-	FILE* fp1 = fopen64("./pi.txt","r");
-	fseek(fp1, OFFSET, SEEK_SET);
-	FILE* fe1 = fopen64("./e.txt","r");
-	fseek(fe1, OFFSET, SEEK_SET);
 	//Terminating condition not known yet
 	//Find breakoff point for pi
 	//after the breakoff point, 
@@ -128,21 +124,20 @@ int main(int argc, char* argv[]) {
 				if (prev_zz == target) {
 					c++; 
 					printf("Goal reached\n");
-					//system("espeak 'Goal Reached' ");
 					printf("c  %lld c_l %lld\n", c, c % l);
-			cin.get();
+					cin.get();
+					break;
 				} else {
 					printf("Goal Missed\n");
-					//system("espeak 'Goal Missed' ");
-					fseeko(fp, zero_index+OFFSET, SEEK_SET);
+                                        zero_index = c;
+					char* zero = get_zero(zero_index);
+					zero_pos = 0;
+					cin.get();
 				}
-				break;
 			}
 		}
 	}
 	fclose(fp);
-	fclose(fp1);
-	fclose(fe1);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
