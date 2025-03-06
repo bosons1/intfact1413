@@ -127,19 +127,13 @@ int main(int argc, char* argv[]) {
 				printf("hit\n");
 				if (prev_zz == target) {
 					c++; 
-					char pp1 = 0, ee1 = 0;
-					fscanf(fp1, "%c", &pp1);
-					fscanf(fe1, "%c", &ee1);
-					printf("Goal reached pp %c ee %c\n", pp1, ee1);
-					system("espeak 'Goal reached'");
+					printf("Goal reached\n");
+//					system("espeak Goal Reached ");
 					printf("c  %lld c_l %lld\n", c, c % l);
 			cin.get();
 				} else {
-					char pp1 = 0, ee1 = 0;
-					fscanf(fp1, "%c", &pp1);
-					fscanf(fe1, "%c", &ee1);
-					printf("Goal Missed pp %c ee %c\n", pp1, ee1);
-					system("espeak 'Goal missed'");
+					printf("Goal Missed\n");
+//					system("espeak Goal Missed ");
 					fseeko(fp, zero_index+OFFSET, SEEK_SET);
 				}
 				break;
