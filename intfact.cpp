@@ -128,12 +128,12 @@ int main(int argc, char* argv[]) {
 				if (prev_zz == target) {
 					c++; 
 					printf("Goal reached\n");
-//					system("espeak Goal Reached ");
+					//system("espeak 'Goal Reached' ");
 					printf("c  %lld c_l %lld\n", c, c % l);
 			cin.get();
 				} else {
 					printf("Goal Missed\n");
-//					system("espeak Goal Missed ");
+					//system("espeak 'Goal Missed' ");
 					fseeko(fp, zero_index+OFFSET, SEEK_SET);
 				}
 				break;
