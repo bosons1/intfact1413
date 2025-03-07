@@ -27,10 +27,13 @@ bool isPrime(int x) {
 	}
 }
 
-bool get_index(int x) {
+int get_index(int x) {
+	printf("x %d", x);
 	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
 	if (it != primes.end()) {
-		return std::distance(it, primes.begin());
+		int k =  std::distance(primes.begin(), it);
+		printf("k %d\n", k);
+		return k+1;
 	} else {
 		return -1;
 	}
@@ -103,19 +106,6 @@ int main(int argc, char* argv[]) {
 			bool bPrime = isPrime(i);
 			printf("pp %c nn %c ee %c\n", pp, nn,ee);
 			if (bPrime) {
-				while (bPrime) {
-					++c;
-					nn = num[c % l];
-					fscanf(fp, "%c", &pp);
-					fscanf(fe, "%c", &ee);
-					char test[4];
-					test[0] = pp;
-					test[1] = nn;
-					test[2] = ee;
-					test[3] = '\0';
-					i = atoi(test);
-					bPrime = isPrime(i);
-				}
 				printf("hit\n");
 				cin.get();
 				++c;
@@ -134,6 +124,7 @@ int main(int argc, char* argv[]) {
 		printf("target %c\n", target);
 		int lz = strlen(zero);
 		long long int zero_pos = 0;
+		int iteration = 1;
 		while (1) {
 			if (zero_pos >= lz) {
 				printf("Out of Precision !!\n");
@@ -152,35 +143,24 @@ int main(int argc, char* argv[]) {
 			int j = atoi(test);
 			bool bPrime = isPrime(j);
 			if (bPrime) {
-				while (bPrime) {
-					zz = zero[zero_pos++];
-					fscanf(fp, "%c", &pp);
-					fscanf(fe, "%c", &ee);
-					char test[4];
-					test[0] = pp;
-					test[1] = zz;
-					test[2] = ee;
-					int k = atoi(test);
-					bPrime = isPrime(k);
-					if (bPrime) {
-						j = k;
-					}
-				}
 				if (zz == target) {
-					printf("c  %lld c_l %lld\n", c, c % l);
+					printf("iteration %d c  %lld c_l %lld\n", iteration,c, c % l);
+					iteration = 0;
 					++c;
 					cin.get();
 					break;
 				} else {
                                         zero_index = get_index(j);
-					char* zero = get_zero(zero_index);
+					zero = get_zero(zero_index);
 		                        printf("zero index %lld\n", zero_index);
+					++iteration;
 					zero_pos = 0;
 					cin.get();
 					continue;
 				}
 			}
 		}
+					if (c % l == 0 ) break;
 	}
 	fclose(fp);
 	gettimeofday(&end, NULL);
