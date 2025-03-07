@@ -69,102 +69,58 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	long long int c = 0;
 	FILE* fp = fopen64("./pi.txt","r");
 	fseek(fp, OFFSET, SEEK_SET);
 	FILE* fe = fopen64("./e.txt","r");
 	fseek(fe, OFFSET, SEEK_SET);
-	//Terminating condition not known yet
-	//Find breakoff point for pi
-	//after the breakoff point, 
-	//get the appropriate zero 
-	//and run it along the digits of pi
-	//if "resolution point" fits
-	//then accept else reject
-	//continue after the breakoff point
-	//along the digits of pi 
-	//to find the next breakoff point
-	//and repeat the process
-	//terminate when? will find out TBD 
-	char* zero = 0;
-	int i = 0;
-	long long int zero_pos = 0;
+	unsigned long long int c = 0;
 	while (1) {
+		bool bValidated = false;
+		int target = 0;
+		unsigned long long int count = 0;
 		while (1) {
-			//find the breakoff point along the digits of pi
-			char nn = num[c % l];
-			char pp = 0;
+			char pp = 0, ee = 0;
 			fscanf(fp, "%c", &pp);
-			char ee = 0;
 			fscanf(fe, "%c", &ee);
+			char nn = num[count % l];
 			char test[4];
 			test[0] = pp;
 			test[1] = nn;
 			test[2] = ee;
 			test[3] = '\0';
-			i = atoi(test);
+			long long i = atoi(test);
 			bool bPrime = isPrime(i);
-			printf("pp %c nn %c ee %c\n", pp, nn,ee);
+			printf("pp %c ee %c nn %c\n", pp, ee, nn);
 			if (bPrime) {
-				printf("hit\n");
-				cin.get();
-				++c;
-				break;
-			} else {
-				++c;
-			}
-		}
-		//found the breakoff point
-		//now find fitment along the digits of pi
-		//for appropriate zero
-		long long int zero_index = get_index(i);
-		printf("zero index %lld\n", zero_index);
-		char* zero = get_zero(zero_index);
-		char target = num[c % l];
-		printf("target %c\n", target);
-		int lz = strlen(zero);
-		long long int zero_pos = 0;
-		int iteration = 1;
-		while (1) {
-			if (zero_pos >= lz) {
-				printf("Out of Precision !!\n");
-				exit(1);
-			}
-			char zz = zero[zero_pos++];
-			char pp = 0, ee = 0;
-			fscanf(fp, "%c", &pp);
-		        fscanf(fe, "%c", &ee);
-			printf("pp %c zz %c ee %c\n", pp, zz,ee);
-			char test[4];
-			test[0] = pp;
-			test[1] = zz;
-			test[2] = ee;
-			test[3] = '\0';
-			int j = atoi(test);
-			bool bPrime = isPrime(j);
-			if (bPrime) {
-				if (zz == target) {
-					printf("iteration %d c  %lld c_l %lld\n", iteration,c, c % l);
-			printf("pp %c zz %c ee %c\n", pp, zz,ee);
-		                        printf("zero index %lld\n", zero_index);
-					iteration = 0;
-					++c;
-					cin.get();
-					break;
+				printf("Prime\n");
+				if (count % l == target){
+					target++;
+					if (target == l) {
+						bValidated = true;
+						break;
+					}
 				} else {
-                                        zero_index = get_index(j);
-					zero = get_zero(zero_index);
-		                        printf("zero index %lld\n", zero_index);
-					++iteration;
-					zero_pos = 0;
-					cin.get();
-					continue;
+					bValidated = false;
+					break;
 				}
 			}
+			++count;
 		}
-					//if (c % l == 0 ) break;
+		++c;
+		printf("validated %d\n", bValidated);
+		if (bValidated == true) {
+			printf("c %lld\n", c);
+			cin.get();
+		}
+		if (bValidated) {
+			//measure it with a zero
+		}
+		fseek(fp, OFFSET + c, SEEK_SET);
+		fseek(fe, OFFSET + c, SEEK_SET);
+		printf("\n\n\n");
 	}
 	fclose(fp);
+	fclose(fe);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
