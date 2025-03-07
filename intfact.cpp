@@ -145,6 +145,8 @@ int main(int argc, char* argv[]) {
 			if (bPrime) {
 				if (zz == target) {
 					printf("iteration %d c  %lld c_l %lld\n", iteration,c, c % l);
+			printf("pp %c zz %c ee %c\n", pp, zz,ee);
+		                        printf("zero index %lld\n", zero_index);
 					iteration = 0;
 					++c;
 					cin.get();
@@ -160,7 +162,7 @@ int main(int argc, char* argv[]) {
 				}
 			}
 		}
-					if (c % l == 0 ) break;
+					//if (c % l == 0 ) break;
 	}
 	fclose(fp);
 	gettimeofday(&end, NULL);
