@@ -11,11 +11,30 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
+#include "primes.hpp"
 #define PREC 2048
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
 using namespace boost;
+
+bool isPrime(int x) {
+	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
+	if (it != primes.end()) {
+		return true;
+	} else {
+		return false;
+	}
+}
+
+bool get_index(int x) {
+	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
+	if (it != primes.end()) {
+		return std::distance(it, primes.begin());
+	} else {
+		return -1;
+	}
+}
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
@@ -50,6 +69,8 @@ int main(int argc, char* argv[]) {
 	long long int c = 0;
 	FILE* fp = fopen64("./pi.txt","r");
 	fseek(fp, OFFSET, SEEK_SET);
+	FILE* fe = fopen64("./e.txt","r");
+	fseek(fe, OFFSET, SEEK_SET);
 	//Terminating condition not known yet
 	//Find breakoff point for pi
 	//after the breakoff point, 
@@ -62,26 +83,42 @@ int main(int argc, char* argv[]) {
 	//to find the next breakoff point
 	//and repeat the process
 	//terminate when? will find out TBD 
+	char* zero = 0;
+	int i = 0;
+	long long int zero_pos = 0;
 	while (1) {
 		while (1) {
 			//find the breakoff point along the digits of pi
 			char nn = num[c % l];
 			char pp = 0;
 			fscanf(fp, "%c", &pp);
-			printf("pp %c\t\t nn %c\n", pp, nn);
-			if (pp == nn) {
-				long int pos = ftello(fp);
-				while (pp == nn) {
+			char ee = 0;
+			fscanf(fe, "%c", &ee);
+			char test[4];
+			test[0] = pp;
+			test[1] = nn;
+			test[2] = ee;
+			test[3] = '\0';
+			i = atoi(test);
+			bool bPrime = isPrime(i);
+			printf("pp %c nn %c ee %c\n", pp, nn,ee);
+			if (bPrime) {
+				while (bPrime) {
 					++c;
 					nn = num[c % l];
 					fscanf(fp, "%c", &pp);
-					if (pp == nn) {
-			                        printf("pp %c\t\t nn %c\n", pp, nn);
-						pos = ftello(fp);
-					}
+					fscanf(fe, "%c", &ee);
+					char test[4];
+					test[0] = pp;
+					test[1] = nn;
+					test[2] = ee;
+					test[3] = '\0';
+					i = atoi(test);
+					bPrime = isPrime(i);
 				}
-				fseeko(fp, pos, SEEK_SET);
 				printf("hit\n");
+				cin.get();
+				++c;
 				break;
 			} else {
 				++c;
@@ -90,12 +127,11 @@ int main(int argc, char* argv[]) {
 		//found the breakoff point
 		//now find fitment along the digits of pi
 		//for appropriate zero
-		long long int zero_index = c;
+		long long int zero_index = get_index(i);
 		printf("zero index %lld\n", zero_index);
-		long int prev_pos = zero_index;
+		char* zero = get_zero(zero_index);
 		char target = num[c % l];
 		printf("target %c\n", target);
-		char* zero = get_zero(zero_index);
 		int lz = strlen(zero);
 		long long int zero_pos = 0;
 		while (1) {
@@ -104,35 +140,44 @@ int main(int argc, char* argv[]) {
 				exit(1);
 			}
 			char zz = zero[zero_pos++];
-			char pp = 0;
+			char pp = 0, ee = 0;
 			fscanf(fp, "%c", &pp);
-			printf("pp %c zz %c\n", pp, zz);
-			if (pp == zz) {
-				char prev_zz = zz;
-				long int pos = ftello(fp);
-				while (pp == zz) {
+		        fscanf(fe, "%c", &ee);
+			printf("pp %c zz %c ee %c\n", pp, zz,ee);
+			char test[4];
+			test[0] = pp;
+			test[1] = zz;
+			test[2] = ee;
+			test[3] = '\0';
+			int j = atoi(test);
+			bool bPrime = isPrime(j);
+			if (bPrime) {
+				while (bPrime) {
 					zz = zero[zero_pos++];
 					fscanf(fp, "%c", &pp);
-					if (pp == zz) {
-						prev_zz = zz;
-			                        printf("zz %c\t\t pp %c\n", zz, pp);
-						pos = ftello(fp);
+					fscanf(fe, "%c", &ee);
+					char test[4];
+					test[0] = pp;
+					test[1] = zz;
+					test[2] = ee;
+					int k = atoi(test);
+					bPrime = isPrime(k);
+					if (bPrime) {
+						j = k;
 					}
 				}
-				fseeko(fp, pos, SEEK_SET);
-				printf("hit\n");
-				if (prev_zz == target) {
-					c++; 
-					printf("Goal reached\n");
+				if (zz == target) {
 					printf("c  %lld c_l %lld\n", c, c % l);
+					++c;
 					cin.get();
 					break;
 				} else {
-					printf("Goal Missed\n");
-                                        zero_index = c;
+                                        zero_index = get_index(j);
 					char* zero = get_zero(zero_index);
+		                        printf("zero index %lld\n", zero_index);
 					zero_pos = 0;
 					cin.get();
+					continue;
 				}
 			}
 		}
