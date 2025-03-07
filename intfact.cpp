@@ -69,6 +69,7 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
+	char pp = 0, ee =0, nn = 0;
 	FILE* fp = fopen64("./pi.txt","r");
 	fseek(fp, OFFSET, SEEK_SET);
 	FILE* fe = fopen64("./e.txt","r");
@@ -79,10 +80,10 @@ int main(int argc, char* argv[]) {
 		int target = 0;
 		unsigned long long int count = 0;
 		while (1) {
-			char pp = 0, ee = 0;
+			pp = 0, ee = 0;
 			fscanf(fp, "%c", &pp);
 			fscanf(fe, "%c", &ee);
-			char nn = num[count % l];
+			nn = num[count % l];
 			char test[4];
 			test[0] = pp;
 			test[1] = nn;
@@ -90,9 +91,8 @@ int main(int argc, char* argv[]) {
 			test[3] = '\0';
 			long long i = atoi(test);
 			bool bPrime = isPrime(i);
-			printf("pp %c ee %c nn %c\n", pp, ee, nn);
 			if (bPrime) {
-				printf("Prime\n");
+			//	printf("Prime\n");
 				if (count % l == target){
 					target++;
 					if (target == l) {
@@ -107,9 +107,10 @@ int main(int argc, char* argv[]) {
 			++count;
 		}
 		++c;
-		printf("validated %d\n", bValidated);
 		if (bValidated == true) {
-			printf("c %lld\n", c);
+		//printf("validated %d\n", bValidated);
+			printf("pp %c ee %c \n", pp, ee);
+			//printf("c %lld\n", c);
 			cin.get();
 		}
 		if (bValidated) {
@@ -117,7 +118,7 @@ int main(int argc, char* argv[]) {
 		}
 		fseek(fp, OFFSET + c, SEEK_SET);
 		fseek(fe, OFFSET + c, SEEK_SET);
-		printf("\n\n\n");
+//		printf("\n\n\n");
 	}
 	fclose(fp);
 	fclose(fe);
