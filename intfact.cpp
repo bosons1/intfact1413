@@ -11,31 +11,19 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#include "primes.hpp"
+#include "zeros.hpp"
 #define PREC 2048
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
 using namespace boost;
 
-bool isPrime(int x) {
-	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
-	if (it != primes.end()) {
+bool isZero(int x) {
+	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
+	if (it != zeros.end()) {
 		return true;
 	} else {
 		return false;
-	}
-}
-
-int get_index(int x) {
-	printf("x %d", x);
-	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
-	if (it != primes.end()) {
-		int k =  std::distance(primes.begin(), it);
-		printf("k %d\n", k);
-		return k+1;
-	} else {
-		return -1;
 	}
 }
 
@@ -69,59 +57,37 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	char pp = 0, ee =0, nn = 0;
-	FILE* fp = fopen64("./pi.txt","r");
-	fseek(fp, OFFSET, SEEK_SET);
-	FILE* fe = fopen64("./e.txt","r");
-	fseek(fe, OFFSET, SEEK_SET);
-	unsigned long long int c = 0;
-	while (1) {
-		bool bValidated = false;
-		int target = 0;
-		unsigned long long int count = 0;
-		while (1) {
-			pp = 0, ee = 0;
-			fscanf(fp, "%c", &pp);
-			fscanf(fe, "%c", &ee);
-			nn = num[count % l];
-			char test[4];
-			test[0] = pp;
-			test[1] = nn;
-			test[2] = ee;
-			test[3] = '\0';
-			long long i = atoi(test);
-			bool bPrime = isPrime(i);
-			if (bPrime) {
-			//	printf("Prime\n");
-				if (count % l == target){
-					target++;
-					if (target == l) {
-						bValidated = true;
-						break;
-					}
-				} else {
-					bValidated = false;
-					break;
-				}
-			}
-			++count;
-		}
+	char nn = 0;
+	unsigned long long int sum = 0;
+	unsigned long long int c = 0, k = 0;
+	vector<vector<unsigned long long int>* > posits;
+	vector<vector<unsigned long long int>* > sums;
+	vector<unsigned long long int>* position = new vector<unsigned long long int>();
+	vector<unsigned long long int>* summation = new vector<unsigned long long int>();
+	while (k < l) {
+		char nn = num[c % l];
+		sum += (nn - '0');
+		bool bIsZero = isZero(sum);
 		++c;
-		if (bValidated == true) {
-		//printf("validated %d\n", bValidated);
-			printf("pp %c ee %c \n", pp, ee);
-			//printf("c %lld\n", c);
-			cin.get();
+		if (bIsZero) {
+			position->push_back(c);
+			summation->push_back(sum);
+			if (c % l == 0) {
+				posits.push_back(position);
+				sums.push_back(summation);
+				position=new vector<unsigned long long int>();
+				summation=new vector<unsigned long long int>();
+				++k;
+			}
 		}
-		if (bValidated) {
-			//measure it with a zero
-		}
-		fseek(fp, OFFSET + c, SEEK_SET);
-		fseek(fe, OFFSET + c, SEEK_SET);
-//		printf("\n\n\n");
 	}
-	fclose(fp);
-	fclose(fe);
+	for (int i = 0; i < posits.size(); ++i) {
+		for (int j = 0; j < posits[i]->size();++j) {
+			cout << posits[i]->at(j) << ",";
+		}
+		cout << endl;
+	}
+	cout << endl;
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
