@@ -12,7 +12,7 @@
 #include <flint/fmpz.h>
 #include <gmp.h>
 #include "zeros.hpp"
-#define PREC 2048
+#define PREC 16384
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
