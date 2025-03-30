@@ -18,9 +18,10 @@
 using namespace std;
 using namespace boost;
 
-bool isZero(int x) {
+bool isZero(int x, int& d) {
 	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
 	if (it != zeros.end()) {
+		d = std::distance(zeros.begin(), it) + 1;
 		return true;
 	} else {
 		return false;
@@ -60,34 +61,32 @@ int main(int argc, char* argv[]) {
 	char nn = 0;
 	unsigned long long int sum = 0;
 	unsigned long long int c = 0, k = 0;
-	vector<vector<unsigned long long int>* > posits;
-	vector<vector<unsigned long long int>* > sums;
 	vector<unsigned long long int>* position = new vector<unsigned long long int>();
 	vector<unsigned long long int>* summation = new vector<unsigned long long int>();
-	while (k < l) {
+	while (k < 14*l) {
 		char nn = num[c % l];
 		sum += (nn - '0');
-		bool bIsZero = isZero(sum);
+		int d = 0;
+		bool bIsZero = isZero(sum, d);
 		++c;
 		if (bIsZero) {
 			position->push_back(c);
-			summation->push_back(sum);
+			summation->push_back(d);
 			if (c % l == 0) {
-				posits.push_back(position);
-				sums.push_back(summation);
+				for (int j = 0; j < position->size(); ++j) {
+					int index = summation->at(j);
+					char* zero = get_zero(index);
+					char zz = zero[position->at(j)-1];
+					if (zz == '0') ++k;
+					cout << zz << ",";
+					if (k == l) exit(0);
+				}
+				cout << endl;
 				position=new vector<unsigned long long int>();
 				summation=new vector<unsigned long long int>();
-				++k;
 			}
 		}
 	}
-	for (int i = 0; i < posits.size(); ++i) {
-		for (int j = 0; j < posits[i]->size();++j) {
-			cout << posits[i]->at(j) << ",";
-		}
-		cout << endl;
-	}
-	cout << endl;
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
