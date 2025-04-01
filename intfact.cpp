@@ -11,33 +11,11 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#include "zeros.hpp"
-#include "primes.hpp"
-#define PREC 16384
+#define PREC 32768
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
 using namespace boost;
-
-bool isZero(int x, int& d) {
-	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
-	if (it != zeros.end()) {
-		d = std::distance(zeros.begin(), it) + 1;
-		return true;
-	} else {
-		return false;
-	}
-}
-
-bool isPrime(int x, int& d) {
-	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
-	if (it != primes.end()) {
-		d = std::distance(primes.begin(), it) + 1;
-		return true;
-	} else {
-		return false;
-	}
-}
 
 char* get_zero(int zero_index, int prec=PREC) {
 	acb_t zeros;
