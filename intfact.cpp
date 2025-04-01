@@ -13,7 +13,7 @@
 #include <gmp.h>
 #include "zeros.hpp"
 #include "primes.hpp"
-#define PREC 8192
+#define PREC 16384
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
@@ -105,22 +105,20 @@ char* factorize(std::string num, std::string ss, std::string tt) {
 		for (int i = 0; i < l; ++i) {
 			if (ss[i] == zero[i]) ++z_score;
 		}
-		cout << z_score << endl;
 		int z_score1 = z_score;
 		z_score = 0;
 		for (int i = 0; i < l; ++i) {
 			if (tt[i] == zero[i]) ++z_score;
 		}
-		cout << z_score << endl;
 		++zero_index;
 		int z_score2 = z_score;
 		int delta = z_score2 - z_score1;
+		cout << z_score1 << "\t\t"<< z_score2 << "\t\t"<< delta << endl;
 		if (delta == (nn - '0')) {
 				++c;
 				if (c % ll == 0) break;
 				nn = num[c % ll];
 				}
-		cin.get();
 	}
 	return 0;
 }
