@@ -64,10 +64,74 @@ char* get_zero(int zero_index, int prec=PREC) {
 	return zero;
 }
 
+bool fits(std::string ss, std::string num, bool& first) {
+	int k = 0;
+	if (first) {
+		while (ss[k++] == '0');
+		first = false;
+	}
+	int c = 0;
+	while (1) {
+		if (ss[k++] == num[c++]) {
+			if (k == ss.length()) {
+				return true;
+			}
+			if (c == num.length()) {
+				return false;
+			}
+			continue;
+		} else {
+			return false;
+		} 		       
+	}
+	return false;
+}
+
 void* characterize(std::string num, std::string& ps, std::string& es) {
+	FILE* pi = fopen64("./pi.txt", "r");
+	fseeko(pi, OFFSET, SEEK_SET);
+	FILE* e = fopen64("./e.txt","r");
+	fseeko(e, OFFSET, SEEK_SET);
+	unsigned long long int c = 0;
+	long l = num.length();
+	bool bIsEven = ((l % 2) == 0);
+	char nn = num[c % l];
+	bool first =true;
+	int snippet = 0;
+	while (1) {
+		char pp = 0, ee = 0;
+		fscanf(pi, "%c", &pp);
+		fscanf(e, "%c", &ee);
+		ps+=boost::lexical_cast<std::string>(pp-'0');
+		es+=boost::lexical_cast<std::string>(ee - '0');
+		char test[4];
+		test[0] = pp;
+		test[1] = nn;
+		test[2] = ee;
+		test[3] = '\0';
+		int tk = atoi(test);
+		int d = 0;
+		bool bIsPrime = isPrime(tk, d);
+		if (bIsPrime) {
+			snippet += (pp - '0');
+			std::string ss = boost::lexical_cast<std::string>(snippet);
+			if (bIsEven) {
+				std::reverse(ss.begin(), ss.end());
+			}
+			if (fits(ss, num, first)) {
+				bIsEven = !bIsEven;
+				snippet = 0;
+			}
+			++c;
+			nn = num[c % l];
+		}
+	}
+	return 0;
 }
 
 char* factorize(std::string ss) {
+	cout << ss << endl;
+	return 0;
 }
 
 int main(int argc, char* argv[]) {
