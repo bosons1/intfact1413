@@ -64,38 +64,6 @@ char* get_zero(int zero_index, int prec=PREC) {
 	return zero;
 }
 
-bool fits(std::string ss, std::string num, bool& first,int& current_pos) {
-	int k = 0;
-	if (first) {
-		while (ss[k++] == '0');
-		first = false;
-	}
-	int c = current_pos;
-	while (1) {
-		if (ss[k++] == num[c++]) {
-			if (k == ss.length()) {
-				current_pos = c;
-				 return true;
-			}
-			if (c == num.length()) {
-				while (k < ss.length()) {
-					if (ss[k++] == '0') {
-						continue;
-					} else {
-						return false;
-					}
-				} 
-				current_pos = c;
-				return true;
-			}
-			continue;
-		} else {
-			return false;
-		} 		       
-	}
-	return false;
-}
-
 void* characterize(std::string num, std::string& ps, std::string& es) {
 	FILE* pi = fopen64("./pi.txt", "r");
 	fseeko(pi, OFFSET, SEEK_SET);
@@ -103,9 +71,7 @@ void* characterize(std::string num, std::string& ps, std::string& es) {
 	fseeko(e, OFFSET, SEEK_SET);
 	unsigned long long int c = 0;
 	long l = num.length();
-	bool bIsEven = ((l % 2) == 0);
 	char nn = num[c % l];
-	bool first =true;
 	int snippet = 0,current_pos=0;
 	while (1) {
 		char pp = 0, ee = 0;
@@ -113,35 +79,24 @@ void* characterize(std::string num, std::string& ps, std::string& es) {
 		fscanf(e, "%c", &ee);
 		ps+=boost::lexical_cast<std::string>(pp-'0');
 		es+=boost::lexical_cast<std::string>(ee - '0');
-		char test[4];
-		test[0] = pp;
-		test[1] = nn;
-		test[2] = ee;
-		test[3] = '\0';
-		int tk = atoi(test);
-		int d = 0;
-		bool bIsPrime = isPrime(tk, d);
-		if (bIsPrime) {
-			snippet += (pp - '0');
-			cout << tk << endl;
-			cout << snippet << endl;
-			cout << bIsEven << endl;
-			cin.get();
-			std::string ss = boost::lexical_cast<std::string>(snippet);
-			if (bIsEven) {
-				std::reverse(ss.begin(), ss.end());
+		if (pp == nn) {
+			char test[4];
+			test[0] = pp;
+			test[1] = '7';
+			test[2] = ee;
+			test[3] = '\0';
+			int tk = atoi(test);
+			int d = 0;
+			bool bIsPrime = isPrime(tk, d);
+			if (bIsPrime) {
+				++c;
+				if (c % l == 0) break;
+				nn = num[c % l];
 			}
-			if (fits(ss, num, first,current_pos)) {
-				cout << ss << endl;
-				cout << current_pos << endl;
-				bIsEven = !bIsEven;
-				snippet = 0;
-				if (current_pos % l == 0) break;
-			}
-			++c;
-			nn = num[c % l];
 		}
 	}
+	fclose(pi);
+	fclose(e);
 	return 0;
 }
 
