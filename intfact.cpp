@@ -12,7 +12,8 @@
 #include <flint/fmpz.h>
 #include <gmp.h>
 #include "zeros.hpp"
-#define PREC 16384
+#include "primes.hpp"
+#define PREC 8192
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
@@ -22,6 +23,16 @@ bool isZero(int x, int& d) {
 	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
 	if (it != zeros.end()) {
 		d = std::distance(zeros.begin(), it) + 1;
+		return true;
+	} else {
+		return false;
+	}
+}
+
+bool isPrime(int x, int& d) {
+	std::vector<int>::iterator it = std::find(primes.begin(), primes.end(), x);
+	if (it != zeros.end()) {
+		d = std::distance(primes.begin(), it) + 1;
 		return true;
 	} else {
 		return false;
@@ -53,41 +64,22 @@ char* get_zero(int zero_index, int prec=PREC) {
 	return zero;
 }
 
+void* characterize(std::string num, std::string& ps, std::string& es) {
+}
+
+char* factorize(std::string ss) {
+}
+
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	char nn = 0;
-	unsigned long long int sum = 0;
-	unsigned long long int c = 0, k = 0;
-	vector<unsigned long long int>* position = new vector<unsigned long long int>();
-	vector<unsigned long long int>* summation = new vector<unsigned long long int>();
-	while (k < 14*l) {
-		char nn = num[c % l];
-		sum += (nn - '0');
-		int d = 0;
-		bool bIsZero = isZero(sum, d);
-		++c;
-		if (bIsZero) {
-			position->push_back(c);
-			summation->push_back(d);
-			if (c % l == 0) {
-				for (int j = 0; j < position->size(); ++j) {
-					int index = summation->at(j);
-					char* zero = get_zero(index);
-					char zz = zero[position->at(j)-1];
-					if (zz == '0') ++k;
-					cout << zz << ",";
-					if (k == l) exit(0);
-				}
-				cout << endl;
-				position=new vector<unsigned long long int>();
-				summation=new vector<unsigned long long int>();
-			}
-		}
-	}
-	gettimeofday(&end, NULL);
+	std::string ps = "";
+	std::string es = "";
+	characterize(num, ps, es);
+	char* factor1 = factorize(ps);
+	char* factor2 = factorize(es);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
 }
