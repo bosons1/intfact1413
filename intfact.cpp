@@ -11,7 +11,8 @@
 #include <acb_dirichlet.h>
 #include <flint/fmpz.h>
 #include <gmp.h>
-#define PREC 32768
+#include "zeros.hpp"
+#define PREC 1024
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
@@ -42,77 +43,56 @@ char* get_zero(int zero_index, int prec=PREC) {
 	return zero;
 }
 
-void* characterize(std::string num, std::string rnum, std::string& ps, std::string& es) {
-	FILE* pi = fopen64("./pi.txt", "r");
-	fseeko(pi, OFFSET, SEEK_SET);
-	FILE* e = fopen64("./e.txt","r");
-	fseeko(e, OFFSET, SEEK_SET);
-	unsigned long long int c = 0;
-	long l = num.length();
-	char nn = num[c % l];
-	char rnn = rnum[c % l];
-	int snippet = 0,current_pos=0;
-	while (1) {
-		char pp = 0, ee = 0;
-		fscanf(pi, "%c", &pp);
-		fscanf(e, "%c", &ee);
-		ps+=boost::lexical_cast<std::string>(pp-'0');
-		es+=boost::lexical_cast<std::string>(ee - '0');
-		if ((pp == nn) && (ee == rnn)) {
-				++c;
-				if (c % l == 0) break;
-				nn = num[c % l];
-				rnn = rnum[c % l];
-		}
+bool isZero(int x) {
+	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
+	if (it == zeros.end()) {
+		return false;
+	} else {
+		return true;
 	}
-	fclose(pi);
-	fclose(e);
-	return 0;
-}
-
-char* factorize(std::string num, std::string ss, std::string tt) {
-	cout << ss << endl;
-	long int l = ss.length();
-	int zero_index = 1;
-	int c = 0;
-	int ll = num.length();
-	char nn = num[c % l];
-	while (1) {
-		int z_score = 0;
-		char* zero = get_zero(zero_index);
-		for (int i = 0; i < l; ++i) {
-			if (ss[i] == zero[i]) ++z_score;
-		}
-		int z_score1 = z_score;
-		z_score = 0;
-		for (int i = 0; i < l; ++i) {
-			if (tt[i] == zero[i]) ++z_score;
-		}
-		++zero_index;
-		int z_score2 = z_score;
-		int delta = z_score2 - z_score1;
-		cout << z_score1 << "\t\t"<< z_score2 << "\t\t"<< delta << endl;
-		if (delta == (nn - '0')) {
-				++c;
-				if (c % ll == 0) break;
-				nn = num[c % ll];
-				}
-	}
-	return 0;
+	return false;
 }
 
 int main(int argc, char* argv[]) {
 	struct timeval start, end;
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
-	string rnum = string(num);
-	std::reverse(rnum.begin(), rnum.end());
 	int l = num.length();
-	std::string ps = "";
-	std::string es = "";
-	characterize(num, rnum, ps, es);
-	char* factor1 = factorize(num,ps, es);
-	//char* factor2 = factorize(es);
+	int zero_index = 1;
+	char* zero = get_zero(zero_index);
+	unsigned long long int zero_pos = 0, c = 0;
+	FILE* pi = fopen64("./pi.txt","r");
+	fseek(pi, OFFSET, SEEK_SET);
+	FILE* e = fopen64("./e.txt","r");
+	fseek(e, OFFSET, SEEK_SET);
+	while (1) {
+		char zz = zero[zero_pos];
+		char nn = num[c % l];
+		++c;
+		zero_index = zero_index + 1;
+		zero = get_zero(zero_index);
+		char pp = 0, ee = 0;
+		fscanf(pi, "%c", &pp);
+		fscanf(e, "%c", &ee);
+		printf("zz %c nn %c c_l %lld pp %c ee %c\n", zz, nn, c % l, pp, ee);
+		if (nn == zz) {
+				char test[3];
+				test[0] = pp;
+				test[1] = ee;
+				test[2] = '\0';
+				int tk = atoi(test);
+				bool bIsZero = isZero(tk);
+				if (bIsZero) {
+					cin.get();
+				}
+			zero_index = 1;
+			zero_pos = c;
+			zero = get_zero(zero_index);
+                        continue;
+		}
+	}
+	fclose(pi);
+	fclose(e);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
 }
