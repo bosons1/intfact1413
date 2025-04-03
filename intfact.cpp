@@ -12,13 +12,19 @@
 #include <flint/fmpz.h>
 #include <gmp.h>
 #include "zeros.hpp"
-#define PREC 16384
+#include <bits/stdc++.h>
+#define PREC 65536
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
 using namespace boost;
 
+
+map<int, string> dict;
 char* get_zero(int zero_index, int prec=PREC) {
+	if (dict.contains(zero_index)) {
+		return strdup((char*)dict[zero_index].c_str());
+	}
 	acb_t zeros;
 	acb_init(zeros);
 	fmpz_t n;
@@ -37,6 +43,8 @@ char* get_zero(int zero_index, int prec=PREC) {
 	*ptr = '\0';
 	ptr = strchr(zero,'.');
 	zero = ptr + 1;
+        std::string zs = string(zero);
+	dict[zero_index] = zs;
 	acb_clear(zeros);
 	fmpz_clear(n);
 	arb_clear(im);
@@ -83,6 +91,7 @@ int main(int argc, char* argv[]) {
 				int tk = atoi(test);
 				bool bIsZero = isZero(tk);
 				if (bIsZero) {
+					printf("Press any key to continue...\n");
 					cin.get();
 				}
 			zero_index = 1;
