@@ -82,7 +82,6 @@ int main(int argc, char* argv[]) {
 		char pp = 0, ee = 0;
 		fscanf(pi, "%c", &pp);
 		fscanf(e, "%c", &ee);
-		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee);
 		if (nn == zz) {
 				char test[3];
 				test[0] = pp;
@@ -91,8 +90,11 @@ int main(int argc, char* argv[]) {
 				int tk = atoi(test);
 				bool bIsZero = isZero(tk);
 				if (bIsZero) {
+					if (pp == ee) {
+		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee);
 					printf("Press any key to continue...\n");
 					cin.get();
+					}
 				}
 			zero_index = 1;
 			zero_pos = c;
