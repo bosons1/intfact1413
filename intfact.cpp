@@ -13,7 +13,7 @@
 #include <gmp.h>
 #include "zeros.hpp"
 #include <bits/stdc++.h>
-#define PREC 65536
+#define PREC 16384
 #define TOLERANCE 10
 #define OFFSET 2
 using namespace std;
@@ -82,6 +82,12 @@ int main(int argc, char* argv[]) {
 		fscanf(pi, "%c", &pp);
 		fscanf(e, "%c", &ee);
 		if (nn == zz) {
+		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee);
+		if ((pp == '7' && ee == '1') || ( pp == '1' && ee == '7') || (pp == '2' && ee == '9') || ( pp == '9' && ee == '2')) {
+					printf("Press any key to continue...\n");
+					cin.get();
+		}
+					/*
 				char test[3];
 				test[0] = pp;
 				test[1] = ee;
@@ -89,12 +95,7 @@ int main(int argc, char* argv[]) {
 				int tk = atoi(test);
 				bool bIsZero = isZero(tk);
 				if (bIsZero) {
-					if (pp == ee) {
-		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee);
-					printf("Press any key to continue...\n");
-					cin.get();
-					}
-				}
+				}*/
 			zero_index = 1;
 			zero_pos = c;
 			zero = get_zero(zero_index);
