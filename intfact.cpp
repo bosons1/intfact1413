@@ -34,7 +34,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	acb_dirichlet_zeta_zeros(zeros, n, 1, prec);
 	gettimeofday(&end, NULL);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
-	//	printf("Zero generation in %f seconds\n", time_taken);
+	printf("Zero generation in %f seconds\n", time_taken);
 	arb_t im;
 	arb_init(im);
 	acb_get_imag(im, zeros);
@@ -72,6 +72,7 @@ int main(int argc, char* argv[]) {
 	fseek(pi, OFFSET, SEEK_SET);
 	FILE* e = fopen64("./e.txt","r");
 	fseek(e, OFFSET, SEEK_SET);
+	int t= 1;
 	while (1) {
 		char zz = zero[zero_pos];
 		char nn = num[c % l];
@@ -82,7 +83,8 @@ int main(int argc, char* argv[]) {
 		fscanf(pi, "%c", &pp);
 		fscanf(e, "%c", &ee);
 		if (nn == zz) {
-		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee);
+		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\t\tt %d\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee,t);
+		t = 1 - t;
 		if ((pp == '7' && ee == '1') || ( pp == '1' && ee == '7') || (pp == '2' && ee == '9') || ( pp == '9' && ee == '2')) {
 					printf("Press any key to continue...\n");
 					cin.get();
