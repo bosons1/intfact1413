@@ -20,10 +20,10 @@ using namespace std;
 using namespace boost;
 
 
-map<int, string> dict;
+map<int, char*> dict;
 char* get_zero(int zero_index, int prec=PREC) {
 	if (dict.contains(zero_index)) {
-		return strdup((char*)dict[zero_index].c_str());
+		return dict[zero_index];
 	}
 	acb_t zeros;
 	acb_init(zeros);
@@ -43,8 +43,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 	*ptr = '\0';
 	ptr = strchr(zero,'.');
 	zero = ptr + 1;
-        std::string zs = string(zero);
-	dict[zero_index] = zs;
+	dict[zero_index] = zero;
 	acb_clear(zeros);
 	fmpz_clear(n);
 	arb_clear(im);
