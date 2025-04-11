@@ -65,47 +65,45 @@ int main(int argc, char* argv[]) {
 	gettimeofday(&start, NULL);
 	string num  = std::string(strdup(argv[1]));
 	int l = num.length();
-	int zero_index = 1;
+	std::string c17 = "";
+	std::string c29 = "";
+	characterize(num, 17, c17);
+	characterize(num, 29, c29);
+	int d1 = 0;
+	bool bIsZero1 = isZero(atoi((char*)c17.c_str()), d1);
+	int d2 = 0;
+	bool bIsZero2 = isZero(atoi((char*)c29.c_str()), d2);
+	int zero_index = d1;
 	char* zero = get_zero(zero_index);
-	unsigned long long int zero_pos = 0, c = 0;
 	FILE* pi = fopen64("./pi.txt","r");
-	fseek(pi, OFFSET, SEEK_SET);
+	fseeko(pi, OFFSET, SEEK_SET);
 	FILE* e = fopen64("./e.txt","r");
-	fseek(e, OFFSET, SEEK_SET);
-	int t= 1;
+	fseeko(e, OFFSET, SEEK_SET);
+	unsigned long long int zero_pos = 0;
+	unsigned long long int c = 0;
 	while (1) {
-		char zz = zero[zero_pos];
-		char nn = num[c % l];
-		++c;
-		zero_index = zero_index + 1;
-		zero = get_zero(zero_index);
 		char pp = 0, ee = 0;
-		fscanf(pi, "%c", &pp);
-		fscanf(e, "%c", &ee);
-		if (nn == zz) {
-		printf("pos %ld zz %c nn %c c_l %lld pp %c ee %c\t\tt %d\n", ftello(pi)-OFFSET,zz, nn, c % l, pp, ee,t);
-		t = 1 - t;
-		if ((pp == '7' && ee == '1') || ( pp == '1' && ee == '7') || (pp == '2' && ee == '9') || ( pp == '9' && ee == '2')) {
-					printf("Press any key to continue...\n");
-					cin.get();
-		}
-					/*
-				char test[3];
-				test[0] = pp;
-				test[1] = ee;
-				test[2] = '\0';
-				int tk = atoi(test);
-				bool bIsZero = isZero(tk);
-				if (bIsZero) {
-				}*/
-			zero_index = 1;
-			zero_pos = c;
-			zero = get_zero(zero_index);
-                        continue;
+		fscanf(pp, "%c", &pp);
+		fscanf(ee, "%c", &ee);
+		char zz = zero[zero_pos++];
+		char test[4];
+		test[0] = pp;
+		test[1] = nn;
+		test[2] = ee;
+		test[3] = '\0';
+		int tk = atoi(test);
+		int d =0;
+		bool bIsPrime1 = isPrime(tk, &d);
+		test[0] = ee;
+		test[2] = pp;
+		tk = atoi(test);
+		bool bIsPrime2 = isPrime(tk, &d);
+		++c;
+		if (bIsPrime1 && bIsPrime2) {
+			printf("zz %c\n", zz);
+			if (c % l == 0) break;
 		}
 	}
-	fclose(pi);
-	fclose(e);
 	double time_taken = (end.tv_sec-start.tv_sec) + (end.tv_usec-start.tv_usec) / 1e6;
 	printf("Total time taken is %f seconds\n", time_taken);
 }
