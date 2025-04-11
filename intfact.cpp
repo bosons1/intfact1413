@@ -52,7 +52,7 @@ char* get_zero(int zero_index, int prec=PREC) {
 }
 
 bool isZero(int x, int& d) {
-	std::vector<int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
+	std::vector<long long int>::iterator it = std::find(zeros.begin(), zeros.end(), x);
 	if (it == zeros.end()) {
 		return false;
 	} else {
@@ -83,16 +83,15 @@ void* characterize(string num, int divisor, std::string& ss) {
 	   int nk = nn - '0';
 	   sum1 += nk;
 	   ++c;
-	   if (sum1 % divisor == 0) {
+	   if (sum1 > 0 && sum1 % divisor == 0) {
 		   count = sum1 / divisor;
-		   ss += boost::lexical_cast<std::string>(count);
+		   ss += boost::lexical_cast<std::string>(count % 10);
 		   sum1 = 0;
                    if (c % l == 0) {
 			   break;
 		   }
 	   }
    }
-   std::reverse(ss.begin(), ss.end());
    return 0;
 }
 
@@ -112,7 +111,7 @@ int main(int argc, char* argv[]) {
 	cout << "d1 " << d1 << endl;
 	int d2 = 0;
 	bool bIsZero2 = isZero(atoi((char*)c29.c_str()), d2);
-	cout << "d1 " << d1 << endl;
+	cout << "d2 " << d2 << endl;
 	int zero_index = d1;
 	char* zero = get_zero(zero_index);
 	FILE* pi = fopen64("./pi.txt","r");
