@@ -58,7 +58,7 @@ int main(int argc, char* argv[]) {
 		int tk = atoi(test);
 		bool bIsPrime = isPrime(tk);
 		if (bIsPrime) {
-			long int pos = ftell(pi) - 1;
+			long int pos = ftell(pi);
 			while (pos > champernowne.length()) {
 			    champernowne += boost::lexical_cast<std::string>(++c);
 			}
