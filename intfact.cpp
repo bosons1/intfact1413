@@ -13,7 +13,7 @@
 #include <gmp.h>
 #include <bits/stdc++.h>
 #include "primes.hpp"
-#define OFFSET 1
+#define OFFSET 2
 using namespace std;
 using namespace boost;
 
@@ -44,8 +44,8 @@ int main(int argc, char* argv[]) {
 	while (1) {
 		char* ns = strdup(mpz_get_str(0, 10, nz));
 		long int l = strlen(ns);
-		fseek(pi, l, SEEK_CUR);
-		fseek(e, l, SEEK_CUR);
+		fseek(pi, l-1, SEEK_CUR);
+		fseek(e, l-1, SEEK_CUR);
 		char pp = 0, ee = 0;
 		fscanf(pi, "%c", &pp);
 		fscanf(e, "%c", &ee);
@@ -58,14 +58,14 @@ int main(int argc, char* argv[]) {
 		int tk = atoi(test);
 		bool bIsPrime = isPrime(tk);
 		if (bIsPrime) {
-			long int pos = ftell(pi);
+			long int pos = ftell(pi) - 1;
 			while (pos > champernowne.length()) {
 			    champernowne += boost::lexical_cast<std::string>(++c);
 			}
 			long int ll = champernowne.length();
 		        if (pos == ll) {
 			    char last = champernowne[ll - 1];
-			    factor += boost::lexical_cast<std::string>(last);
+			    factor += boost::lexical_cast<std::string>(last-'0');
 			    ++count;
 			    if (count == l) break;
 			    bool bIsPrime_c = isPrime(c);
